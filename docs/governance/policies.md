@@ -54,21 +54,23 @@ Each active policy appears as a card with its status, scope, and violation count
 
 ### Policy 1: SOC 2 Compliance Required
 
-```
-┌──────────────────────────────────────────────────────────┐
-│  🛡️  SOC 2 Compliance Required             ✅ Active     │
-│                                                          │
-│  All SaaS applications processing customer data must     │
-│  have a valid SOC 2 Type II certification.               │
-│                                                          │
-│  Scope: All applications with "Customer Data" tag        │
-│  Action on Violation: Alert + Block new procurement      │
-│  Violations this month: 3                                │
-│  Last triggered: Mar 5, 2026                            │
-│                                                          │
-│  [Edit]  [View Violations]  [Disable]                    │
-└──────────────────────────────────────────────────────────┘
-```
+<table>
+<tr>
+<td>
+
+**🛡️ SOC 2 Compliance Required** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ✅ Active
+
+All SaaS applications processing customer data must have a valid SOC 2 Type II certification.
+
+| Scope | Action on Violation | Violations | Last Triggered |
+|:--|:--|:--|:--|
+| All apps with "Customer Data" tag | Alert + Block new procurement | 3 this month | Mar 5, 2026 |
+
+`Edit` &nbsp; `View Violations` &nbsp; `Disable`
+
+</td>
+</tr>
+</table>
 
 | Property | Value |
 |----------|-------|
@@ -83,21 +85,23 @@ Each active policy appears as a card with its status, scope, and violation count
 
 ### Policy 2: Spend Threshold Approval
 
-```
-┌──────────────────────────────────────────────────────────┐
-│  💰  Spend Threshold Approval               ✅ Active     │
-│                                                          │
-│  Any SaaS purchase or renewal exceeding ₹5L/year        │
-│  requires CFO approval before processing.                │
-│                                                          │
-│  Scope: All procurement and renewal actions              │
-│  Action on Violation: Require approval workflow          │
-│  Violations this month: 2                                │
-│  Last triggered: Mar 3, 2026                            │
-│                                                          │
-│  [Edit]  [View Violations]  [Disable]                    │
-└──────────────────────────────────────────────────────────┘
-```
+<table>
+<tr>
+<td>
+
+**💰 Spend Threshold Approval** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ✅ Active
+
+Any SaaS purchase or renewal exceeding ₹5L/year requires CFO approval before processing.
+
+| Scope | Action on Violation | Violations | Last Triggered |
+|:--|:--|:--|:--|
+| All procurement and renewal actions | Require approval workflow | 2 this month | Mar 3, 2026 |
+
+`Edit` &nbsp; `View Violations` &nbsp; `Disable`
+
+</td>
+</tr>
+</table>
 
 | Property | Value |
 |----------|-------|
@@ -110,20 +114,23 @@ Each active policy appears as a card with its status, scope, and violation count
 
 ### Policy 3: Data Residency — India
 
-```
-┌──────────────────────────────────────────────────────────┐
-│  🌍  Data Residency — India                 ✅ Active     │
-│                                                          │
-│  All SaaS applications must store primary data within    │
-│  India (or have India data center option enabled).       │
-│                                                          │
-│  Scope: All applications processing Indian user PII     │
-│  Action on Violation: Alert + Flag for review            │
-│  Violations this month: 2                                │
-│  Last triggered: Mar 7, 2026                            │
-│                                                          │
-│  [Edit]  [View Violations]  [Disable]                    │
-└──────────────────────────────────────────────────────────┘
+<table>
+<tr>
+<td>
+
+**🌍 Data Residency — India** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ✅ Active
+
+All SaaS applications must store primary data within India (or have India data center option enabled).
+
+| Scope | Action on Violation | Violations | Last Triggered |
+|:--|:--|:--|:--|
+| All apps processing Indian user PII | Alert + Flag for review | 2 this month | Mar 7, 2026 |
+
+`Edit` &nbsp; `View Violations` &nbsp; `Disable`
+
+</td>
+</tr>
+</table>
 ```
 
 | Property | Value |

@@ -40,21 +40,23 @@ Each insight is presented as a prominent card with a category icon, recommendati
 
 ### Card 1: Cost Savings Opportunity
 
-```
-┌──────────────────────────────────────────────────────────┐
-│  💰  COST SAVINGS                        Confidence: 96% │
-│                                                          │
-│  Save ₹4.8L/month by optimizing Figma licenses          │
-│                                                          │
-│  We detected 57 Figma Enterprise licenses with zero      │
-│  activity in the last 90 days. Downgrading these to      │
-│  Viewer seats saves ₹4.8L/month (₹57.6L/year).          │
-│                                                          │
-│  📊 Impact: High    ⏱️ Effort: Low    👥 Users: 57      │
-│                                                          │
-│  [Apply Optimization]  [Review Details]  [Dismiss]       │
-└──────────────────────────────────────────────────────────┘
-```
+<table>
+<tr>
+<td>
+
+**💰 COST SAVINGS** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Confidence: **96%**
+
+**Save ₹4.8L/month by optimizing Figma licenses**
+
+We detected 57 Figma Enterprise licenses with zero activity in the last 90 days. Downgrading these to Viewer seats saves ₹4.8L/month (₹57.6L/year).
+
+📊 Impact: **High** &nbsp;&nbsp; ⏱️ Effort: **Low** &nbsp;&nbsp; 👥 Users: **57**
+
+`Apply Optimization` &nbsp; `Review Details` &nbsp; `Dismiss`
+
+</td>
+</tr>
+</table>
 
 | Property | Value |
 |----------|-------|
@@ -69,21 +71,23 @@ Each insight is presented as a prominent card with a category icon, recommendati
 
 ### Card 2: Renewal Prediction
 
-```
-┌──────────────────────────────────────────────────────────┐
-│  📅  RENEWAL PREDICTION                  Confidence: 89% │
-│                                                          │
-│  Salesforce renewal risk — projected 18% price increase  │
-│                                                          │
-│  Based on Salesforce's recent pricing announcements and  │
-│  your tier, we predict an 18% increase at next renewal.  │
-│  Starting negotiations now could lock in current rates.  │
-│                                                          │
-│  📊 Impact: High    ⏱️ Effort: Medium   📅 Due: Apr 1   │
-│                                                          │
-│  [Set Alert]  [View Negotiation Brief]  [Dismiss]        │
-└──────────────────────────────────────────────────────────┘
-```
+<table>
+<tr>
+<td>
+
+**📅 RENEWAL PREDICTION** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Confidence: **89%**
+
+**Salesforce renewal risk — projected 18% price increase**
+
+Based on Salesforce's recent pricing announcements and your tier, we predict an 18% increase at next renewal. Starting negotiations now could lock in current rates.
+
+📊 Impact: **High** &nbsp;&nbsp; ⏱️ Effort: **Medium** &nbsp;&nbsp; 📅 Due: **Apr 1**
+
+`Set Alert` &nbsp; `View Negotiation Brief` &nbsp; `Dismiss`
+
+</td>
+</tr>
+</table>
 
 | Property | Value |
 |----------|-------|
@@ -98,21 +102,23 @@ Each insight is presented as a prominent card with a category icon, recommendati
 
 ### Card 3: Negotiation Intelligence
 
-```
-┌──────────────────────────────────────────────────────────┐
-│  🤝  NEGOTIATION INTELLIGENCE            Confidence: 91% │
-│                                                          │
-│  Strong negotiation position for Slack renewal           │
-│                                                          │
-│  Your Slack utilization (62%) + market alternatives      │
-│  (Microsoft Teams in your M365 bundle) give you strong   │
-│  leverage. AI has generated a negotiation brief.         │
-│                                                          │
-│  📊 Impact: High    ⏱️ Effort: Low    💰 Savings: ₹3.6L │
-│                                                          │
-│  [Generate Brief]  [View Details]  [Dismiss]             │
-└──────────────────────────────────────────────────────────┘
-```
+<table>
+<tr>
+<td>
+
+**🤝 NEGOTIATION INTELLIGENCE** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Confidence: **91%**
+
+**Strong negotiation position for Slack renewal**
+
+Your Slack utilization (62%) + market alternatives (Microsoft Teams in your M365 bundle) give you strong leverage. AI has generated a negotiation brief.
+
+📊 Impact: **High** &nbsp;&nbsp; ⏱️ Effort: **Low** &nbsp;&nbsp; 💰 Savings: **₹3.6L**
+
+`Generate Brief` &nbsp; `View Details` &nbsp; `Dismiss`
+
+</td>
+</tr>
+</table>
 
 | Property | Value |
 |----------|-------|

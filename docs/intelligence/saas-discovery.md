@@ -45,13 +45,9 @@ A stats bar at the top provides an instant summary:
 | **Shadow IT** | 8 | Unapproved applications discovered in use |
 | **New This Month** | 12 | Applications first detected in the current month |
 
-```
-┌──────────────┬──────────────┬──────────────┬──────────────┐
-│  156         │  148         │  8           │  12          │
-│  Total Disc. │  Managed     │  Shadow IT   │  New / Month │
-│  📦          │  ✅          │  ⚠️          │  🆕          │
-└──────────────┴──────────────┴──────────────┴──────────────┘
-```
+| 📦 Total Discovered | ✅ Managed | ⚠️ Shadow IT | 🆕 New / Month |
+|:--:|:--:|:--:|:--:|
+| **156** | **148** | **8** | **12** |
 
 > [!TIP]
 > Click any metric to filter the card grid below. For example, clicking "Shadow IT: 8" filters to show only shadow IT apps.
@@ -78,35 +74,39 @@ Each discovered application is rendered as a card. Cards come in two variants:
 
 ### Managed App Card
 
-```
-┌─────────────────────────────────┐
-│  [Logo]  Slack Enterprise       │
-│  ✅ Managed · Communication     │
-│                                 │
-│  Users: 312/500                 │
-│  Monthly: ₹1,50,000            │
-│  Utilization: 62%              │
-│  ████████████░░░░░░  62%       │
-│                                 │
-│  [View Details]                 │
-└─────────────────────────────────┘
-```
+<table>
+<tr>
+<td>
+
+**Slack Enterprise** &nbsp; ✅ Managed · Communication
+
+| Users | Monthly | Utilization |
+|:--|:--|:--|
+| 312/500 | ₹1,50,000 | ████████████░░░░░░ 62% |
+
+`View Details`
+
+</td>
+</tr>
+</table>
 
 ### Shadow IT Card
 
-```
-┌─────────────────────────────────┐
-│  [Logo]  Notion           ⚠️   │
-│  🔴 Shadow IT · Productivity   │
-│                                 │
-│  Users: 34 (detected)          │
-│  Est. Cost: ₹40,800/mo        │
-│  Risk: Medium                   │
-│  Department: Engineering        │
-│                                 │
-│  [Approve]  [Block]  [Details] │
-└─────────────────────────────────┘
-```
+<table>
+<tr>
+<td>
+
+**Notion** &nbsp; 🔴 Shadow IT · Productivity &nbsp; ⚠️
+
+| Users (detected) | Est. Cost | Risk | Department |
+|:--|:--|:--|:--|
+| 34 | ₹40,800/mo | Medium | Engineering |
+
+`Approve` &nbsp; `Block` &nbsp; `Details`
+
+</td>
+</tr>
+</table>
 
 ### Card Data Fields
 

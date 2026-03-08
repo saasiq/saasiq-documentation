@@ -38,20 +38,29 @@ Settings is the comprehensive configuration hub for SaaSIQ. It's organized into 
 
 ## Settings Navigation
 
-```
-┌──────────────┬───────────────────────────────────────┐
-│              │                                       │
-│  Organization│  (content area for selected tab)      │
-│  Integrations│                                       │
-│  Team Members│                                       │
-│  Notifications│                                      │
-│  Security    │                                       │
-│  Appearance  │                                       │
-│  API & Web.  │                                       │
-│  Billing     │                                       │
-│              │                                       │
-└──────────────┴───────────────────────────────────────┘
-```
+<table>
+<tr>
+<td width="180" valign="top">
+
+**Navigation** <br /><br />
+🏢 Organization <br />
+🔗 Integrations <br />
+👥 Team Members <br />
+🔔 Notifications <br />
+🔒 Security <br />
+🎨 Appearance <br />
+🔌 API & Webhooks <br />
+💳 Billing
+
+</td>
+<td valign="top">
+
+**Content Area** <br /><br />
+The selected tab's settings load here. The active tab shows a purple `#7C3AED` indicator on the left.
+
+</td>
+</tr>
+</table>
 
 Click any tab to load its content in the right panel. Active tab shows a purple indicator.
 

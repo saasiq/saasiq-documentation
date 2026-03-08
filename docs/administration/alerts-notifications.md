@@ -34,32 +34,59 @@ The Alerts system is SaaSIQ's **real-time notification engine**. It surfaces cri
 
 **Access:** Click the 🔔 notification bell in the top bar
 
-```
-┌──────────────────────────────────────────────┐
-│  🔔 Alerts                     [Mark All Read]│
-├──────────────────────────────────────────────┤
-│  🔴 CRITICAL · 2 hours ago                   │
-│  3 new shadow IT apps discovered              │
-│  ChatGPT Plus, Loom, Notion detected in       │
-│  Engineering and Sales departments             │
-│  [Review in Discovery]  [Snooze]  [Dismiss]   │
-├──────────────────────────────────────────────┤
-│  🟡 WARNING · 5 hours ago                     │
-│  Slack renewal in 7 days — ₹18L contract      │
-│  Auto-renewal will trigger if no action taken  │
-│  [Review Renewal]  [Snooze]  [Dismiss]        │
-├──────────────────────────────────────────────┤
-│  🟣 AI INSIGHT · 8 hours ago                  │
-│  New savings opportunity: ₹4.8L/month         │
-│  Figma license optimization identified         │
-│  [View Insight]  [Snooze]  [Dismiss]          │
-├──────────────────────────────────────────────┤
-│  🔵 INFO · 1 day ago                          │
-│  Monthly compliance report available           │
-│  Risk score improved: B → B+                   │
-│  [View Report]  [Dismiss]                     │
-└──────────────────────────────────────────────┘
-```
+<table>
+<tr>
+<td>
+
+**🔔 Alerts** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `Mark All Read`
+
+</td>
+</tr>
+<tr>
+<td>
+
+🔴 **CRITICAL** · 2 hours ago
+
+3 new shadow IT apps discovered — ChatGPT Plus, Loom, Notion detected in Engineering and Sales departments
+
+`Review in Discovery` &nbsp; `Snooze` &nbsp; `Dismiss`
+
+</td>
+</tr>
+<tr>
+<td>
+
+🟡 **WARNING** · 5 hours ago
+
+Slack renewal in 7 days — ₹18L contract. Auto-renewal will trigger if no action taken
+
+`Review Renewal` &nbsp; `Snooze` &nbsp; `Dismiss`
+
+</td>
+</tr>
+<tr>
+<td>
+
+🟣 **AI INSIGHT** · 8 hours ago
+
+New savings opportunity: ₹4.8L/month — Figma license optimization identified
+
+`View Insight` &nbsp; `Snooze` &nbsp; `Dismiss`
+
+</td>
+</tr>
+<tr>
+<td>
+
+🔵 **INFO** · 1 day ago
+
+Monthly compliance report available — Risk score improved: B → B+
+
+`View Report` &nbsp; `Dismiss`
+
+</td>
+</tr>
+</table>
 
 ---
 

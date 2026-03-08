@@ -51,24 +51,62 @@ The Contracts page provides a **visual timeline** of all SaaS contracts, their r
 
 A horizontal, month-based visual timeline showing when each contract comes up for renewal.
 
-```
-     March 2026          April 2026          May 2026
-    ┌───────────────┐  ┌───────────────┐  ┌───────────────┐
-    │ Slack ⚠️      │  │ Salesforce    │  │ Figma         │
-    │ Mar 15        │  │ Apr 1         │  │ May 1         │
-    │ ₹18L/yr       │  │ ₹24L/yr       │  │ ₹8.4L/yr      │
-    │               │  │ AWS           │  │ Notion        │
-    │               │  │ Apr 15        │  │ May 20        │
-    │               │  │ ₹36L/yr       │  │ ₹4.9L/yr      │
-    └───────────────┘  └───────────────┘  └───────────────┘
+<table>
+<tr>
+<th align="center">March 2026</th>
+<th align="center">April 2026</th>
+<th align="center">May 2026</th>
+</tr>
+<tr>
+<td valign="top">
 
-     June 2026          July 2026          August 2026
-    ┌───────────────┐  ┌───────────────┐  ┌───────────────┐
-    │ HubSpot       │  │ Jira          │  │ Zoom          │
-    │ Jun 10        │  │ Jul 1         │  │ Aug 15        │
-    │ ₹12L/yr       │  │ ₹10.2L/yr     │  │ ₹6L/yr        │
-    └───────────────┘  └───────────────┘  └───────────────┘
-```
+⚠️ **Slack** <br />
+Mar 15 · ₹18L/yr
+
+</td>
+<td valign="top">
+
+**Salesforce** <br />
+Apr 1 · ₹24L/yr <br /><br />
+**AWS** <br />
+Apr 15 · ₹36L/yr
+
+</td>
+<td valign="top">
+
+**Figma** <br />
+May 1 · ₹8.4L/yr <br /><br />
+**Notion** <br />
+May 20 · ₹4.9L/yr
+
+</td>
+</tr>
+<tr>
+<th align="center">June 2026</th>
+<th align="center">July 2026</th>
+<th align="center">August 2026</th>
+</tr>
+<tr>
+<td valign="top">
+
+**HubSpot** <br />
+Jun 10 · ₹12L/yr
+
+</td>
+<td valign="top">
+
+**Jira** <br />
+Jul 1 · ₹10.2L/yr
+
+</td>
+<td valign="top">
+
+**Zoom** <br />
+Aug 15 · ₹6L/yr
+
+</td>
+</tr>
+</table>
 
 **Color coding:**
 
@@ -135,24 +173,30 @@ Below the timeline, a sortable/filterable table provides a detailed list view.
 
 **AI Negotiation Brief (Example for Slack):**
 
-```
-┌──────────────────────────────────────────────────────────────┐
-│  🤖 AI Negotiation Brief — Slack Enterprise                  │
-│                                                              │
-│  Current: ₹18L/yr (₹3,600/user/yr for 500 seats)           │
-│  Recommended Target: ₹14.4L/yr (₹2,880/user/yr)            │
-│  Potential Savings: ₹3.6L/yr (20% reduction)                │
-│                                                              │
-│  Talking Points:                                             │
-│  1. Utilization is only 62% (312/500 seats active)           │
-│  2. Industry benchmark: ₹2,700–3,200/user/yr                │
-│  3. Reduce seats from 500 → 350 (match active users + 10%)  │
-│  4. Multi-year discount opportunity (3-year = 25% off)       │
-│  5. Competitor alternative: Microsoft Teams (already in M365)│
-│                                                              │
-│  [Copy to Clipboard]  [Email to Vendor]  [Download PDF]      │
-└──────────────────────────────────────────────────────────────┘
-```
+<table>
+<tr>
+<td>
+
+**🤖 AI Negotiation Brief — Slack Enterprise**
+
+| | |
+|:--|:--|
+| **Current** | ₹18L/yr (₹3,600/user/yr for 500 seats) |
+| **Recommended Target** | ₹14.4L/yr (₹2,880/user/yr) |
+| **Potential Savings** | ₹3.6L/yr (20% reduction) |
+
+**Talking Points:**
+1. Utilization is only 62% (312/500 seats active)
+2. Industry benchmark: ₹2,700–3,200/user/yr
+3. Reduce seats from 500 → 350 (match active users + 10%)
+4. Multi-year discount opportunity (3-year = 25% off)
+5. Competitor alternative: Microsoft Teams (already in M365)
+
+`Copy to Clipboard` &nbsp; `Email to Vendor` &nbsp; `Download PDF`
+
+</td>
+</tr>
+</table>
 
 **Actions:**
 

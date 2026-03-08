@@ -42,13 +42,9 @@ Usage Analytics answers the critical question: **"Are we actually using what we'
 | 3 | **Underutilized** | 23 apps | Apps with <50% utilization — optimization opportunity |
 | 4 | **Unused Licenses** | 847 | Individual licenses with zero activity in 90 days |
 
-```
-┌──────────────┬──────────────┬──────────────┬──────────────┐
-│  67%         │  34          │  23          │  847         │
-│  Avg Util.   │  Fully Used  │  Underused   │  Unused Lic. │
-│  📊          │  ✅          │  ⚠️          │  🔴          │
-└──────────────┴──────────────┴──────────────┴──────────────┘
-```
+| 📊 Avg Util. | ✅ Fully Used | ⚠️ Underused | 🔴 Unused Lic. |
+|:--:|:--:|:--:|:--:|
+| **67%** | **34** | **23** | **847** |
 
 > [!TIP]
 > The "847 Unused Licenses" represents immediate savings potential. Each unused license is money being spent with zero return. Click to see the breakdown by application.
@@ -144,20 +140,21 @@ Six cards showing how each department utilizes their assigned applications.
 
 **Card layout:**
 
-```
-┌───────────────────────────────┐
-│  🏗️ Engineering    28 apps    │
-│                               │
-│  Avg Utilization: 81%         │
-│  ████████████████░░░░  81%    │
-│                               │
-│  ✅ Top: GitHub (95%)         │
-│  🔴 Low: Figma (34%)         │
-│  💸 Waste: ₹2.1L/mo          │
-│                               │
-│  [View Details]               │
-└───────────────────────────────┘
-```
+<table>
+<tr>
+<td>
+
+**🏗️ Engineering** &nbsp;&nbsp;&nbsp;&nbsp; 28 apps
+
+Avg Utilization: **81%** &nbsp; ████████████████░░░░
+
+✅ Top: GitHub (95%) &nbsp;&nbsp; 🔴 Low: Figma (34%) &nbsp;&nbsp; 💸 Waste: ₹2.1L/mo
+
+`View Details`
+
+</td>
+</tr>
+</table>
 
 **Interactions:**
 

@@ -128,32 +128,30 @@ If you press `G` and don't follow up within 1 second, the chord resets. Key chor
 <details>
 <summary>📄 Click to expand the full printable shortcut table</summary>
 
-```
-╔══════════════════════════╦════════════════════════════════════╗
-║  SAASIQ KEYBOARD SHORTCUTS — QUICK REFERENCE                ║
-╠══════════════════════════╬════════════════════════════════════╣
-║  ⌘/Ctrl + K             ║  Global Search                    ║
-║  ⌘/Ctrl + /             ║  AI Copilot                       ║
-║  ?                       ║  Show Shortcuts                   ║
-║  Escape                  ║  Close Modal/Panel                ║
-╠══════════════════════════╬════════════════════════════════════╣
-║  G → D                   ║  Dashboard                        ║
-║  G → S                   ║  SaaS Discovery                   ║
-║  G → I                   ║  Spend Intelligence               ║
-║  G → U                   ║  Usage Analytics                  ║
-║  G → C                   ║  Compliance & Risk                ║
-║  G → T                   ║  Contracts                        ║
-║  G → P                   ║  Policies                         ║
-║  G → N                   ║  AI Insights                      ║
-║  G → A                   ║  AI Copilot                       ║
-║  G → O                   ║  Offboarding                      ║
-║  G → R                   ║  Renewals                         ║
-║  G → B                   ║  Benchmarks                       ║
-║  G → E                   ║  Department Costs                 ║
-║  G → L                   ║  Alerts                           ║
-║  G → X                   ║  Settings                         ║
-╚══════════════════════════╩════════════════════════════════════╝
-```
+**SAASIQ KEYBOARD SHORTCUTS — QUICK REFERENCE**
+
+| Shortcut | Action |
+|:---------|:-------|
+| `⌘/Ctrl + K` | Global Search |
+| `⌘/Ctrl + /` | AI Copilot |
+| `?` | Show Shortcuts |
+| `Escape` | Close Modal/Panel |
+| **Navigation** | |
+| `G → D` | Dashboard |
+| `G → S` | SaaS Discovery |
+| `G → I` | Spend Intelligence |
+| `G → U` | Usage Analytics |
+| `G → C` | Compliance & Risk |
+| `G → T` | Contracts |
+| `G → P` | Policies |
+| `G → N` | AI Insights |
+| `G → A` | AI Copilot |
+| `G → O` | Offboarding |
+| `G → R` | Renewals |
+| `G → B` | Benchmarks |
+| `G → E` | Department Costs |
+| `G → L` | Alerts |
+| `G → X` | Settings |
 
 </details>
 

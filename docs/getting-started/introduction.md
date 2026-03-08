@@ -150,25 +150,59 @@ A conversational AI assistant that understands your entire SaaS landscape. Ask q
 
 SaaSIQ follows a **modular architecture** organized around six core pillars:
 
-```
-┌─────────────────────────────────────────────────────────────┐
-│                    SaaSIQ Platform                           │
-├──────────┬──────────┬──────────┬──────────┬────────┬────────┤
-│ 🔍       │ 💰       │ 🛡️      │ 🤖       │ ⚙️     │ 🔧     │
-│ Discovery│ Spend    │ Govern-  │ AI       │ Opera- │ Admin  │
-│ & Shadow │ Intelli- │ ance     │ Features │ tions  │        │
-│ IT       │ gence    │          │          │        │        │
-├──────────┼──────────┼──────────┼──────────┼────────┼────────┤
-│ App      │ Cost     │ Compli-  │ Insights │ Off-   │ Alerts │
-│ Inventory│ Analysis │ ance     │          │ board  │        │
-│          │          │          │          │        │        │
-│ Approve/ │ Optimi-  │ Contracts│ Copilot  │ Renew- │ Sett-  │
-│ Block    │ zations  │          │          │ als    │ ings   │
-│          │          │          │          │        │        │
-│ Re-scan  │ Bench-   │ Policies │          │ Bench- │ Org    │
-│          │ marks    │          │          │ marks  │ Mgmt   │
-└──────────┴──────────┴──────────┴──────────┴────────┴────────┘
-```
+<table>
+<tr>
+<th align="center">🔍 Discovery</th>
+<th align="center">💰 Spend Intelligence</th>
+<th align="center">🛡️ Governance</th>
+<th align="center">🤖 AI Features</th>
+<th align="center">⚙️ Operations</th>
+<th align="center">🔧 Admin</th>
+</tr>
+<tr>
+<td align="center">
+
+App Inventory <br />
+Approve / Block <br />
+Re-scan
+
+</td>
+<td align="center">
+
+Cost Analysis <br />
+Optimizations <br />
+Benchmarks
+
+</td>
+<td align="center">
+
+Compliance <br />
+Contracts <br />
+Policies
+
+</td>
+<td align="center">
+
+Insights <br />
+Copilot
+
+</td>
+<td align="center">
+
+Offboarding <br />
+Renewals <br />
+Benchmarks
+
+</td>
+<td align="center">
+
+Alerts <br />
+Settings <br />
+Org Mgmt
+
+</td>
+</tr>
+</table>
 
 ---
 

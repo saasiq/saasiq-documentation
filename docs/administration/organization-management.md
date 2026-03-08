@@ -33,23 +33,26 @@ Organization Management handles **multi-org support** (for companies managing mu
 
 **Access:** Click the **🏢 org name** in the top bar
 
-```
-┌──────────────────────────────┐
-│  🏢 Your Organizations       │
-├──────────────────────────────┤
-│  ✅ TechCorp India           │
-│     Business Plan · Admin    │
-│                              │
-│  ○  TechCorp US              │
-│     Business Plan · Manager  │
-│                              │
-│  ○  Acme Corp (Client)       │
-│     Starter Plan · Viewer    │
-├──────────────────────────────┤
-│  [+ Create Organization]     │
-│  [Manage Organizations]      │
-└──────────────────────────────┘
-```
+<table>
+<tr><th align="left">🏢 Your Organizations</th></tr>
+<tr><td>
+
+✅ **TechCorp India** <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Business Plan · Admin
+
+○ &nbsp; **TechCorp US** <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Business Plan · Manager
+
+○ &nbsp; **Acme Corp** (Client) <br />
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Starter Plan · Viewer
+
+</td></tr>
+<tr><td>
+
+`+ Create Organization` &nbsp; `Manage Organizations`
+
+</td></tr>
+</table>
 
 **Interactions:**
 
@@ -79,19 +82,24 @@ Organization Management handles **multi-org support** (for companies managing mu
 
 **Access:** Click the **👤 avatar** in the top bar
 
-```
-┌──────────────────────────────┐
-│  👤 Rahul Sharma             │
-│  rahul@techcorp.in           │
-│  Admin · TechCorp India      │
-├──────────────────────────────┤
-│  📝 Edit Profile             │
-│  ❓ Help Center              │
-│  ⌨️ Keyboard Shortcuts       │
-│  📋 Activity Log             │
-│  🚪 Logout                   │
-└──────────────────────────────┘
-```
+<table>
+<tr><td>
+
+**👤 Rahul Sharma** <br />
+rahul@techcorp.in <br />
+Admin · TechCorp India
+
+</td></tr>
+<tr><td>
+
+📝 Edit Profile <br />
+❓ Help Center <br />
+⌨️ Keyboard Shortcuts <br />
+📋 Activity Log <br />
+🚪 Logout
+
+</td></tr>
+</table>
 
 ### Edit Profile Modal
 

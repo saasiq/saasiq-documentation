@@ -45,13 +45,9 @@ Spend Intelligence is SaaSIQ's **AI-powered cost analysis engine**. It aggregate
 | 3 | **AI-Identified Savings** | ₹12.8L/month | Total potential savings across all recommendations |
 | 4 | **Optimization Score** | 67% | Percentage of spend that is optimally allocated |
 
-```
-┌──────────────┬──────────────┬──────────────┬──────────────┐
-│  ₹5.1 Cr     │  ₹42.5L      │  ₹12.8L      │  67%         │
-│  Annual Spend│  Monthly Avg │  Savings     │  Optimized   │
-│  📊          │  📈          │  💰          │  🎯          │
-└──────────────┴──────────────┴──────────────┴──────────────┘
-```
+| 📊 Annual Spend | 📈 Monthly Avg | 💰 Savings | 🎯 Optimized |
+|:--:|:--:|:--:|:--:|
+| **₹5.1 Cr** | **₹42.5L** | **₹12.8L** | **67%** |
 
 > [!TIP]
 > The Optimization Score tells you how efficiently your SaaS budget is being used. Below 70% means significant room for improvement.
@@ -92,19 +88,22 @@ The heart of Spend Intelligence — AI-generated recommendations ranked by savin
 
 Each recommendation appears as an expandable card:
 
-```
-┌──────────────────────────────────────────────────────────┐
-│  🤖 AI Recommendation                    Save ₹4.8L/mo  │
-│                                                          │
-│  Downgrade 120 unused Figma licenses                     │
-│  Figma Enterprise → Figma Professional                   │
-│                                                          │
-│  📊 Confidence: 96%   👥 Affected: 120 users            │
-│  📅 Since: 90+ days inactive                             │
-│                                                          │
-│  [Apply Optimization]  [Review Details]  [Dismiss]       │
-└──────────────────────────────────────────────────────────┘
-```
+<table>
+<tr>
+<td>
+
+**🤖 AI Recommendation** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Save **₹4.8L/mo**
+
+**Downgrade 120 unused Figma licenses** <br />
+Figma Enterprise → Figma Professional
+
+📊 Confidence: **96%** &nbsp;&nbsp; 👥 Affected: **120 users** &nbsp;&nbsp; 📅 Since: **90+ days inactive**
+
+`Apply Optimization` &nbsp; `Review Details` &nbsp; `Dismiss`
+
+</td>
+</tr>
+</table>
 
 ### Demo Recommendations
 

@@ -38,36 +38,57 @@ Every metric on the Dashboard is clickable, leading you deeper into the relevant
 
 ## Page Layout
 
-```
-┌──────────────────────────────────────────────────────────────────┐
-│  🟣 SaaSIQ    [🔍 Search...]         [🔔 3]  [🏢 TechCorp ▾] [👤]│
-├────────────┬─────────────────────────────────────────────────────┤
-│            │                                                     │
-│  OVERVIEW  │   KPI-1      KPI-2      KPI-3      KPI-4          │
-│  ▸ Dashboard│  Total Apps  Monthly $  Savings    Utilization    │
-│            │   156        ₹42.5L     ₹12.8L     67%            │
-│  INTELLI-  │                                                     │
-│  GENCE     │   ┌─────────────────┐  ┌──────────────────┐       │
-│  ▸ SaaS Disc│   │  📈 Spend Trend  │  │  🍩 Category Split│       │
-│  ▸ Spend Int│   │  (12-month line) │  │  (donut chart)   │       │
-│  ▸ Usage    │   └─────────────────┘  └──────────────────┘       │
-│            │                                                     │
-│  GOVERNANCE│   ┌──────────────────────────────────────────┐     │
-│  ▸ Compli. │   │  ⚠️ URGENT ACTIONS                        │     │
-│  ▸ Contracts│   │  • 3 shadow IT apps detected             │     │
-│  ▸ Policies │   │  • Slack renewal in 5 days               │     │
-│            │   │  • 23 unused Figma licenses               │     │
-│  AI FEATURES│   └──────────────────────────────────────────┘     │
-│  ▸ Insights │                                                    │
-│  ▸ Copilot  │   ┌──────────────────┐  ┌──────────────────┐     │
-│            │   │  📅 Renewals       │  │  📊 Top Apps      │     │
-│  OPERATIONS│   │  (upcoming table) │  │  (spend table)   │     │
-│  ▸ Offboard │   └──────────────────┘  └──────────────────┘     │
-│  ▸ Renewals │                                                    │
-│  ▸ Benchmarks│                                       [🧭]       │
-│  ▸ Dept Cost│                                                    │
-└────────────┴─────────────────────────────────────────────────────┘
-```
+<table>
+<tr>
+<th colspan="2" align="left">
+🟣 SaaSIQ &nbsp;&nbsp;&nbsp;🔍 Search... &nbsp;&nbsp;&nbsp; 🔔 3 &nbsp; 🏢 TechCorp ▾ &nbsp; 👤
+</th>
+</tr>
+<tr>
+<td width="140" valign="top">
+
+**OVERVIEW** <br />
+▸ Dashboard <br /><br />
+**INTELLIGENCE** <br />
+▸ SaaS Discovery <br />
+▸ Spend Intel <br />
+▸ Usage <br /><br />
+**GOVERNANCE** <br />
+▸ Compliance <br />
+▸ Contracts <br />
+▸ Policies <br /><br />
+**AI FEATURES** <br />
+▸ Insights <br />
+▸ Copilot <br /><br />
+**OPERATIONS** <br />
+▸ Offboarding <br />
+▸ Renewals <br />
+▸ Benchmarks <br />
+▸ Dept Cost
+
+</td>
+<td valign="top">
+
+| KPI 1 | KPI 2 | KPI 3 | KPI 4 |
+|:--:|:--:|:--:|:--:|
+| **156** Total Apps | **₹42.5L** Monthly | **₹12.8L** Savings | **67%** Utilization |
+
+**📈 Spend Trend** (12-month line chart) &nbsp;&nbsp; **🍩 Category Split** (donut chart)
+
+> ⚠️ **URGENT ACTIONS** <br />
+> • 3 shadow IT apps detected <br />
+> • Slack renewal in 5 days <br />
+> • 23 unused Figma licenses
+
+**📅 Upcoming Renewals** (table) &nbsp;&nbsp;&nbsp; **📊 Top Apps by Spend** (table)
+
+<br />
+
+🧭 Floating Navigator
+
+</td>
+</tr>
+</table>
 
 ---
 

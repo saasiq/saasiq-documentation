@@ -36,32 +36,29 @@ It's like having a SaaS analyst on your team that has read every contract, analy
 
 ## Interface Layout
 
-```
-┌──────────────────────────────────────────────────────────────┐
-│  🤖 SaaSIQ AI Copilot                                [Clear]│
-│                                                              │
-│  ┌────────────────────────────────────────────────────────┐  │
-│  │  Welcome! I'm your SaaSIQ AI Copilot. I can help you  │  │
-│  │  with spend analysis, usage insights, compliance       │  │
-│  │  questions, and more. Try asking me anything about     │  │
-│  │  your SaaS portfolio.                                  │  │
-│  └────────────────────────────────────────────────────────┘  │
-│                                                              │
-│  Suggested:                                                  │
-│  ┌─────────────────┐ ┌──────────────────┐                   │
-│  │ Where can we     │ │ Show shadow IT   │                   │
-│  │ save money?      │ │ apps             │                   │
-│  └─────────────────┘ └──────────────────┘                   │
-│  ┌─────────────────┐ ┌──────────────────┐                   │
-│  │ Upcoming         │ │ What's our       │                   │
-│  │ renewals         │ │ compliance risk? │                   │
-│  └─────────────────┘ └──────────────────┘                   │
-│                                                              │
-│  ┌──────────────────────────────────────────┐ ┌────┐        │
-│  │ Ask me anything about your SaaS...       │ │ ➤  │        │
-│  └──────────────────────────────────────────┘ └────┘        │
-└──────────────────────────────────────────────────────────────┘
-```
+<table>
+<tr>
+<th align="left">🤖 SaaSIQ AI Copilot &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <code>Clear</code></th>
+</tr>
+<tr>
+<td>
+
+> Welcome! I’m your SaaSIQ AI Copilot. I can help you with spend analysis, usage insights, compliance questions, and more. Try asking me anything about your SaaS portfolio.
+
+**Suggested:**
+
+| | |
+|:--|:--|
+| `Where can we save money?` | `Show shadow IT apps` |
+| `Upcoming renewals` | `What’s our compliance risk?` |
+
+<br />
+
+💬 *Ask me anything about your SaaS...* &nbsp; `➤ Send`
+
+</td>
+</tr>
+</table>
 
 | Element | Description |
 |---------|-------------|
@@ -98,34 +95,24 @@ Four clickable suggestion chips are shown before the first message:
 
 **AI Response:**
 
-```
-🤖 Here's your spend analysis:
-
-📊 Total Monthly Spend: ₹42.5L across 156 applications
-
-Top 3 Savings Opportunities:
-
-┌─────────────────────────────────────────────────────────┐
-│  1. Figma Enterprise                      Save ₹4.8L/mo │
-│     57 unused licenses (29% utilization)                 │
-│     → Downgrade inactive seats to Viewer                 │
-│                                                          │
-│  2. Slack Enterprise                      Save ₹3.2L/mo │
-│     188 inactive users (62% utilization)                 │
-│     → Remove unused seats or downgrade plan              │
-│                                                          │
-│  3. Jira + Asana + Monday.com             Save ₹2.8L/mo │
-│     Overlapping project management tools                 │
-│     → Consolidate to a single platform                   │
-└─────────────────────────────────────────────────────────┘
-
-💰 Total potential savings: ₹10.8L/month (₹1.3Cr/year)
-
-Would you like me to:
-• Generate a detailed report for any of these?
-• Create an optimization plan?
-• Show spend by department?
-```
+> 🤖 Here's your spend analysis:
+>
+> 📊 **Total Monthly Spend:** ₹42.5L across 156 applications
+>
+> **Top 3 Savings Opportunities:**
+>
+> | # | Application | Savings | Details |
+> |:--|:--|:--|:--|
+> | 1 | **Figma Enterprise** | **₹4.8L/mo** | 57 unused licenses (29% utilization) — Downgrade inactive seats to Viewer |
+> | 2 | **Slack Enterprise** | **₹3.2L/mo** | 188 inactive users (62% utilization) — Remove unused seats or downgrade plan |
+> | 3 | **Jira + Asana + Monday.com** | **₹2.8L/mo** | Overlapping project management tools — Consolidate to a single platform |
+>
+> 💰 **Total potential savings: ₹10.8L/month (₹1.3Cr/year)**
+>
+> Would you like me to:
+> - Generate a detailed report for any of these?
+> - Create an optimization plan?
+> - Show spend by department?
 
 ---
 
@@ -135,37 +122,32 @@ Would you like me to:
 
 **AI Response:**
 
-```
-🤖 I found 8 shadow IT applications:
-
-⚠️ Shadow IT Summary:
-• Total unapproved apps: 8
-• Total exposed users: 248
-• Estimated untracked cost: ₹2.8L/month
-
-┌──────────────────────────────────────────────────────────┐
-│  App            │ Users │ Risk     │ Est. Cost  │ Dept   │
-│  ────────────── │ ───── │ ──────── │ ────────── │ ────── │
-│  ChatGPT Plus   │ 67    │ Critical │ ₹80,400/mo │ Multi  │
-│  Loom           │ 45    │ High     │ ₹54,000/mo │ Sales  │
-│  Notion         │ 34    │ Medium   │ ₹40,800/mo │ Eng    │
-│  Grammarly      │ 28    │ Low      │ ₹16,800/mo │ Mktg   │
-│  Airtable       │ 22    │ High     │ ₹26,400/mo │ Ops    │
-│  Linear         │ 19    │ Medium   │ ₹22,800/mo │ Eng    │
-│  Canva Pro      │ 18    │ Low      │ ₹21,600/mo │ Mktg   │
-│  Miro           │ 15    │ Low      │ ₹18,000/mo │ Design │
-└──────────────────────────────────────────────────────────┘
-
-🔴 Priority: ChatGPT Plus (Critical risk — 67 users may be
-   pasting sensitive data into an AI tool without DPA)
-
-Recommended actions:
-1. Block ChatGPT Plus → suggest Microsoft Copilot
-2. Review Loom + Airtable (High risk)
-3. Evaluate Notion + Linear for official adoption
-
-Go to SaaS Discovery to take action →
-```
+> 🤖 I found **8 shadow IT applications**:
+>
+> ⚠️ **Shadow IT Summary:**
+> - Total unapproved apps: **8**
+> - Total exposed users: **248**
+> - Estimated untracked cost: **₹2.8L/month**
+>
+> | App | Users | Risk | Est. Cost | Dept |
+> |:--|:--|:--|:--|:--|
+> | ChatGPT Plus | 67 | 🔴 Critical | ₹80,400/mo | Multi |
+> | Loom | 45 | 🟠 High | ₹54,000/mo | Sales |
+> | Notion | 34 | 🟡 Medium | ₹40,800/mo | Eng |
+> | Grammarly | 28 | 🟢 Low | ₹16,800/mo | Mktg |
+> | Airtable | 22 | 🟠 High | ₹26,400/mo | Ops |
+> | Linear | 19 | 🟡 Medium | ₹22,800/mo | Eng |
+> | Canva Pro | 18 | 🟢 Low | ₹21,600/mo | Mktg |
+> | Miro | 15 | 🟢 Low | ₹18,000/mo | Design |
+>
+> 🔴 **Priority:** ChatGPT Plus (Critical risk — 67 users may be pasting sensitive data into an AI tool without DPA)
+>
+> **Recommended actions:**
+> 1. Block ChatGPT Plus → suggest Microsoft Copilot
+> 2. Review Loom + Airtable (High risk)
+> 3. Evaluate Notion + Linear for official adoption
+>
+> Go to **SaaS Discovery** to take action →
 
 ---
 
@@ -175,31 +157,25 @@ Go to SaaS Discovery to take action →
 
 **AI Response:**
 
-```
-🤖 Here are your upcoming renewals:
-
-📅 Next 90 Days — 5 renewals totaling ₹92.3L/year
-
-┌──────────────────────────────────────────────────────────┐
-│  App            │ Date       │ Annual   │ Status         │
-│  ────────────── │ ────────── │ ──────── │ ────────────── │
-│  Slack          │ Mar 15     │ ₹18.0L   │ ⚠️ 7 days!     │
-│  Salesforce     │ Apr  1     │ ₹24.0L   │ 🟡 24 days     │
-│  AWS            │ Apr 15     │ ₹36.0L   │ 🟢 38 days     │
-│  Figma          │ May  1     │ ₹8.4L    │ 🟢 54 days     │
-│  Notion         │ May 20     │ ₹4.9L    │ 🟢 73 days     │
-└──────────────────────────────────────────────────────────┘
-
-⚡ Urgent: Slack renewal is in 7 days!
-   Recommendation: Negotiate before auto-renewal.
-   You can save ~₹3.6L/yr based on current utilization (62%).
-   AI negotiation brief is ready.
-
-Would you like me to:
-• Generate a negotiation brief for Slack?
-• Set reminders for each renewal?
-• Show the full 12-month renewal calendar?
-```
+> 🤖 Here are your upcoming renewals:
+>
+> 📅 **Next 90 Days** — 5 renewals totaling **₹92.3L/year**
+>
+> | App | Date | Annual | Status |
+> |:--|:--|:--|:--|
+> | Slack | Mar 15 | ₹18.0L | ⚠️ **7 days!** |
+> | Salesforce | Apr 1 | ₹24.0L | 🟡 24 days |
+> | AWS | Apr 15 | ₹36.0L | 🟢 38 days |
+> | Figma | May 1 | ₹8.4L | 🟢 54 days |
+> | Notion | May 20 | ₹4.9L | 🟢 73 days |
+>
+> ⚡ **Urgent: Slack renewal is in 7 days!**
+> Recommendation: Negotiate before auto-renewal. You can save ~₹3.6L/yr based on current utilization (62%). AI negotiation brief is ready.
+>
+> Would you like me to:
+> - Generate a negotiation brief for Slack?
+> - Set reminders for each renewal?
+> - Show the full 12-month renewal calendar?
 
 ---
 
@@ -243,35 +219,32 @@ Go to Compliance & Risk for detailed remediation →
 
 **AI Response:**
 
-```
-🤖 Here's your usage analysis:
-
-📊 Average Utilization: 67% across 156 apps
-🔴 847 unused individual licenses detected
-
-Most Underutilized Applications:
-┌──────────────────────────────────────────────────────────┐
-│  App            │ Licensed │ Active │ Util.  │ Waste/mo  │
-│  ────────────── │ ──────── │ ────── │ ────── │ ───────── │
-│  Figma          │ 80       │ 23     │  29% 🔴│ ₹4.8L     │
-│  LinkedIn Nav.  │ 60       │ 27     │  45% 🔴│ ₹1.6L     │
-│  Adobe CC       │ 40       │ 15     │  38% 🔴│ ₹1.5L     │
-│  Miro           │ 50       │ 26     │  52% 🟠│ ₹0.8L     │
-│  Slack          │ 500      │ 312    │  62% 🟠│ ₹3.2L     │
-└──────────────────────────────────────────────────────────┘
-
-💰 Reclaiming all unused licenses would save ₹11.9L/month
-
-🏆 Best utilized apps:
-1. Google Workspace: 96% ✅
-2. GitHub Enterprise: 78% 🟡
-3. Jira: 74% 🟡
-
-Would you like me to:
-• Generate a license reclamation plan?
-• Show usage trends over the last 6 months?
-• Break down usage by department?
-```
+> 🤖 Here's your usage analysis:
+>
+> 📊 **Average Utilization:** 67% across 156 apps <br />
+> 🔴 **847 unused** individual licenses detected
+>
+> **Most Underutilized Applications:**
+>
+> | App | Licensed | Active | Util. | Waste/mo |
+> |:--|:--|:--|:--|:--|
+> | Figma | 80 | 23 | 29% 🔴 | ₹4.8L |
+> | LinkedIn Nav. | 60 | 27 | 45% 🔴 | ₹1.6L |
+> | Adobe CC | 40 | 15 | 38% 🔴 | ₹1.5L |
+> | Miro | 50 | 26 | 52% 🟠 | ₹0.8L |
+> | Slack | 500 | 312 | 62% 🟠 | ₹3.2L |
+>
+> 💰 Reclaiming all unused licenses would save **₹11.9L/month**
+>
+> 🏆 **Best utilized apps:**
+> 1. Google Workspace: 96% ✅
+> 2. GitHub Enterprise: 78% 🟡
+> 3. Jira: 74% 🟡
+>
+> Would you like me to:
+> - Generate a license reclamation plan?
+> - Show usage trends over the last 6 months?
+> - Break down usage by department?
 
 ---
 

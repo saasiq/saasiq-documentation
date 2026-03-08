@@ -61,12 +61,9 @@ The Offboarding module ensures that when employees leave your organization, **al
 
 **Bulk Action Banner:**
 
-```
-┌──────────────────────────────────────────────────────────────┐
-│  ⚡ 5 employees pending offboarding with 23 active licenses  │
-│     [Revoke All Pending]  [Export Report]  [Sync HR Data]    │
-└──────────────────────────────────────────────────────────────┘
-```
+> ⚡ **5 employees pending offboarding** with 23 active licenses
+>
+> `Revoke All Pending` &nbsp; `Export Report` &nbsp; `Sync HR Data`
 
 **Status definitions:**
 

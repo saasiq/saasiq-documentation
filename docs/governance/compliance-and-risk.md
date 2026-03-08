@@ -44,19 +44,16 @@ At the top of the page, a large card shows your overall organizational risk post
 | **Trend** | ↑ +3 from last month | Improving or declining |
 | **Last Assessment** | Mar 1, 2026 | When the score was last calculated |
 
-```
-┌────────────────────────────────────────────┐
-│                                            │
-│         Overall Risk Score                 │
-│                                            │
-│              B+                             │
-│           78 / 100                         │
-│         ↑ +3 from last month               │
-│                                            │
-│   Last assessed: March 1, 2026             │
-│                                            │
-└────────────────────────────────────────────┘
-```
+<div align="center">
+
+| | |
+|:--:|:--|
+| **Overall Risk Score** | |
+| **B+** | |
+| 78 / 100 | ↑ +3 from last month |
+| | Last assessed: March 1, 2026 |
+
+</div>
 
 <details>
 <summary><strong>📊 How is the Risk Score calculated?</strong></summary>

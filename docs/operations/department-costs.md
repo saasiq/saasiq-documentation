@@ -57,22 +57,27 @@ Six cards, one per department, showing spend breakdown and waste estimation.
 
 **Card layout:**
 
-```
-┌────────────────────────────────────────────────┐
-│  🏗️  Engineering                  ₹14.2L/mo    │
-│      33% of total · 28 apps                    │
-│                                                │
-│  Top Tools:                                     │
-│  ├─ GitHub Enterprise     ₹4.2L  ████████  95% │
-│  ├─ AWS                   ₹3.8L  ███████   82% │
-│  └─ Jira                  ₹2.1L  ███████   74% │
-│                                                │
-│  💸 Estimated Waste: ₹2.1L/mo                  │
-│     Mainly from: Figma (34% util), Notion      │
-│                                                │
-│  [View All Apps]  [Optimize]                    │
-└────────────────────────────────────────────────┘
-```
+<table>
+<tr>
+<td>
+
+**🏗️ Engineering** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ₹14.2L/mo · 33% of total · 28 apps
+
+**Top Tools:**
+
+| Tool | Cost | Utilization |
+|:--|:--|:--|
+| GitHub Enterprise | ₹4.2L | ████████ 95% |
+| AWS | ₹3.8L | ███████ 82% |
+| Jira | ₹2.1L | ███████ 74% |
+
+💸 **Estimated Waste:** ₹2.1L/mo — mainly from Figma (34% util), Notion
+
+`View All Apps` &nbsp; `Optimize`
+
+</td>
+</tr>
+</table>
 
 **Interactions:**
 

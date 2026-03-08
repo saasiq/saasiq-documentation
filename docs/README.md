@@ -47,19 +47,13 @@ It combines **intelligent discovery**, **spend analytics**, **compliance monitor
 </td>
 <td width="40%">
 
-```
-   ╔═══════════════════╗
-   ║     SaaSIQ        ║
-   ║   ┌───┐ ┌───┐    ║
-   ║   │🔍│ │💰│    ║
-   ║   └───┘ └───┘    ║
-   ║   ┌───┐ ┌───┐    ║
-   ║   │🛡️│ │🤖│    ║
-   ║   └───┘ └───┘    ║
-   ╚═══════════════════╝
-    Discover · Optimize
-     Govern · Automate
-```
+<div align="center">
+
+<img src="https://img.shields.io/badge/SaaSIQ-7C3AED?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyek0xMiAyMGMtNC40MiAwLTgtMy41OC04LThzMy41OC04IDgtOCA4IDMuNTggOCA4LTMuNTggOC04IDB6Ii8+PC9zdmc+" alt="SaaSIQ" />
+
+**🔍 Discover** &nbsp;·&nbsp; **💰 Optimize** &nbsp;·&nbsp; **🛡️ Govern** &nbsp;·&nbsp; **🤖 Automate**
+
+</div>
 
 </td>
 </tr>
