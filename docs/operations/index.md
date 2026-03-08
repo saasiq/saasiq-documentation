@@ -1,4 +1,4 @@
-<div align="center">
+<div align="center" markdown>
 
 <img src="https://img.shields.io/badge/Module-Operations-2563EB?style=for-the-badge&logo=settings&logoColor=white" alt="Operations" />
 <img src="https://img.shields.io/badge/Features-4_Tools-blue?style=for-the-badge&logo=layers&logoColor=white" alt="4 Features" />
@@ -59,7 +59,7 @@ graph TD
 
 ---
 
-<div align="center">
+<div align="center" markdown>
 
 **Was this page helpful?** 👍 Yes · 👎 No · [Suggest an edit](https://github.com/saasiq/saasiq-documentation/edit/main/docs/operations/index.md)
 

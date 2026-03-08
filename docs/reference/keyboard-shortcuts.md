@@ -1,4 +1,4 @@
-<div align="center">
+<div align="center" markdown>
 
 <img src="https://img.shields.io/badge/📚_Reference-Keyboard_Shortcuts-0891B2?style=for-the-badge&logo=bookstack&logoColor=white" alt="Reference — Keyboard Shortcuts" />
 <img src="https://img.shields.io/badge/Shortcuts-30+-0891B2?style=for-the-badge" alt="30+ Shortcuts" />
@@ -18,8 +18,8 @@
 
 SaaSIQ supports keyboard shortcuts for fast navigation and common actions. Press **`?`** anywhere in the app to open the shortcuts overlay.
 
-> [!TIP]
-> On macOS use `⌘` (Command), on Windows/Linux use `Ctrl`.
+!!! tip
+    On macOS use `⌘` (Command), on Windows/Linux use `Ctrl`.
 
 ---
 
@@ -27,7 +27,7 @@ SaaSIQ supports keyboard shortcuts for fast navigation and common actions. Press
 
 - [Global Shortcuts](#global-shortcuts)
 - [Navigation Shortcuts](#navigation-shortcuts)
-- [Modal & Panel Shortcuts](#modal--panel-shortcuts)
+- [Modal & Panel Shortcuts](#modal-panel-shortcuts)
 - [Table Shortcuts](#table-shortcuts)
 - [AI Copilot Shortcuts](#ai-copilot-shortcuts)
 
@@ -67,7 +67,7 @@ SaaSIQ uses **key chords** for navigation. Press `G`, release, then press the se
 | `G` then `L` | **Alerts** |
 | `G` then `X` | **Settings** |
 
-<details>
+<details markdown>
 <summary>💡 How Key Chords Work</summary>
 
 A **key chord** is a two-step shortcut:
@@ -118,14 +118,14 @@ If you press `G` and don't follow up within 1 second, the chord resets. Key chor
 
 ## Customization
 
-> [!NOTE]
-> Keyboard shortcuts are not currently customizable. This feature is planned for a future release. You can request custom shortcuts by contacting support@saasiq.io.
+!!! note
+    Keyboard shortcuts are not currently customizable. This feature is planned for a future release. You can request custom shortcuts by contacting support@saasiq.io.
 
 ---
 
 ## Printable Reference Card
 
-<details>
+<details markdown>
 <summary>📄 Click to expand the full printable shortcut table</summary>
 
 **SAASIQ KEYBOARD SHORTCUTS — QUICK REFERENCE**
@@ -165,7 +165,7 @@ If you press `G` and don't follow up within 1 second, the chord resets. Key chor
 
 ---
 
-<div align="center">
+<div align="center" markdown>
 
 **Was this helpful?** [👍 Yes](# "Helpful") · [👎 No](# "Not Helpful") · [✏️ Suggest Edit](# "Edit")
 

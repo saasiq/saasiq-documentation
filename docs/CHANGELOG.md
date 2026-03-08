@@ -1,4 +1,4 @@
-<div align="center">
+<div align="center" markdown>
 
 <img src="https://img.shields.io/badge/📋_SaaSIQ-Changelog-7C3AED?style=for-the-badge&logo=git&logoColor=white" alt="Changelog" />
 <img src="https://img.shields.io/badge/Format-Keep_a_Changelog-E05735?style=for-the-badge" alt="Keep a Changelog" />
@@ -96,14 +96,14 @@ docs/
 
 ## [Unreleased]
 
-> [!NOTE]
-> Upcoming changes will be listed here before the next version release.
+!!! note
+    Upcoming changes will be listed here before the next version release.
 
 - _No unreleased changes_
 
 ---
 
-<div align="center">
+<div align="center" markdown>
 
 <a href="README.md">🏠 Documentation Home</a>&nbsp;&nbsp;•&nbsp;&nbsp;<a href="CONTRIBUTING.md">Contributing Guide</a>
 

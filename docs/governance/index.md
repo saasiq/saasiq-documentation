@@ -1,4 +1,4 @@
-<div align="center">
+<div align="center" markdown>
 
 <img src="https://img.shields.io/badge/Module-Governance-059669?style=for-the-badge&logo=shield&logoColor=white" alt="Governance" />
 <img src="https://img.shields.io/badge/Features-3_Tools-blue?style=for-the-badge&logo=layers&logoColor=white" alt="3 Features" />
@@ -52,7 +52,7 @@ graph TD
 
 ## When to Use Each Feature
 
-<details>
+<details markdown>
 <summary><strong>🛡️ Compliance & Risk — "Am I exposed to regulatory risk?"</strong></summary>
 
 **Use when:**
@@ -65,7 +65,7 @@ graph TD
 
 </details>
 
-<details>
+<details markdown>
 <summary><strong>📄 Contracts — "What's coming up for renewal?"</strong></summary>
 
 **Use when:**
@@ -78,7 +78,7 @@ graph TD
 
 </details>
 
-<details>
+<details markdown>
 <summary><strong>📋 Policies — "What rules does our org enforce?"</strong></summary>
 
 **Use when:**
@@ -103,7 +103,7 @@ graph TD
 
 ---
 
-<div align="center">
+<div align="center" markdown>
 
 **Was this page helpful?** 👍 Yes · 👎 No · [Suggest an edit](https://github.com/saasiq/saasiq-documentation/edit/main/docs/governance/index.md)
 

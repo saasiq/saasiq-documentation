@@ -1,4 +1,4 @@
-<div align="center">
+<div align="center" markdown>
 
 <img src="https://img.shields.io/badge/Module-Governance-059669?style=for-the-badge&logo=shield&logoColor=white" alt="Governance" />
 <img src="https://img.shields.io/badge/Feature-Policies-blue?style=for-the-badge&logo=lock&logoColor=white" alt="Policies" />
@@ -20,8 +20,8 @@
 
 Policies are **organizational rules** that SaaSIQ enforces across your SaaS portfolio. They define what's allowed, what triggers alerts, and what requires approval — covering security standards, spending thresholds, and data residency requirements.
 
-> [!NOTE]
-> Policies are evaluated continuously. When a violation is detected, SaaSIQ triggers an alert and can optionally block the offending action.
+!!! note
+    Policies are evaluated continuously. When a violation is detected, SaaSIQ triggers an alert and can optionally block the offending action.
 
 ---
 
@@ -29,9 +29,9 @@ Policies are **organizational rules** that SaaSIQ enforces across your SaaS port
 
 - [Active Policies](#active-policies)
 - [Policy Cards](#policy-cards)
-- [Create New Policy](#create-new-policy)
+- [Create New Policy](#create-policy)
 - [Operations: Edit, Disable, Delete](#operations)
-- [Workflows & Scenarios](#workflows--scenarios)
+- [Workflows & Scenarios](#workflows-scenarios)
 - [Validation Checklist](#validation-checklist)
 
 ---
@@ -54,9 +54,9 @@ Each active policy appears as a card with its status, scope, and violation count
 
 ### Policy 1: SOC 2 Compliance Required
 
-<table>
-<tr>
-<td>
+<table markdown>
+<tr markdown>
+<td markdown>
 
 **🛡️ SOC 2 Compliance Required** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ✅ Active
 
@@ -85,9 +85,9 @@ All SaaS applications processing customer data must have a valid SOC 2 Type II c
 
 ### Policy 2: Spend Threshold Approval
 
-<table>
-<tr>
-<td>
+<table markdown>
+<tr markdown>
+<td markdown>
 
 **💰 Spend Threshold Approval** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ✅ Active
 
@@ -114,9 +114,9 @@ Any SaaS purchase or renewal exceeding ₹5L/year requires CFO approval before p
 
 ### Policy 3: Data Residency — India
 
-<table>
-<tr>
-<td>
+<table markdown>
+<tr markdown>
+<td markdown>
 
 **🌍 Data Residency — India** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ✅ Active
 
@@ -205,8 +205,8 @@ graph LR
     F --> G["Policy card appears in list"]
 ```
 
-> [!IMPORTANT]
-> Start with **"Monitor-only"** mode for new policies. This lets you see what would be flagged without disrupting workflows. Switch to enforcement after validating the rule scope.
+!!! important
+    Start with **"Monitor-only"** mode for new policies. This lets you see what would be flagged without disrupting workflows. Switch to enforcement after validating the rule scope.
 
 ---
 
@@ -218,8 +218,8 @@ graph LR
 
 Opens the same multi-step modal as "Create Policy" but pre-filled with the current values. Changes take effect immediately upon saving.
 
-> [!WARNING]
-> Editing a policy's scope or conditions may trigger new violations immediately. Review the "Affected Apps" preview before saving.
+!!! warning
+    Editing a policy's scope or conditions may trigger new violations immediately. Review the "Affected Apps" preview before saving.
 
 ### View Violations
 
@@ -329,7 +329,7 @@ Opens the same multi-step modal as "Create Policy" but pre-filled with the curre
 
 ---
 
-<div align="center">
+<div align="center" markdown>
 
 **Was this page helpful?** 👍 Yes · 👎 No · [Suggest an edit](https://github.com/saasiq/saasiq-documentation/edit/main/docs/governance/policies.md)
 

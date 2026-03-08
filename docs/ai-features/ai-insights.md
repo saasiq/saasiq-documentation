@@ -1,4 +1,4 @@
-<div align="center">
+<div align="center" markdown>
 
 <img src="https://img.shields.io/badge/Module-AI%20Features-DB2777?style=for-the-badge&logo=sparkles&logoColor=white" alt="AI Features" />
 <img src="https://img.shields.io/badge/Feature-AI%20Insights-blue?style=for-the-badge&logo=lightbulb&logoColor=white" alt="AI Insights" />
@@ -27,9 +27,9 @@ Think of it as your AI advisor that tells you: *"Here's exactly what you should 
 ## In This Article
 
 - [Insight Cards](#insight-cards)
-- [Card Details & Actions](#card-details--actions)
+- [Card Details & Actions](#card-details-actions)
 - [How Confidence Scores Work](#how-confidence-scores-work)
-- [Interactions & Workflows](#interactions--workflows)
+- [Interactions & Workflows](#interactions-workflows)
 - [Validation Checklist](#validation-checklist)
 
 ---
@@ -40,9 +40,9 @@ Each insight is presented as a prominent card with a category icon, recommendati
 
 ### Card 1: Cost Savings Opportunity
 
-<table>
-<tr>
-<td>
+<table markdown>
+<tr markdown>
+<td markdown>
 
 **💰 COST SAVINGS** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Confidence: **96%**
 
@@ -71,9 +71,9 @@ We detected 57 Figma Enterprise licenses with zero activity in the last 90 days.
 
 ### Card 2: Renewal Prediction
 
-<table>
-<tr>
-<td>
+<table markdown>
+<tr markdown>
+<td markdown>
 
 **📅 RENEWAL PREDICTION** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Confidence: **89%**
 
@@ -102,9 +102,9 @@ Based on Salesforce's recent pricing announcements and your tier, we predict an 
 
 ### Card 3: Negotiation Intelligence
 
-<table>
-<tr>
-<td>
+<table markdown>
+<tr markdown>
+<td markdown>
 
 **🤝 NEGOTIATION INTELLIGENCE** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Confidence: **91%**
 
@@ -179,7 +179,7 @@ Redirects to [Contracts → Negotiate](../governance/contracts.md#negotiate-cont
 
 ## How Confidence Scores Work
 
-<details>
+<details markdown>
 <summary><strong>📊 Understanding the confidence percentage</strong></summary>
 
 Each insight card shows a confidence score indicating how certain the AI is about the recommendation. Here's how it's computed:
@@ -291,7 +291,7 @@ graph TD
 
 ---
 
-<div align="center">
+<div align="center" markdown>
 
 **Was this page helpful?** 👍 Yes · 👎 No · [Suggest an edit](https://github.com/saasiq/saasiq-documentation/edit/main/docs/ai-features/ai-insights.md)
 

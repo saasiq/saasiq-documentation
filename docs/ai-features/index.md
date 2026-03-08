@@ -1,4 +1,4 @@
-<div align="center">
+<div align="center" markdown>
 
 <img src="https://img.shields.io/badge/Module-AI%20Features-DB2777?style=for-the-badge&logo=sparkles&logoColor=white" alt="AI Features" />
 <img src="https://img.shields.io/badge/Features-2_Tools-blue?style=for-the-badge&logo=layers&logoColor=white" alt="2 Features" />
@@ -59,7 +59,7 @@ graph LR
 
 ---
 
-<div align="center">
+<div align="center" markdown>
 
 **Was this page helpful?** 👍 Yes · 👎 No · [Suggest an edit](https://github.com/saasiq/saasiq-documentation/edit/main/docs/ai-features/index.md)
 

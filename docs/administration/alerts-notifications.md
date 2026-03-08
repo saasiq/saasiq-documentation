@@ -1,4 +1,4 @@
-<div align="center">
+<div align="center" markdown>
 
 <img src="https://img.shields.io/badge/Module-Administration-D97706?style=for-the-badge&logo=wrench&logoColor=white" alt="Administration" />
 <img src="https://img.shields.io/badge/Feature-Alerts-blue?style=for-the-badge&logo=bell&logoColor=white" alt="Alerts" />
@@ -23,7 +23,7 @@ The Alerts system is SaaSIQ's **real-time notification engine**. It surfaces cri
 ## In This Article
 
 - [Alert Panel](#alert-panel)
-- [Alert Types & Severity](#alert-types--severity)
+- [Alert Types & Severity](#alert-types-severity)
 - [Operations: Snooze, Dismiss, Configure](#operations)
 - [Alert Settings](#alert-settings)
 - [Validation Checklist](#validation-checklist)
@@ -34,16 +34,16 @@ The Alerts system is SaaSIQ's **real-time notification engine**. It surfaces cri
 
 **Access:** Click the 🔔 notification bell in the top bar
 
-<table>
-<tr>
-<td>
+<table markdown>
+<tr markdown>
+<td markdown>
 
 **🔔 Alerts** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `Mark All Read`
 
 </td>
 </tr>
-<tr>
-<td>
+<tr markdown>
+<td markdown>
 
 🔴 **CRITICAL** · 2 hours ago
 
@@ -53,8 +53,8 @@ The Alerts system is SaaSIQ's **real-time notification engine**. It surfaces cri
 
 </td>
 </tr>
-<tr>
-<td>
+<tr markdown>
+<td markdown>
 
 🟡 **WARNING** · 5 hours ago
 
@@ -64,8 +64,8 @@ Slack renewal in 7 days — ₹18L contract. Auto-renewal will trigger if no act
 
 </td>
 </tr>
-<tr>
-<td>
+<tr markdown>
+<td markdown>
 
 🟣 **AI INSIGHT** · 8 hours ago
 
@@ -75,8 +75,8 @@ New savings opportunity: ₹4.8L/month — Figma license optimization identified
 
 </td>
 </tr>
-<tr>
-<td>
+<tr markdown>
+<td markdown>
 
 🔵 **INFO** · 1 day ago
 
@@ -132,8 +132,8 @@ Monthly compliance report available — Risk score improved: B → B+
 - Does NOT resolve the underlying issue
 - Cannot be undone
 
-> [!WARNING]
-> Dismissing a Critical alert without acting on it creates a security gap. Use Snooze if you need time, Dismiss only after resolving.
+!!! warning
+    Dismissing a Critical alert without acting on it creates a security gap. Use Snooze if you need time, Dismiss only after resolving.
 
 ---
 
@@ -186,7 +186,7 @@ Monthly compliance report available — Risk score improved: B → B+
 
 ---
 
-<div align="center">
+<div align="center" markdown>
 
 **Was this page helpful?** 👍 Yes · 👎 No · [Suggest an edit](https://github.com/saasiq/saasiq-documentation/edit/main/docs/administration/alerts-notifications.md)
 

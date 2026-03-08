@@ -1,4 +1,4 @@
-<div align="center">
+<div align="center" markdown>
 
 <img src="https://img.shields.io/badge/Module-Intelligence-7C3AED?style=for-the-badge&logo=search&logoColor=white" alt="Intelligence" />
 <img src="https://img.shields.io/badge/Feature-Usage%20Analytics-blue?style=for-the-badge&logo=activity&logoColor=white" alt="Usage Analytics" />
@@ -28,7 +28,7 @@ Usage Analytics answers the critical question: **"Are we actually using what we'
 - [Application Utilization Chart](#application-utilization-chart)
 - [Department Usage Cards](#department-usage-cards)
 - [Usage Leaderboard](#usage-leaderboard)
-- [Interactions & Workflows](#interactions--workflows)
+- [Interactions & Workflows](#interactions-workflows)
 - [Validation Checklist](#validation-checklist)
 
 ---
@@ -46,10 +46,10 @@ Usage Analytics answers the critical question: **"Are we actually using what we'
 |:--:|:--:|:--:|:--:|
 | **67%** | **34** | **23** | **847** |
 
-> [!TIP]
-> The "847 Unused Licenses" represents immediate savings potential. Each unused license is money being spent with zero return. Click to see the breakdown by application.
+!!! tip
+    The "847 Unused Licenses" represents immediate savings potential. Each unused license is money being spent with zero return. Click to see the breakdown by application.
 
-<details>
+<details markdown>
 <summary><strong>📊 How is utilization calculated?</strong></summary>
 
 ```
@@ -105,7 +105,7 @@ Figma             ██████████████░░░░░░�
 | Click **"View Inactive Users"** | Shows list of users with no login in 90+ days |
 | Toggle **"Show all / Top 10"** | Expand or collapse the chart |
 
-<details>
+<details markdown>
 <summary><strong>🔍 What does the drilldown look like?</strong></summary>
 
 Clicking a bar expands an inline panel showing:
@@ -140,9 +140,9 @@ Six cards showing how each department utilizes their assigned applications.
 
 **Card layout:**
 
-<table>
-<tr>
-<td>
+<table markdown>
+<tr markdown>
+<td markdown>
 
 **🏗️ Engineering** &nbsp;&nbsp;&nbsp;&nbsp; 28 apps
 
@@ -164,8 +164,8 @@ Avg Utilization: **81%** &nbsp; ████████████████
 | Click Top/Low app name | Opens that app's usage data |
 | Hover on utilization bar | Shows exact percentage |
 
-> [!TIP]
-> Focus on departments with high waste estimates first. Engineering at ₹2.1L/mo waste is likely driven by the Figma underutilization (34%) you can see in the details.
+!!! tip
+    Focus on departments with high waste estimates first. Engineering at ₹2.1L/mo waste is likely driven by the Figma underutilization (34%) you can see in the details.
 
 ---
 
@@ -194,8 +194,8 @@ A ranking of departments and individuals by SaaS adoption and efficiency.
 | Priya Nair | HR | 7 | 89% | — |
 | Amit Patel | Sales | 11 | 85% | — |
 
-> [!TIP]
-> Leaderboards create healthy competition between departments. Share these metrics in monthly reviews to drive better SaaS hygiene.
+!!! tip
+    Leaderboards create healthy competition between departments. Share these metrics in monthly reviews to drive better SaaS hygiene.
 
 ---
 
@@ -295,7 +295,7 @@ graph TD
 
 ---
 
-<div align="center">
+<div align="center" markdown>
 
 **Was this page helpful?** 👍 Yes · 👎 No · [Suggest an edit](https://github.com/saasiq/saasiq-documentation/edit/main/docs/intelligence/usage-analytics.md)
 

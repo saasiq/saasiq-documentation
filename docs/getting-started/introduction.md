@@ -1,4 +1,4 @@
-<div align="center">
+<div align="center" markdown>
 
 <img src="https://img.shields.io/badge/Section-Getting%20Started-7C3AED?style=for-the-badge&logo=rocket&logoColor=white" alt="Getting Started" />
 <img src="https://img.shields.io/badge/Audience-All%20Users-blue?style=for-the-badge&logo=people&logoColor=white" alt="All Users" />
@@ -58,11 +58,11 @@ graph LR
 
 ## Who is SaaSIQ For?
 
-<table>
-<tr>
-<td width="50%">
+<table markdown>
+<tr markdown>
+<td width="50%" markdown>
 
-<details open>
+<details open markdown>
 <summary><strong>🏢 IT Administrators & Managers</strong></summary>
 
 - Get a complete inventory of all SaaS applications
@@ -74,7 +74,7 @@ graph LR
 
 </details>
 
-<details open>
+<details open markdown>
 <summary><strong>💰 Finance & Procurement Teams</strong></summary>
 
 - Understand total SaaS spend by department, vendor, or category
@@ -87,9 +87,9 @@ graph LR
 </details>
 
 </td>
-<td width="50%">
+<td width="50%" markdown>
 
-<details open>
+<details open markdown>
 <summary><strong>🛡️ Security & Compliance Officers</strong></summary>
 
 - Monitor compliance with SOC 2, GDPR, HIPAA, ISO 27001
@@ -101,7 +101,7 @@ graph LR
 
 </details>
 
-<details open>
+<details open markdown>
 <summary><strong>👔 C-Suite & Department Heads</strong></summary>
 
 - High-level dashboards showing SaaS health at a glance
@@ -121,8 +121,8 @@ graph LR
 
 ## Core Concepts
 
-> [!NOTE]
-> These are the fundamental building blocks you'll see across every module. Understanding them first will make the rest of the documentation much clearer.
+!!! note
+    These are the fundamental building blocks you'll see across every module. Understanding them first will make the rest of the documentation much clearer.
 
 ### 🔍 SaaS Discovery
 
@@ -150,8 +150,8 @@ A conversational AI assistant that understands your entire SaaS landscape. Ask q
 
 SaaSIQ follows a **modular architecture** organized around six core pillars:
 
-<table>
-<tr>
+<table markdown>
+<tr markdown>
 <th align="center">🔍 Discovery</th>
 <th align="center">💰 Spend Intelligence</th>
 <th align="center">🛡️ Governance</th>
@@ -159,42 +159,42 @@ SaaSIQ follows a **modular architecture** organized around six core pillars:
 <th align="center">⚙️ Operations</th>
 <th align="center">🔧 Admin</th>
 </tr>
-<tr>
-<td align="center">
+<tr markdown>
+<td align="center" markdown>
 
 App Inventory <br />
 Approve / Block <br />
 Re-scan
 
 </td>
-<td align="center">
+<td align="center" markdown>
 
 Cost Analysis <br />
 Optimizations <br />
 Benchmarks
 
 </td>
-<td align="center">
+<td align="center" markdown>
 
 Compliance <br />
 Contracts <br />
 Policies
 
 </td>
-<td align="center">
+<td align="center" markdown>
 
 Insights <br />
 Copilot
 
 </td>
-<td align="center">
+<td align="center" markdown>
 
 Offboarding <br />
 Renewals <br />
 Benchmarks
 
 </td>
-<td align="center">
+<td align="center" markdown>
 
 Alerts <br />
 Settings <br />
@@ -237,7 +237,7 @@ Ready to get started? Follow the path that fits your role:
 
 ---
 
-<div align="center">
+<div align="center" markdown>
 
 **Was this page helpful?** 👍 Yes · 👎 No · [Suggest an edit](https://github.com/saasiq/saasiq-documentation/edit/main/docs/getting-started/introduction.md)
 

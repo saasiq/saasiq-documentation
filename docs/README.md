@@ -1,14 +1,11 @@
-<div align="center">
+<div align="center" markdown>
 
 <!-- HERO BANNER -->
 <img src="https://img.shields.io/badge/%E2%9C%A8_SaaSIQ-Documentation_Portal-7C3AED?style=for-the-badge&labelColor=0F0F1A" alt="SaaSIQ Documentation Portal" />
 
 <br /><br />
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Inter&weight=700&size=36&duration=3000&pause=1000&color=7C3AED&center=true&vCenter=true&width=600&lines=SaaSIQ+Platform+Documentation;AI-Powered+SaaS+Management;Discover+%C2%B7+Optimize+%C2%B7+Govern">
-  <img src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&size=36&duration=3000&pause=1000&color=7C3AED&center=true&vCenter=true&width=600&lines=SaaSIQ+Platform+Documentation;AI-Powered+SaaS+Management;Discover+%C2%B7+Optimize+%C2%B7+Govern" alt="SaaSIQ" />
-</picture>
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&size=36&duration=3000&pause=1000&color=7C3AED&center=true&vCenter=true&width=600&lines=SaaSIQ+Platform+Documentation;AI-Powered+SaaS+Management;Discover+%C2%B7+Optimize+%C2%B7+Govern" alt="SaaSIQ" />
 
 <br />
 
@@ -19,7 +16,7 @@ Eliminate shadow IT · Reduce SaaS spend by 30% · Automate compliance · Maximi
 <br />
 
 [![Version](https://img.shields.io/badge/Version-1.0.0-7C3AED?style=for-the-badge&logo=semanticrelease&logoColor=white)](CHANGELOG.md)
-[![Docs](https://img.shields.io/badge/Docs-27_Pages-blue?style=for-the-badge&logo=bookstack&logoColor=white)](#-documentation-map)
+[![Docs](https://img.shields.io/badge/Docs-27_Pages-blue?style=for-the-badge&logo=bookstack&logoColor=white)](#documentation-map)
 [![Platform](https://img.shields.io/badge/Live_Demo-saasiq.io-success?style=for-the-badge&logo=googlechrome&logoColor=white)](https://saasiq.github.io/saasiq-ux-prototype/)
 [![License](https://img.shields.io/badge/License-Proprietary-red?style=for-the-badge&logo=shield&logoColor=white)](#)
 [![Last Updated](https://img.shields.io/badge/Updated-March_2026-orange?style=for-the-badge&logo=calendar&logoColor=white)](#)
@@ -36,18 +33,18 @@ Eliminate shadow IT · Reduce SaaS spend by 30% · Automate compliance · Maximi
 
 ## 🎯 What is SaaSIQ?
 
-<table>
-<tr>
-<td width="60%">
+<table markdown>
+<tr markdown>
+<td width="60%" markdown>
 
 **SaaSIQ** is an **AI-powered SaaS Management Platform** that gives organizations complete visibility and control over their entire software-as-a-service portfolio.
 
 It combines **intelligent discovery**, **spend analytics**, **compliance monitoring**, and a **conversational AI copilot** into one unified command center — helping IT, Finance, Security, and Leadership teams make smarter decisions about their SaaS investments.
 
 </td>
-<td width="40%">
+<td width="40%" markdown>
 
-<div align="center">
+<div align="center" markdown>
 
 <img src="https://img.shields.io/badge/SaaSIQ-7C3AED?style=for-the-badge&logo=data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZmlsbD0id2hpdGUiIGQ9Ik0xMiAyQzYuNDggMiAyIDYuNDggMiAxMnM0LjQ4IDEwIDEwIDEwIDEwLTQuNDggMTAtMTBTMTcuNTIgMiAxMiAyek0xMiAyMGMtNC40MiAwLTgtMy41OC04LThzMy41OC04IDgtOCA4IDMuNTggOCA4LTMuNTggOC04IDB6Ii8+PC9zdmc+" alt="SaaSIQ" />
 
@@ -63,9 +60,9 @@ It combines **intelligent discovery**, **spend analytics**, **compliance monitor
 
 ## ⚡ Key Capabilities
 
-<table>
-<tr>
-<td align="center" width="25%">
+<table markdown>
+<tr markdown>
+<td align="center" width="25%" markdown>
 <br />
 <img src="https://img.shields.io/badge/-Discovery-7C3AED?style=for-the-badge" alt="Discovery" />
 <br /><br />
@@ -76,7 +73,7 @@ Find every app — including shadow IT adopted without IT approval
 <code>156 apps discovered</code>
 <br /><br />
 </td>
-<td align="center" width="25%">
+<td align="center" width="25%" markdown>
 <br />
 <img src="https://img.shields.io/badge/-Intelligence-2563EB?style=for-the-badge" alt="Intelligence" />
 <br /><br />
@@ -87,7 +84,7 @@ AI-powered cost analysis with optimization recommendations
 <code>₹18L/yr savings found</code>
 <br /><br />
 </td>
-<td align="center" width="25%">
+<td align="center" width="25%" markdown>
 <br />
 <img src="https://img.shields.io/badge/-Governance-059669?style=for-the-badge" alt="Governance" />
 <br /><br />
@@ -98,7 +95,7 @@ SOC 2, GDPR, HIPAA, ISO 27001 monitoring & policy enforcement
 <code>4 frameworks tracked</code>
 <br /><br />
 </td>
-<td align="center" width="25%">
+<td align="center" width="25%" markdown>
 <br />
 <img src="https://img.shields.io/badge/-AI_Copilot-DB2777?style=for-the-badge" alt="AI Copilot" />
 <br /><br />
@@ -116,9 +113,9 @@ Ask questions in natural language, get data-driven answers instantly
 
 ## 🚀 Get Started in 3 Steps
 
-<table>
-<tr>
-<td align="center" width="33%">
+<table markdown>
+<tr markdown>
+<td align="center" width="33%" markdown>
 
 ### Step 1
 <img src="https://img.shields.io/badge/1-Access-7C3AED?style=for-the-badge&logo=googlechrome" alt="Step 1" />
@@ -126,7 +123,7 @@ Ask questions in natural language, get data-driven answers instantly
 Open the [**Live Platform**](https://saasiq.github.io/saasiq-ux-prototype/) and click **"Start Free Trial"**
 
 </td>
-<td align="center" width="33%">
+<td align="center" width="33%" markdown>
 
 ### Step 2
 <img src="https://img.shields.io/badge/2-Login-2563EB?style=for-the-badge&logo=key" alt="Step 2" />
@@ -136,7 +133,7 @@ Use demo credentials:
 `SaaSIQ2024!`
 
 </td>
-<td align="center" width="33%">
+<td align="center" width="33%" markdown>
 
 ### Step 3
 <img src="https://img.shields.io/badge/3-Explore-059669?style=for-the-badge&logo=compass" alt="Step 3" />
@@ -147,8 +144,8 @@ Complete the [**Onboarding Wizard**](getting-started/onboarding.md) and land on 
 </tr>
 </table>
 
-> [!TIP]
-> **First time here?** Start with the [Quick Start Guide](getting-started/quick-start.md) — you'll be up and running in under 10 minutes.
+!!! tip
+    **First time here?** Start with the [Quick Start Guide](getting-started/quick-start.md) — you'll be up and running in under 10 minutes.
 
 <br />
 
@@ -158,9 +155,9 @@ Complete the [**Onboarding Wizard**](getting-started/onboarding.md) and land on 
 
 This documentation mirrors the **SaaSIQ product structure** — organized by the same modules you see in the sidebar navigation. Each page includes:
 
-<table>
-<tr>
-<td width="50%">
+<table markdown>
+<tr markdown>
+<td width="50%" markdown>
 
 | Element | Purpose |
 |---------|---------|
@@ -171,7 +168,7 @@ This documentation mirrors the **SaaSIQ product structure** — organized by the
 | 📐 **Mermaid Diagrams** | Interactive flowcharts and architectures |
 
 </td>
-<td width="50%">
+<td width="50%" markdown>
 
 | Element | Purpose |
 |---------|---------|
@@ -189,20 +186,20 @@ This documentation mirrors the **SaaSIQ product structure** — organized by the
 
 Throughout the documentation, you'll encounter these styled callout boxes:
 
-> [!NOTE]
-> Provides additional context or clarification about a feature.
+!!! note
+    Provides additional context or clarification about a feature.
 
-> [!TIP]
-> Helpful advice to get more out of a feature or workflow.
+!!! tip
+    Helpful advice to get more out of a feature or workflow.
 
-> [!IMPORTANT]
-> Key information that affects how a feature works.
+!!! important
+    Key information that affects how a feature works.
 
-> [!WARNING]
-> Important caution before performing a destructive or irreversible action.
+!!! warning
+    Important caution before performing a destructive or irreversible action.
 
-> [!CAUTION]
-> Critical alert — may cause data loss or security issues if ignored.
+!!! danger
+    Critical alert — may cause data loss or security issues if ignored.
 
 <br />
 
@@ -372,9 +369,9 @@ graph TB
 
 ## 🔗 Quick Links
 
-<table>
-<tr>
-<td width="50%">
+<table markdown>
+<tr markdown>
+<td width="50%" markdown>
 
 #### 🎯 I want to…
 
@@ -387,7 +384,7 @@ graph TB
 | Check compliance status | [**Compliance & Risk**](governance/compliance-and-risk.md) |
 
 </td>
-<td width="50%">
+<td width="50%" markdown>
 
 #### ⚡ Common Tasks
 
@@ -409,9 +406,9 @@ graph TB
 
 ## 💻 Technical Reference
 
-<table>
-<tr>
-<td>
+<table markdown>
+<tr markdown>
+<td markdown>
 
 | Property | Value |
 |----------|-------|
@@ -433,9 +430,9 @@ graph TB
 
 ## 📝 Contributing & Versioning
 
-<table>
-<tr>
-<td width="50%">
+<table markdown>
+<tr markdown>
+<td width="50%" markdown>
 
 #### Contributing to Docs
 See [**CONTRIBUTING.md**](CONTRIBUTING.md) for guidelines on:
@@ -445,7 +442,7 @@ See [**CONTRIBUTING.md**](CONTRIBUTING.md) for guidelines on:
 - Review process
 
 </td>
-<td width="50%">
+<td width="50%" markdown>
 
 #### Version History
 See [**CHANGELOG.md**](CHANGELOG.md) for:
@@ -462,7 +459,7 @@ See [**CHANGELOG.md**](CHANGELOG.md) for:
 
 ---
 
-<div align="center">
+<div align="center" markdown>
 
 <br />
 

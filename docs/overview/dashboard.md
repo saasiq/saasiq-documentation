@@ -1,4 +1,4 @@
-<div align="center">
+<div align="center" markdown>
 
 <img src="https://img.shields.io/badge/Module-Overview-7C3AED?style=for-the-badge&logo=barchart&logoColor=white" alt="Overview" />
 <img src="https://img.shields.io/badge/Route-%23dashboard-blue?style=for-the-badge&logo=link&logoColor=white" alt="#dashboard" />
@@ -27,25 +27,25 @@ Every metric on the Dashboard is clickable, leading you deeper into the relevant
 - [Page Layout](#page-layout)
 - [Application Shell](#application-shell)
 - [KPI Cards](#kpi-cards)
-- [Charts & Visualizations](#charts--visualizations)
+- [Charts & Visualizations](#charts-visualizations)
 - [Urgent Actions Panel](#urgent-actions-panel)
 - [Upcoming Renewals Table](#upcoming-renewals-table)
 - [Top Apps by Spend Table](#top-apps-by-spend-table)
 - [Floating Navigator](#floating-navigator)
-- [Interactions & Workflows](#interactions--workflows)
+- [Interactions & Workflows](#interactions-workflows)
 
 ---
 
 ## Page Layout
 
-<table>
-<tr>
+<table markdown>
+<tr markdown>
 <th colspan="2" align="left">
 🟣 SaaSIQ &nbsp;&nbsp;&nbsp;🔍 Search... &nbsp;&nbsp;&nbsp; 🔔 3 &nbsp; 🏢 TechCorp ▾ &nbsp; 👤
 </th>
 </tr>
-<tr>
-<td width="140" valign="top">
+<tr markdown>
+<td width="140" valign="top" markdown>
 
 **OVERVIEW** <br />
 ▸ Dashboard <br /><br />
@@ -67,7 +67,7 @@ Every metric on the Dashboard is clickable, leading you deeper into the relevant
 ▸ Dept Cost
 
 </td>
-<td valign="top">
+<td valign="top" markdown>
 
 | KPI 1 | KPI 2 | KPI 3 | KPI 4 |
 |:--:|:--:|:--:|:--:|
@@ -106,7 +106,7 @@ The application shell is the permanent outer frame that wraps every page in SaaS
 | **🏢 Org Switcher** | Right | Shows current org name | Click → [org switcher dropdown](../administration/organization-management.md) |
 | **👤 User Avatar** | Far right | Profile and account menu | Click → dropdown (Profile, Help, Shortcuts, Logout) |
 
-<details>
+<details markdown>
 <summary><strong>🔍 How does Global Search work?</strong></summary>
 
 1. Click the search bar or press `Ctrl + K` / `⌘ + K`
@@ -142,8 +142,8 @@ The sidebar is your primary navigation. It's organized by **module groups** matc
 | Active page | Has purple left border + purple text + darker background |
 | Badge numbers | Update in real-time based on pending actions |
 
-> [!TIP]
-> The badge `8 new` on SaaS Discovery indicates newly detected applications. The badge `5` on Offboarding shows pending access revocations.
+!!! tip
+    The badge `8 new` on SaaS Discovery indicates newly detected applications. The badge `5` on Offboarding shows pending access revocations.
 
 ---
 
@@ -163,10 +163,10 @@ The four KPI cards at the top provide an at-a-glance summary of your SaaS health
 - Trend indicators use green (↑ positive) or red (↓ negative) coloring
 - Numbers animate from 0 on page load (counting up effect)
 
-> [!TIP]
-> Each KPI card is clickable. Clicking it navigates to the detailed module where you can drill down into the data behind that metric.
+!!! tip
+    Each KPI card is clickable. Clicking it navigates to the detailed module where you can drill down into the data behind that metric.
 
-<details>
+<details markdown>
 <summary><strong>📊 How are these metrics calculated?</strong></summary>
 
 | Metric | Calculation |
@@ -239,8 +239,8 @@ A highlighted section that surfaces the most critical items requiring your atten
 | Click **"Optimize"** | Navigates to Usage Analytics filtered to Figma |
 | Click **"Dismiss"** (×) | Removes the alert from urgent actions (moves to alert history) |
 
-> [!WARNING]
-> Dismissing a critical alert does NOT resolve the underlying issue. Always investigate before dismissing.
+!!! warning
+    Dismissing a critical alert does NOT resolve the underlying issue. Always investigate before dismissing.
 
 ---
 
@@ -291,8 +291,8 @@ A highlighted section that surfaces the most critical items requiring your atten
 | Click **"View All"** | Navigates to [Spend Intelligence](../intelligence/spend-intelligence.md) |
 | Hover trend arrow | Tooltip shows month-over-month change |
 
-> [!TIP]
-> Red trend arrows (↓ in utilization, ↑ in spend) are signals to investigate. A 29% utilization on Figma is a clear optimization opportunity.
+!!! tip
+    Red trend arrows (↓ in utilization, ↑ in spend) are signals to investigate. A 29% utilization on Figma is a clear optimization opportunity.
 
 ---
 
@@ -403,7 +403,7 @@ graph TD
 
 ---
 
-<div align="center">
+<div align="center" markdown>
 
 **Was this page helpful?** 👍 Yes · 👎 No · [Suggest an edit](https://github.com/saasiq/saasiq-documentation/edit/main/docs/overview/dashboard.md)
 

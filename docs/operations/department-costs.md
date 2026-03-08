@@ -1,4 +1,4 @@
-<div align="center">
+<div align="center" markdown>
 
 <img src="https://img.shields.io/badge/Module-Operations-2563EB?style=for-the-badge&logo=settings&logoColor=white" alt="Operations" />
 <img src="https://img.shields.io/badge/Feature-Dept%20Costs-blue?style=for-the-badge&logo=building&logoColor=white" alt="Department Costs" />
@@ -27,7 +27,7 @@ Department Costs provides a **per-department breakdown** of SaaS spending, showi
 - [Summary Bar](#summary-bar)
 - [Department Cards](#department-cards)
 - [Waste Analysis Chart](#waste-analysis-chart)
-- [Workflows & Scenarios](#workflows--scenarios)
+- [Workflows & Scenarios](#workflows-scenarios)
 - [Validation Checklist](#validation-checklist)
 
 ---
@@ -57,9 +57,9 @@ Six cards, one per department, showing spend breakdown and waste estimation.
 
 **Card layout:**
 
-<table>
-<tr>
-<td>
+<table markdown>
+<tr markdown>
+<td markdown>
 
 **🏗️ Engineering** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; ₹14.2L/mo · 33% of total · 28 apps
 
@@ -105,7 +105,7 @@ Finance:      ██████ ₹0.3L/mo
               Total: ₹7.0L/mo  (₹28L/quarter)
 ```
 
-<details>
+<details markdown>
 <summary><strong>📊 How is waste calculated?</strong></summary>
 
 Waste = Cost of licenses with utilization < 50% that haven't been used in 60+ days.
@@ -177,7 +177,7 @@ graph TD
 
 ---
 
-<div align="center">
+<div align="center" markdown>
 
 **Was this page helpful?** 👍 Yes · 👎 No · [Suggest an edit](https://github.com/saasiq/saasiq-documentation/edit/main/docs/operations/department-costs.md)
 

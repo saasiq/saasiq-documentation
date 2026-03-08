@@ -1,4 +1,4 @@
-<div align="center">
+<div align="center" markdown>
 
 <img src="https://img.shields.io/badge/Module-Operations-2563EB?style=for-the-badge&logo=settings&logoColor=white" alt="Operations" />
 <img src="https://img.shields.io/badge/Feature-Renewals-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Renewals" />
@@ -27,7 +27,7 @@ The Renewals page provides an **operational view** of all upcoming SaaS contract
 - [KPI Summary Cards](#kpi-summary-cards)
 - [Renewal Table](#renewal-table)
 - [Operations: Negotiate, Review, Set Reminder](#operations)
-- [Workflows & Scenarios](#workflows--scenarios)
+- [Workflows & Scenarios](#workflows-scenarios)
 - [Validation Checklist](#validation-checklist)
 
 ---
@@ -41,8 +41,8 @@ The Renewals page provides an **operational view** of all upcoming SaaS contract
 | 3 | **Renewing in 90 Days** | 8 | Full pipeline view |
 | 4 | **Negotiation Savings (YTD)** | ₹38L | Savings from completed negotiations this year |
 
-> [!TIP]
-> Focus on the 30-day number — these are contracts you need to act on NOW. Negotiations should ideally start 60+ days before renewal.
+!!! tip
+    Focus on the 30-day number — these are contracts you need to act on NOW. Negotiations should ideally start 60+ days before renewal.
 
 ---
 
@@ -66,8 +66,8 @@ The Renewals page provides an **operational view** of all upcoming SaaS contract
 | **Sort/Filter** | By date, cost, status, or vendor |
 | **Inline sparkline** | Cost trend arrow showing annual cost change |
 
-> [!TIP]
-> The Utilization column is your most powerful negotiation tool. Slack at 62% means you're paying for 500 seats but only using 312 — that's ammunition for a seat reduction or discount.
+!!! tip
+    The Utilization column is your most powerful negotiation tool. Slack at 62% means you're paying for 500 seats but only using 312 — that's ammunition for a seat reduction or discount.
 
 ---
 
@@ -149,7 +149,7 @@ graph TD
 
 ---
 
-<div align="center">
+<div align="center" markdown>
 
 **Was this page helpful?** 👍 Yes · 👎 No · [Suggest an edit](https://github.com/saasiq/saasiq-documentation/edit/main/docs/operations/renewals.md)
 

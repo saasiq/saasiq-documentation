@@ -1,4 +1,4 @@
-<div align="center">
+<div align="center" markdown>
 
 <img src="https://img.shields.io/badge/Module-Intelligence-7C3AED?style=for-the-badge&logo=search&logoColor=white" alt="Intelligence" />
 <img src="https://img.shields.io/badge/Feature-Spend%20Intelligence-blue?style=for-the-badge&logo=dollar&logoColor=white" alt="Spend Intelligence" />
@@ -20,8 +20,8 @@
 
 Spend Intelligence is SaaSIQ's **AI-powered cost analysis engine**. It aggregates all SaaS spending, breaks it down by department and application, and generates **actionable optimization recommendations** — each with a projected savings amount and a one-click "Apply" action.
 
-> [!NOTE]
-> All savings projections are calculated by SaaSIQ's AI engine using your actual contract data, usage patterns, and industry benchmark pricing.
+!!! note
+    All savings projections are calculated by SaaSIQ's AI engine using your actual contract data, usage patterns, and industry benchmark pricing.
 
 ---
 
@@ -31,7 +31,7 @@ Spend Intelligence is SaaSIQ's **AI-powered cost analysis engine**. It aggregate
 - [Department Spend Breakdown](#department-spend-breakdown)
 - [AI Optimization Recommendations](#ai-optimization-recommendations)
 - [Operations: Apply, Review, Create Plan](#operations)
-- [Workflows & Scenarios](#workflows--scenarios)
+- [Workflows & Scenarios](#workflows-scenarios)
 - [Validation Checklist](#validation-checklist)
 
 ---
@@ -49,8 +49,8 @@ Spend Intelligence is SaaSIQ's **AI-powered cost analysis engine**. It aggregate
 |:--:|:--:|:--:|:--:|
 | **₹5.1 Cr** | **₹42.5L** | **₹12.8L** | **67%** |
 
-> [!TIP]
-> The Optimization Score tells you how efficiently your SaaS budget is being used. Below 70% means significant room for improvement.
+!!! tip
+    The Optimization Score tells you how efficiently your SaaS budget is being used. Below 70% means significant room for improvement.
 
 ---
 
@@ -75,8 +75,8 @@ A horizontal bar chart showing spend by department, sorted from highest to lowes
 | Click a bar | Drills down into that department's app-level spend |
 | Click **"View by Category"** toggle | Switches from department view to category view |
 
-> [!TIP]
-> If a department's spend seems high, click its bar to see the individual applications driving the cost. Often, 1–2 apps account for 80% of a department's spend.
+!!! tip
+    If a department's spend seems high, click its bar to see the individual applications driving the cost. Often, 1–2 apps account for 80% of a department's spend.
 
 ---
 
@@ -88,9 +88,9 @@ The heart of Spend Intelligence — AI-generated recommendations ranked by savin
 
 Each recommendation appears as an expandable card:
 
-<table>
-<tr>
-<td>
+<table markdown>
+<tr markdown>
+<td markdown>
 
 **🤖 AI Recommendation** &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Save **₹4.8L/mo**
 
@@ -115,7 +115,7 @@ Figma Enterprise → Figma Professional
 | 4 | **Remove unused seats** | Slack Enterprise | ₹1.2L/mo | 94% | 188 |
 | 5 | **Switch to annual billing** | AWS Reserved Instances | ₹0.8L/mo | 87% | — |
 
-<details>
+<details markdown>
 <summary><strong>📊 How does AI calculate confidence scores?</strong></summary>
 
 The confidence score reflects how certain the AI is about the recommendation's accuracy and feasibility:
@@ -166,8 +166,8 @@ graph LR
     F --> G["Savings reflected in KPI cards"]
 ```
 
-> [!WARNING]
-> "Immediate" implementation will trigger license changes at the vendor level. For large-scale downgrades, use "Next billing cycle" to avoid disrupting active users.
+!!! warning
+    "Immediate" implementation will trigger license changes at the vendor level. For large-scale downgrades, use "Next billing cycle" to avoid disrupting active users.
 
 ---
 
@@ -323,7 +323,7 @@ graph TD
 
 ---
 
-<div align="center">
+<div align="center" markdown>
 
 **Was this page helpful?** 👍 Yes · 👎 No · [Suggest an edit](https://github.com/saasiq/saasiq-documentation/edit/main/docs/intelligence/spend-intelligence.md)
 

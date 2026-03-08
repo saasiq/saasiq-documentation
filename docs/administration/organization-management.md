@@ -1,4 +1,4 @@
-<div align="center">
+<div align="center" markdown>
 
 <img src="https://img.shields.io/badge/Module-Administration-D97706?style=for-the-badge&logo=wrench&logoColor=white" alt="Administration" />
 <img src="https://img.shields.io/badge/Feature-Org%20Management-blue?style=for-the-badge&logo=building&logoColor=white" alt="Organization Management" />
@@ -33,9 +33,9 @@ Organization Management handles **multi-org support** (for companies managing mu
 
 **Access:** Click the **🏢 org name** in the top bar
 
-<table>
-<tr><th align="left">🏢 Your Organizations</th></tr>
-<tr><td>
+<table markdown>
+<tr markdown><th align="left">🏢 Your Organizations</th></tr>
+<tr markdown><td markdown>
 
 ✅ **TechCorp India** <br />
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Business Plan · Admin
@@ -47,7 +47,7 @@ Organization Management handles **multi-org support** (for companies managing mu
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Starter Plan · Viewer
 
 </td></tr>
-<tr><td>
+<tr markdown><td markdown>
 
 `+ Create Organization` &nbsp; `Manage Organizations`
 
@@ -73,8 +73,8 @@ Organization Management handles **multi-org support** (for companies managing mu
 | **Currency** | Dropdown | ✅ |
 | **Invite initial admin** | Email | Optional |
 
-> [!TIP]
-> Create separate organizations for distinct business units or subsidiaries that have independent SaaS portfolios. Use a single org if all departments share the same tools.
+!!! tip
+    Create separate organizations for distinct business units or subsidiaries that have independent SaaS portfolios. Use a single org if all departments share the same tools.
 
 ---
 
@@ -82,15 +82,15 @@ Organization Management handles **multi-org support** (for companies managing mu
 
 **Access:** Click the **👤 avatar** in the top bar
 
-<table>
-<tr><td>
+<table markdown>
+<tr markdown><td markdown>
 
 **👤 Rahul Sharma** <br />
 rahul@techcorp.in <br />
 Admin · TechCorp India
 
 </td></tr>
-<tr><td>
+<tr markdown><td markdown>
 
 📝 Edit Profile <br />
 ❓ Help Center <br />
@@ -163,8 +163,8 @@ Shows a chronological log of your recent actions:
 | `?` | Show keyboard shortcuts |
 | `Escape` | Close any open modal/panel |
 
-> [!TIP]
-> The `G then X` pattern means press `G`, release, then press the second key. This is called a **key chord** and works anywhere in the app.
+!!! tip
+    The `G then X` pattern means press `G`, release, then press the second key. This is called a **key chord** and works anywhere in the app.
 
 ---
 
@@ -198,7 +198,7 @@ Shows a chronological log of your recent actions:
 
 ---
 
-<div align="center">
+<div align="center" markdown>
 
 **Was this page helpful?** 👍 Yes · 👎 No · [Suggest an edit](https://github.com/saasiq/saasiq-documentation/edit/main/docs/administration/organization-management.md)
 

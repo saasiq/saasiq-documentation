@@ -1,4 +1,4 @@
-<div align="center">
+<div align="center" markdown>
 
 <img src="https://img.shields.io/badge/🤝_SaaSIQ-Contributing_Guide-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="Contributing Guide" />
 <img src="https://img.shields.io/badge/PRs-Welcome-059669?style=for-the-badge" alt="PRs Welcome" />
@@ -22,7 +22,7 @@ This guide covers conventions, formatting standards, and the review process.
 - [Badge System](#badge-system)
 - [Admonition Callouts](#admonition-callouts)
 - [Mermaid Diagrams](#mermaid-diagrams)
-- [Navigation & Footer](#navigation--footer)
+- [Navigation & Footer](#navigation-footer)
 - [Review Process](#review-process)
 
 ---
@@ -35,8 +35,8 @@ This guide covers conventions, formatting standards, and the review process.
 4. Make changes following the standards below
 5. Submit a **Pull Request**
 
-> [!IMPORTANT]
-> All documentation files live under `docs/`. Never modify files outside this directory for documentation changes.
+!!! important
+    All documentation files live under `docs/`. Never modify files outside this directory for documentation changes.
 
 ---
 
@@ -70,7 +70,7 @@ This guide covers conventions, formatting standards, and the review process.
 Every documentation file **must** start with a centered header block:
 
 ```markdown
-<div align="center">
+<div align="center" markdown>
 
 <img src="https://img.shields.io/badge/MODULE-Page_Title-COLOR?style=for-the-badge&logo=ICON&logoColor=white" alt="Description" />
 
@@ -92,8 +92,8 @@ Every documentation file **must** start with a centered header block:
 #### Detail           ← Rarely needed; avoid deeper nesting
 ```
 
-> [!WARNING]
-> Never skip heading levels (e.g., `#` → `###`). Always go in order.
+!!! warning
+    Never skip heading levels (e.g., `#` → `###`). Always go in order.
 
 ### Tables
 
@@ -160,20 +160,20 @@ Use **GitHub-native admonitions** — never emoji-based callouts:
 ### ✅ Correct
 
 ```markdown
-> [!TIP]
-> Helpful advice for better results.
+!!! tip
+    Helpful advice for better results.
 
-> [!NOTE]
-> Additional context or information.
+!!! note
+    Additional context or information.
 
-> [!WARNING]
-> Potential issues to watch out for.
+!!! warning
+    Potential issues to watch out for.
 
-> [!IMPORTANT]
-> Critical information users must know.
+!!! important
+    Critical information users must know.
 
-> [!CAUTION]
-> Dangerous actions that could cause problems.
+!!! danger
+    Dangerous actions that could cause problems.
 ```
 
 ### ❌ Incorrect (Do NOT use)
@@ -239,7 +239,7 @@ Every file **must** end with a standardized footer:
 ```markdown
 ---
 
-<div align="center">
+<div align="center" markdown>
 
 **Was this helpful?** [👍 Yes](# "Helpful") · [👎 No](# "Not Helpful") · [✏️ Suggest Edit](# "Edit")
 
@@ -272,7 +272,7 @@ README → Introduction → Quick Start → Onboarding → Dashboard
 
 Before submitting a PR, verify:
 
-- [ ] File starts with `<div align="center">` header block
+- [ ] File starts with `<div align="center" markdown>` header block
 - [ ] Badges use `for-the-badge` style with correct module color
 - [ ] All callouts use GitHub-native admonitions (`> [!TIP]`, etc.)
 - [ ] Mermaid diagrams include `%%{init}%%` theming
@@ -302,7 +302,7 @@ docs: update mermaid diagram colors
 
 ---
 
-<div align="center">
+<div align="center" markdown>
 
 **Was this helpful?** [👍 Yes](# "Helpful") · [👎 No](# "Not Helpful") · [✏️ Suggest Edit](# "Edit")
 

@@ -1,4 +1,4 @@
-<div align="center">
+<div align="center" markdown>
 
 <img src="https://img.shields.io/badge/Module-Intelligence-7C3AED?style=for-the-badge&logo=search&logoColor=white" alt="Intelligence" />
 <img src="https://img.shields.io/badge/Features-3_Tools-blue?style=for-the-badge&logo=layers&logoColor=white" alt="3 Features" />
@@ -57,7 +57,7 @@ graph TD
 
 ## When to Use Each Feature
 
-<details>
+<details markdown>
 <summary><strong>🔍 SaaS Discovery — "I want to know what apps we have"</strong></summary>
 
 **Use when:**
@@ -70,7 +70,7 @@ graph TD
 
 </details>
 
-<details>
+<details markdown>
 <summary><strong>💰 Spend Intelligence — "I want to reduce SaaS costs"</strong></summary>
 
 **Use when:**
@@ -83,7 +83,7 @@ graph TD
 
 </details>
 
-<details>
+<details markdown>
 <summary><strong>📊 Usage Analytics — "I want to see if people are using what we pay for"</strong></summary>
 
 **Use when:**
@@ -108,7 +108,7 @@ graph TD
 
 ---
 
-<div align="center">
+<div align="center" markdown>
 
 **Was this page helpful?** 👍 Yes · 👎 No · [Suggest an edit](https://github.com/saasiq/saasiq-documentation/edit/main/docs/intelligence/index.md)
 

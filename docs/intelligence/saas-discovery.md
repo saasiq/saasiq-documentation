@@ -1,4 +1,4 @@
-<div align="center">
+<div align="center" markdown>
 
 <img src="https://img.shields.io/badge/Module-Intelligence-7C3AED?style=for-the-badge&logo=search&logoColor=white" alt="Intelligence" />
 <img src="https://img.shields.io/badge/Feature-SaaS%20Discovery-blue?style=for-the-badge&logo=radar&logoColor=white" alt="SaaS Discovery" />
@@ -18,18 +18,18 @@
 
 SaaS Discovery is SaaSIQ's **application inventory engine**. It automatically discovers every SaaS application in use across your organization — including **shadow IT** apps that were adopted without IT approval — and gives you the tools to approve, block, or investigate each one.
 
-> [!NOTE]
-> Discovery runs continuously. Every time a new app is detected via SSO logs, API integrations, or browser signals, it appears here with a "New" badge on the sidebar.
+!!! note
+    Discovery runs continuously. Every time a new app is detected via SSO logs, API integrations, or browser signals, it appears here with a "New" badge on the sidebar.
 
 ---
 
 ## In This Article
 
 - [Key Metrics Bar](#key-metrics-bar)
-- [Filters & Search](#filters--search)
+- [Filters & Search](#filters-search)
 - [Application Cards](#application-cards)
 - [Operations: Approve, Block, Re-Scan](#operations)
-- [Workflows & Scenarios](#workflows--scenarios)
+- [Workflows & Scenarios](#workflows-scenarios)
 - [Validation Checklist](#validation-checklist)
 
 ---
@@ -49,8 +49,8 @@ A stats bar at the top provides an instant summary:
 |:--:|:--:|:--:|:--:|
 | **156** | **148** | **8** | **12** |
 
-> [!TIP]
-> Click any metric to filter the card grid below. For example, clicking "Shadow IT: 8" filters to show only shadow IT apps.
+!!! tip
+    Click any metric to filter the card grid below. For example, clicking "Shadow IT: 8" filters to show only shadow IT apps.
 
 ---
 
@@ -74,9 +74,9 @@ Each discovered application is rendered as a card. Cards come in two variants:
 
 ### Managed App Card
 
-<table>
-<tr>
-<td>
+<table markdown>
+<tr markdown>
+<td markdown>
 
 **Slack Enterprise** &nbsp; ✅ Managed · Communication
 
@@ -92,9 +92,9 @@ Each discovered application is rendered as a card. Cards come in two variants:
 
 ### Shadow IT Card
 
-<table>
-<tr>
-<td>
+<table markdown>
+<tr markdown>
+<td markdown>
 
 **Notion** &nbsp; 🔴 Shadow IT · Productivity &nbsp; ⚠️
 
@@ -175,8 +175,8 @@ graph LR
     F --> G["Shadow IT count decreases by 1"]
 ```
 
-> [!IMPORTANT]
-> Always assign an **owner** and **budget** when approving. This ensures accountability and spend tracking from day one.
+!!! important
+    Always assign an **owner** and **budget** when approving. This ensures accountability and spend tracking from day one.
 
 ---
 
@@ -206,8 +206,8 @@ graph LR
     F --> G["App added to blocked list"]
 ```
 
-> [!WARNING]
-> Blocking an app with **"Notify Users"** enabled will send an email to all detected users. Make sure the alternative app suggestion is ready before blocking.
+!!! warning
+    Blocking an app with **"Notify Users"** enabled will send an email to all detected users. Make sure the alternative app suggestion is ready before blocking.
 
 ---
 
@@ -316,7 +316,7 @@ graph LR
 
 ---
 
-<div align="center">
+<div align="center" markdown>
 
 **Was this page helpful?** 👍 Yes · 👎 No · [Suggest an edit](https://github.com/saasiq/saasiq-documentation/edit/main/docs/intelligence/saas-discovery.md)
 

@@ -1,4 +1,4 @@
-<div align="center">
+<div align="center" markdown>
 
 <img src="https://img.shields.io/badge/📚_Reference-FAQ-0891B2?style=for-the-badge&logo=bookstack&logoColor=white" alt="Reference — FAQ" />
 <img src="https://img.shields.io/badge/Questions-20+-0891B2?style=for-the-badge" alt="20+ Questions" />
@@ -25,18 +25,18 @@ Answers to the most commonly asked questions about SaaSIQ. Questions are organiz
 - [General](#general)
 - [Getting Started](#getting-started)
 - [SaaS Discovery](#saas-discovery)
-- [Spend & Cost Management](#spend--cost-management)
-- [Compliance & Governance](#compliance--governance)
+- [Spend & Cost Management](#spend-cost-management)
+- [Compliance & Governance](#compliance-governance)
 - [AI Features](#ai-features)
-- [Security & Privacy](#security--privacy)
-- [Billing & Plans](#billing--plans)
+- [Security & Privacy](#security-privacy)
+- [Billing & Plans](#billing-plans)
 - [Troubleshooting](#troubleshooting)
 
 ---
 
 ## General
 
-<details>
+<details markdown>
 <summary><strong>What is SaaSIQ?</strong></summary>
 
 SaaSIQ is an **AI-powered SaaS Management Platform** that helps organizations discover, manage, optimize, and govern their entire SaaS portfolio. It provides visibility into shadow IT, spend analytics, compliance tracking, and AI-driven recommendations.
@@ -45,7 +45,7 @@ SaaSIQ is an **AI-powered SaaS Management Platform** that helps organizations di
 
 </details>
 
-<details>
+<details markdown>
 <summary><strong>Who is SaaSIQ designed for?</strong></summary>
 
 SaaSIQ serves four primary personas:
@@ -59,7 +59,7 @@ SaaSIQ serves four primary personas:
 
 </details>
 
-<details>
+<details markdown>
 <summary><strong>Is SaaSIQ a real SaaS management tool or a prototype?</strong></summary>
 
 SaaSIQ is currently a **fully interactive UX prototype** built as a single-page application. It demonstrates the complete user journey with realistic demo data (TechCorp India). All UI interactions work — buttons open modals, navigation flows between pages, and AI features respond with pre-built data.
@@ -68,7 +68,7 @@ SaaSIQ is currently a **fully interactive UX prototype** built as a single-page 
 
 </details>
 
-<details>
+<details markdown>
 <summary><strong>What technologies power SaaSIQ?</strong></summary>
 
 | Layer | Technology |
@@ -85,7 +85,7 @@ SaaSIQ is currently a **fully interactive UX prototype** built as a single-page 
 
 ## Getting Started
 
-<details>
+<details markdown>
 <summary><strong>How do I access SaaSIQ?</strong></summary>
 
 1. Open [https://saasiq.github.io/saasiq-ux-prototype/](https://saasiq.github.io/saasiq-ux-prototype/)
@@ -97,7 +97,7 @@ SaaSIQ is currently a **fully interactive UX prototype** built as a single-page 
 
 </details>
 
-<details>
+<details markdown>
 <summary><strong>What are the demo credentials?</strong></summary>
 
 | Field | Value |
@@ -110,13 +110,13 @@ SaaSIQ is currently a **fully interactive UX prototype** built as a single-page 
 
 </details>
 
-<details>
+<details markdown>
 <summary><strong>Can I skip the onboarding wizard?</strong></summary>
 
 Yes. On the onboarding screen, look for **"Skip for now"** at the bottom of each step. You can return to onboarding later from **Settings → Organization**.
 
-> [!WARNING]
-> Skipping onboarding means integrations won't be connected and team members won't be invited until you complete those steps manually.
+!!! warning
+    Skipping onboarding means integrations won't be connected and team members won't be invited until you complete those steps manually.
 
 </details>
 
@@ -124,7 +124,7 @@ Yes. On the onboarding screen, look for **"Skip for now"** at the bottom of each
 
 ## SaaS Discovery
 
-<details>
+<details markdown>
 <summary><strong>What is Shadow IT?</strong></summary>
 
 Shadow IT refers to **SaaS applications adopted by employees without IT approval**. These apps may not meet security standards, lack DPAs, or create compliance risks. SaaSIQ automatically discovers Shadow IT through integration scanning and categorizes apps as:
@@ -136,7 +136,7 @@ Shadow IT refers to **SaaS applications adopted by employees without IT approval
 
 </details>
 
-<details>
+<details markdown>
 <summary><strong>How do I approve a Shadow IT app?</strong></summary>
 
 1. Navigate to **SaaS Discovery** (`G` then `S`)
@@ -152,7 +152,7 @@ The app moves from Shadow IT to Managed Apps. Its badge changes from 🔴 to �
 
 </details>
 
-<details>
+<details markdown>
 <summary><strong>How do I block a Shadow IT app?</strong></summary>
 
 1. Navigate to **SaaS Discovery**
@@ -173,7 +173,7 @@ Blocked apps are flagged for removal and affected users are notified.
 
 ## Spend & Cost Management
 
-<details>
+<details markdown>
 <summary><strong>How is "Total SaaS Spend" calculated?</strong></summary>
 
 Total SaaS Spend is the sum of all active SaaS subscription costs across all departments. In the demo:
@@ -187,7 +187,7 @@ Total SaaS Spend is the sum of all active SaaS subscription costs across all dep
 
 </details>
 
-<details>
+<details markdown>
 <summary><strong>What are AI-recommended optimizations?</strong></summary>
 
 SaaSIQ's AI analyzes usage patterns, contract terms, and market benchmarks to generate recommendations. Each recommendation includes:
@@ -201,7 +201,7 @@ SaaSIQ's AI analyzes usage patterns, contract terms, and market benchmarks to ge
 
 </details>
 
-<details>
+<details markdown>
 <summary><strong>How do I benchmark our spending against industry?</strong></summary>
 
 Navigate to **Benchmarks** (`G` then `B`). The page shows:
@@ -218,7 +218,7 @@ Navigate to **Benchmarks** (`G` then `B`). The page shows:
 
 ## Compliance & Governance
 
-<details>
+<details markdown>
 <summary><strong>What compliance frameworks does SaaSIQ track?</strong></summary>
 
 SaaSIQ monitors four major frameworks:
@@ -234,7 +234,7 @@ SaaSIQ monitors four major frameworks:
 
 </details>
 
-<details>
+<details markdown>
 <summary><strong>What does the Risk Score mean?</strong></summary>
 
 The Risk Score (0–100) represents your organization's overall compliance posture:
@@ -252,7 +252,7 @@ The Risk Score (0–100) represents your organization's overall compliance postu
 
 </details>
 
-<details>
+<details markdown>
 <summary><strong>How do I create a governance policy?</strong></summary>
 
 1. Navigate to **Policies** (`G` then `P`)
@@ -272,7 +272,7 @@ The Risk Score (0–100) represents your organization's overall compliance postu
 
 ## AI Features
 
-<details>
+<details markdown>
 <summary><strong>How does AI Copilot work?</strong></summary>
 
 AI Copilot is a conversational assistant that answers questions about your SaaS portfolio. It responds to topics like:
@@ -289,7 +289,7 @@ AI Copilot is a conversational assistant that answers questions about your SaaS 
 
 </details>
 
-<details>
+<details markdown>
 <summary><strong>Are AI recommendations accurate?</strong></summary>
 
 Each AI recommendation includes a **Confidence Score** (0–100%). In the demo:
@@ -302,7 +302,7 @@ Scores above 85% are high-confidence. Always review recommendations before apply
 
 </details>
 
-<details>
+<details markdown>
 <summary><strong>Can I interact with AI Copilot using natural language?</strong></summary>
 
 Yes. The Copilot accepts natural language queries. You can type questions like:
@@ -318,7 +318,7 @@ In the prototype, the Copilot responds to **5 predefined topics**. Other queries
 
 ## Security & Privacy
 
-<details>
+<details markdown>
 <summary><strong>How does SaaSIQ protect my data?</strong></summary>
 
 | Measure | Implementation |
@@ -332,7 +332,7 @@ In the prototype, the Copilot responds to **5 predefined topics**. Other queries
 
 </details>
 
-<details>
+<details markdown>
 <summary><strong>What roles and permissions exist?</strong></summary>
 
 | Role | Access Level |
@@ -350,7 +350,7 @@ In the prototype, the Copilot responds to **5 predefined topics**. Other queries
 
 ## Billing & Plans
 
-<details>
+<details markdown>
 <summary><strong>What plans does SaaSIQ offer?</strong></summary>
 
 | Feature | Starter | Business | Enterprise |
@@ -372,7 +372,7 @@ The demo uses the **Business Plan**.
 
 ## Troubleshooting
 
-<details>
+<details markdown>
 <summary><strong>The page is blank or not loading</strong></summary>
 
 1. Check your internet connection
@@ -383,7 +383,7 @@ The demo uses the **Business Plan**.
 
 </details>
 
-<details>
+<details markdown>
 <summary><strong>Login isn't working</strong></summary>
 
 - Verify credentials: `demo@saasiq.io` / `SaaSIQ2024!`
@@ -393,7 +393,7 @@ The demo uses the **Business Plan**.
 
 </details>
 
-<details>
+<details markdown>
 <summary><strong>A button or modal isn't responding</strong></summary>
 
 - Ensure you're on the correct page (check the URL hash)
@@ -403,7 +403,7 @@ The demo uses the **Business Plan**.
 
 </details>
 
-<details>
+<details markdown>
 <summary><strong>Charts or data not displaying</strong></summary>
 
 - SaaSIQ uses CSS-rendered charts — ensure JavaScript is enabled
@@ -435,7 +435,7 @@ The demo uses the **Business Plan**.
 
 ---
 
-<div align="center">
+<div align="center" markdown>
 
 **Was this helpful?** [👍 Yes](# "Helpful") · [👎 No](# "Not Helpful") · [✏️ Suggest Edit](# "Edit")
 

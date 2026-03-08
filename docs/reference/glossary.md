@@ -1,4 +1,4 @@
-<div align="center">
+<div align="center" markdown>
 
 <img src="https://img.shields.io/badge/📚_Reference-Glossary-0891B2?style=for-the-badge&logo=bookstack&logoColor=white" alt="Reference — Glossary" />
 <img src="https://img.shields.io/badge/Terms-50+-0891B2?style=for-the-badge" alt="50+ Terms" />
@@ -177,7 +177,7 @@ A comprehensive glossary of terms, acronyms, and concepts used throughout SaaSIQ
 
 ---
 
-<div align="center">
+<div align="center" markdown>
 
 **Was this helpful?** [👍 Yes](# "Helpful") · [👎 No](# "Not Helpful") · [✏️ Suggest Edit](# "Edit")
 

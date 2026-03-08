@@ -1,4 +1,4 @@
-<div align="center">
+<div align="center" markdown>
 
 <img src="https://img.shields.io/badge/Module-Operations-2563EB?style=for-the-badge&logo=settings&logoColor=white" alt="Operations" />
 <img src="https://img.shields.io/badge/Feature-Benchmarks-blue?style=for-the-badge&logo=trending-up&logoColor=white" alt="Benchmarks" />
@@ -47,7 +47,7 @@ Your SaaS Spend/Employee         Industry Average
   🟡 18% above                    benchmark
 ```
 
-<details>
+<details markdown>
 <summary><strong>📊 How are benchmarks calculated?</strong></summary>
 
 SaaSIQ aggregates anonymized data from its customer base, segmented by:
@@ -63,8 +63,8 @@ Benchmarks reflect the **median** values across 200+ companies matching your pro
 
 </details>
 
-> [!TIP]
-> Being above average on spend per employee isn't always bad — it depends on your utilization. If utilization is also high, you're getting value. If it's low (like 67% vs. 72% avg), you're overspending AND underusing.
+!!! tip
+    Being above average on spend per employee isn't always bad — it depends on your utilization. If utilization is also high, you're getting value. If it's low (like 67% vs. 72% avg), you're overspending AND underusing.
 
 ---
 
@@ -88,7 +88,7 @@ Benchmarks reflect the **median** values across 200+ companies matching your pro
 | Click **"Generate Brief"** | Creates negotiation brief with benchmark data |
 | Sort by "Difference" | Prioritize vendors where you're overpaying most |
 
-<details>
+<details markdown>
 <summary><strong>🔍 Detailed comparison: Salesforce (+20%)</strong></summary>
 
 | Metric | Your Value | Industry P25 | Median | P75 |
@@ -125,8 +125,8 @@ graph TD
     J --> K["Enter negotiation with data-backed position"]
 ```
 
-> [!IMPORTANT]
-> Never enter a vendor negotiation without benchmark data. Vendors know their pricing better than you do — benchmarks level the playing field.
+!!! important
+    Never enter a vendor negotiation without benchmark data. Vendors know their pricing better than you do — benchmarks level the playing field.
 
 ---
 
@@ -154,7 +154,7 @@ graph TD
 
 ---
 
-<div align="center">
+<div align="center" markdown>
 
 **Was this page helpful?** 👍 Yes · 👎 No · [Suggest an edit](https://github.com/saasiq/saasiq-documentation/edit/main/docs/operations/benchmarks.md)
 

@@ -1,4 +1,4 @@
-<div align="center">
+<div align="center" markdown>
 
 <img src="https://img.shields.io/badge/Module-Operations-2563EB?style=for-the-badge&logo=settings&logoColor=white" alt="Operations" />
 <img src="https://img.shields.io/badge/Feature-Offboarding-blue?style=for-the-badge&logo=userx&logoColor=white" alt="Offboarding" />
@@ -20,8 +20,8 @@
 
 The Offboarding module ensures that when employees leave your organization, **all their SaaS access is revoked** — preventing security risks, saving on unused licenses, and maintaining compliance. It integrates with your HR system to auto-detect departures and provides both individual and bulk license revocation.
 
-> [!WARNING]
-> Delayed offboarding is a security risk. Industry average shows 43% of companies have ex-employees still accessing SaaS tools weeks after departure. SaaSIQ automates this to near-zero.
+!!! warning
+    Delayed offboarding is a security risk. Industry average shows 43% of companies have ex-employees still accessing SaaS tools weeks after departure. SaaSIQ automates this to near-zero.
 
 ---
 
@@ -31,7 +31,7 @@ The Offboarding module ensures that when employees leave your organization, **al
 - [Pending Offboards Table](#pending-offboards-table)
 - [Completed Offboards](#completed-offboards)
 - [Operations: Revoke, Bulk Revoke, HR Sync, Wizard](#operations)
-- [Workflows & Scenarios](#workflows--scenarios)
+- [Workflows & Scenarios](#workflows-scenarios)
 - [Validation Checklist](#validation-checklist)
 
 ---
@@ -45,8 +45,8 @@ The Offboarding module ensures that when employees leave your organization, **al
 | 3 | **Monthly Savings** | ₹1.8L | Cost of licenses that will be freed by offboarding |
 | 4 | **Avg Offboard Time** | 2.3 days | Average time from departure to full access revocation |
 
-> [!IMPORTANT]
-> Target an average offboard time under 24 hours. Same-day revocation is the gold standard for security.
+!!! important
+    Target an average offboard time under 24 hours. Same-day revocation is the gold standard for security.
 
 ---
 
@@ -77,7 +77,7 @@ The Offboarding module ensures that when employees leave your organization, **al
 
 ## Completed Offboards
 
-<details>
+<details markdown>
 <summary><strong>📋 Recently completed offboards</strong></summary>
 
 | Employee | Department | Completed | Apps Revoked | Savings | Time to Complete |
@@ -129,8 +129,8 @@ graph LR
     G --> H["Savings reflected in KPI"]
 ```
 
-> [!TIP]
-> Use the **"Data Transfer"** option before revoking. This lets you designate someone to receive the departing employee's files, projects, and ownership of shared resources.
+!!! tip
+    Use the **"Data Transfer"** option before revoking. This lets you designate someone to receive the departing employee's files, projects, and ownership of shared resources.
 
 ---
 
@@ -147,8 +147,8 @@ graph LR
 | 5 | Completion toast: "All 23 licenses revoked. Saving ₹1.8L/month." |
 | 6 | All rows move to Completed |
 
-> [!WARNING]
-> Bulk revocation is **irreversible** in a single action. Ensure all employees on the list have actually departed before confirming. Check with HR if any are on leave rather than departed.
+!!! warning
+    Bulk revocation is **irreversible** in a single action. Ensure all employees on the list have actually departed before confirming. Check with HR if any are on leave rather than departed.
 
 ---
 
@@ -164,8 +164,8 @@ graph LR
 | **On completion** | Toast: "HR sync complete — 2 new departures detected" |
 | **Result** | New employees appear in the pending offboards table |
 
-> [!NOTE]
-> HR sync runs automatically every 24 hours. Use the manual sync button when you need real-time data (e.g., same-day termination).
+!!! note
+    HR sync runs automatically every 24 hours. Use the manual sync button when you need real-time data (e.g., same-day termination).
 
 ---
 
@@ -256,7 +256,7 @@ graph TD
 
 ---
 
-<div align="center">
+<div align="center" markdown>
 
 **Was this page helpful?** 👍 Yes · 👎 No · [Suggest an edit](https://github.com/saasiq/saasiq-documentation/edit/main/docs/operations/offboarding.md)
 

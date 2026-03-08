@@ -1,4 +1,4 @@
-<div align="center">
+<div align="center" markdown>
 
 <img src="https://img.shields.io/badge/Module-AI%20Features-DB2777?style=for-the-badge&logo=sparkles&logoColor=white" alt="AI Features" />
 <img src="https://img.shields.io/badge/Feature-AI%20Copilot-blue?style=for-the-badge&logo=message&logoColor=white" alt="AI Copilot" />
@@ -28,7 +28,7 @@ It's like having a SaaS analyst on your team that has read every contract, analy
 
 - [Interface Layout](#interface-layout)
 - [Suggested Questions](#suggested-questions)
-- [Conversation Topics & Responses](#conversation-topics--responses)
+- [Conversation Topics & Responses](#conversation-topics-responses)
 - [How to Use Effectively](#how-to-use-effectively)
 - [Validation Checklist](#validation-checklist)
 
@@ -36,12 +36,12 @@ It's like having a SaaS analyst on your team that has read every contract, analy
 
 ## Interface Layout
 
-<table>
-<tr>
+<table markdown>
+<tr markdown>
 <th align="left">🤖 SaaSIQ AI Copilot &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <code>Clear</code></th>
 </tr>
-<tr>
-<td>
+<tr markdown>
+<td markdown>
 
 > Welcome! I’m your SaaSIQ AI Copilot. I can help you with spend analysis, usage insights, compliance questions, and more. Try asking me anything about your SaaS portfolio.
 
@@ -82,8 +82,8 @@ Four clickable suggestion chips are shown before the first message:
 | **"Upcoming renewals"** | Renewal calendar with action items |
 | **"What's our compliance risk?"** | Compliance summary with framework coverage |
 
-> [!TIP]
-> Chips disappear after you send your first message, but you can always type the same questions manually.
+!!! tip
+    Chips disappear after you send your first message, but you can always type the same questions manually.
 
 ---
 
@@ -272,7 +272,7 @@ Try asking one of these, or click a suggestion above!
 
 ### Power User Tips
 
-<details>
+<details markdown>
 <summary><strong>💡 Ask specific, data-driven questions</strong></summary>
 
 Instead of: *"Tell me about our apps"*
@@ -285,7 +285,7 @@ Specific questions get specific, actionable answers.
 
 </details>
 
-<details>
+<details markdown>
 <summary><strong>💡 Follow up for deeper analysis</strong></summary>
 
 After getting a spend analysis, follow up with:
@@ -297,7 +297,7 @@ The Copilot maintains conversation context within a session.
 
 </details>
 
-<details>
+<details markdown>
 <summary><strong>💡 Use Copilot for meeting preparation</strong></summary>
 
 Before a budget review: *"Summarize our SaaS spend trends for the last quarter"*
@@ -364,7 +364,7 @@ Before a security audit: *"What compliance gaps do we need to fix before our SOC
 
 ---
 
-<div align="center">
+<div align="center" markdown>
 
 **Was this page helpful?** 👍 Yes · 👎 No · [Suggest an edit](https://github.com/saasiq/saasiq-documentation/edit/main/docs/ai-features/ai-copilot.md)
 

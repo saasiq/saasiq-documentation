@@ -1,4 +1,4 @@
-<div align="center">
+<div align="center" markdown>
 
 <img src="https://img.shields.io/badge/Module-Governance-059669?style=for-the-badge&logo=shield&logoColor=white" alt="Governance" />
 <img src="https://img.shields.io/badge/Feature-Compliance%20%26%20Risk-blue?style=for-the-badge&logo=alert&logoColor=white" alt="Compliance & Risk" />
@@ -28,7 +28,7 @@ The Compliance & Risk dashboard monitors your organization's adherence to **secu
 - [Compliance Framework Progress](#compliance-framework-progress)
 - [High-Risk Applications](#high-risk-applications)
 - [Operations: Review, Remediate, Export](#operations)
-- [Workflows & Scenarios](#workflows--scenarios)
+- [Workflows & Scenarios](#workflows-scenarios)
 - [Validation Checklist](#validation-checklist)
 
 ---
@@ -44,7 +44,7 @@ At the top of the page, a large card shows your overall organizational risk post
 | **Trend** | ↑ +3 from last month | Improving or declining |
 | **Last Assessment** | Mar 1, 2026 | When the score was last calculated |
 
-<div align="center">
+<div align="center" markdown>
 
 | | |
 |:--:|:--|
@@ -55,7 +55,7 @@ At the top of the page, a large card shows your overall organizational risk post
 
 </div>
 
-<details>
+<details markdown>
 <summary><strong>📊 How is the Risk Score calculated?</strong></summary>
 
 The risk score is a weighted average of four compliance frameworks:
@@ -108,7 +108,7 @@ ISO 27001       █████████████████████�
 | Click **"View Report"** | Downloads a framework-specific compliance report |
 | Click **"Fix Gaps"** | Opens a guided remediation flow |
 
-<details>
+<details markdown>
 <summary><strong>🔍 What does the expanded view show?</strong></summary>
 
 Clicking on the SOC 2 bar (85%) expands to reveal:
@@ -207,8 +207,8 @@ graph TD
 | **CSV** | Raw data export — all apps with their compliance status per framework |
 | **Email** | Sends the report directly to specified email addresses |
 
-> [!IMPORTANT]
-> Generate a compliance report **monthly** and share it with your security team and leadership. This creates an audit trail and demonstrates ongoing governance.
+!!! important
+    Generate a compliance report **monthly** and share it with your security team and leadership. This creates an audit trail and demonstrates ongoing governance.
 
 ---
 
@@ -307,7 +307,7 @@ graph TD
 
 ---
 
-<div align="center">
+<div align="center" markdown>
 
 **Was this page helpful?** 👍 Yes · 👎 No · [Suggest an edit](https://github.com/saasiq/saasiq-documentation/edit/main/docs/governance/compliance-and-risk.md)
 

@@ -1,4 +1,4 @@
-<div align="center">
+<div align="center" markdown>
 
 <img src="https://img.shields.io/badge/Module-Governance-059669?style=for-the-badge&logo=shield&logoColor=white" alt="Governance" />
 <img src="https://img.shields.io/badge/Feature-Contracts-blue?style=for-the-badge&logo=file&logoColor=white" alt="Contracts" />
@@ -28,7 +28,7 @@ The Contracts page provides a **visual timeline** of all SaaS contracts, their r
 - [Renewal Timeline](#renewal-timeline)
 - [Contract Table](#contract-table)
 - [Operations: Negotiate, Review, Export](#operations)
-- [Workflows & Scenarios](#workflows--scenarios)
+- [Workflows & Scenarios](#workflows-scenarios)
 - [Validation Checklist](#validation-checklist)
 
 ---
@@ -42,8 +42,8 @@ The Contracts page provides a **visual timeline** of all SaaS contracts, their r
 | 3 | **Annual Contract Value** | ₹5.1 Cr | Total committed annual SaaS spend |
 | 4 | **Negotiation Savings** | ₹38L (YTD) | Savings achieved through renegotiations this year |
 
-> [!TIP]
-> Click **"Upcoming (30 days): 3"** to filter the timeline to only show contracts renewing within a month — these are the ones needing immediate attention.
+!!! tip
+    Click **"Upcoming (30 days): 3"** to filter the timeline to only show contracts renewing within a month — these are the ones needing immediate attention.
 
 ---
 
@@ -51,20 +51,20 @@ The Contracts page provides a **visual timeline** of all SaaS contracts, their r
 
 A horizontal, month-based visual timeline showing when each contract comes up for renewal.
 
-<table>
-<tr>
+<table markdown>
+<tr markdown>
 <th align="center">March 2026</th>
 <th align="center">April 2026</th>
 <th align="center">May 2026</th>
 </tr>
-<tr>
-<td valign="top">
+<tr markdown>
+<td valign="top" markdown>
 
 ⚠️ **Slack** <br />
 Mar 15 · ₹18L/yr
 
 </td>
-<td valign="top">
+<td valign="top" markdown>
 
 **Salesforce** <br />
 Apr 1 · ₹24L/yr <br /><br />
@@ -72,7 +72,7 @@ Apr 1 · ₹24L/yr <br /><br />
 Apr 15 · ₹36L/yr
 
 </td>
-<td valign="top">
+<td valign="top" markdown>
 
 **Figma** <br />
 May 1 · ₹8.4L/yr <br /><br />
@@ -81,25 +81,25 @@ May 20 · ₹4.9L/yr
 
 </td>
 </tr>
-<tr>
+<tr markdown>
 <th align="center">June 2026</th>
 <th align="center">July 2026</th>
 <th align="center">August 2026</th>
 </tr>
-<tr>
-<td valign="top">
+<tr markdown>
+<td valign="top" markdown>
 
 **HubSpot** <br />
 Jun 10 · ₹12L/yr
 
 </td>
-<td valign="top">
+<td valign="top" markdown>
 
 **Jira** <br />
 Jul 1 · ₹10.2L/yr
 
 </td>
-<td valign="top">
+<td valign="top" markdown>
 
 **Zoom** <br />
 Aug 15 · ₹6L/yr
@@ -173,9 +173,9 @@ Below the timeline, a sortable/filterable table provides a detailed list view.
 
 **AI Negotiation Brief (Example for Slack):**
 
-<table>
-<tr>
-<td>
+<table markdown>
+<tr markdown>
+<td markdown>
 
 **🤖 AI Negotiation Brief — Slack Enterprise**
 
@@ -235,8 +235,8 @@ Below the timeline, a sortable/filterable table provides a detailed list view.
 | **"Cancel Contract"** | Initiate cancellation workflow |
 | **"Add Note"** | Add an internal comment |
 
-> [!WARNING]
-> Toggling Auto-Renew OFF means you must manually act before the renewal date, or the contract may lapse. Always set a reminder when disabling auto-renew.
+!!! warning
+    Toggling Auto-Renew OFF means you must manually act before the renewal date, or the contract may lapse. Always set a reminder when disabling auto-renew.
 
 ---
 
@@ -324,7 +324,7 @@ graph TD
 
 ---
 
-<div align="center">
+<div align="center" markdown>
 
 **Was this page helpful?** 👍 Yes · 👎 No · [Suggest an edit](https://github.com/saasiq/saasiq-documentation/edit/main/docs/governance/contracts.md)
 

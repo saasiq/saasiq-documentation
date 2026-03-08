@@ -1,4 +1,4 @@
-<div align="center">
+<div align="center" markdown>
 
 <img src="https://img.shields.io/badge/Section-Getting%20Started-7C3AED?style=for-the-badge&logo=rocket&logoColor=white" alt="Getting Started" />
 <img src="https://img.shields.io/badge/Time-10%20Minutes-green?style=for-the-badge&logo=clock&logoColor=white" alt="10 Minutes" />
@@ -28,8 +28,8 @@ This guide walks you through SaaSIQ from **first visit to a fully operational da
 | **Credentials** | An email address and password — or SSO via Google/Microsoft |
 | **Admin access** | Organization admin rights (for initial setup) |
 
-> [!TIP]
-> For a quick demo without signing up, use the pre-filled demo credentials on the login page: `demo@saasiq.io` / `SaaSIQ2024!`
+!!! tip
+    For a quick demo without signing up, use the pre-filled demo credentials on the login page: `demo@saasiq.io` / `SaaSIQ2024!`
 
 ---
 
@@ -58,8 +58,8 @@ You'll land on the **Landing Page** showcasing SaaSIQ's capabilities.
 | Click **"Watch Demo"** | → Opens interactive 6-step product demo |
 | Click **"Login"** | → Navigates to Login page |
 
-> [!TIP]
-> Watch the demo first to understand what SaaSIQ can do before creating your account.
+!!! tip
+    Watch the demo first to understand what SaaSIQ can do before creating your account.
 
 ---
 
@@ -87,8 +87,8 @@ You'll land on the **Landing Page** showcasing SaaSIQ's capabilities.
 2. Authorize SaaSIQ in the OAuth consent screen
 3. Company details will be auto-populated from your SSO profile
 
-> [!NOTE]
-> Both options lead to a 14-day free Business Plan trial. No credit card required.
+!!! note
+    Both options lead to a 14-day free Business Plan trial. No credit card required.
 
 ---
 
@@ -106,7 +106,7 @@ If you already have an account:
 
 Just click **"Sign In"** to explore immediately.
 
-<details>
+<details markdown>
 <summary><strong>🔐 Forgot your password?</strong></summary>
 
 1. Click the **"Forgot password?"** link below the password field
@@ -145,11 +145,11 @@ graph LR
 | **3. Invite Team** | Enter team email addresses or skip for later | Yes |
 | **4. Set Preferences** | Choose focus area (Cost, Security, Usage, All) and alert threshold | Yes |
 
-> [!TIP]
-> At minimum, connect **one SSO provider** in Step 1 — this is how SaaSIQ discovers your applications. You can always add more integrations later from Settings.
+!!! tip
+    At minimum, connect **one SSO provider** in Step 1 — this is how SaaSIQ discovers your applications. You can always add more integrations later from Settings.
 
-> [!WARNING]
-> Skipping all steps means SaaSIQ will load with **demo data only**. Connect at least one integration to see your real SaaS landscape.
+!!! warning
+    Skipping all steps means SaaSIQ will load with **demo data only**. Connect at least one integration to see your real SaaS landscape.
 
 **See:** [Onboarding Wizard — Detailed Guide](onboarding.md) for full instructions on each step.
 
@@ -159,12 +159,12 @@ graph LR
 
 After onboarding, you land on the **Dashboard** — your SaaS command center.
 
-<table>
-<tr>
+<table markdown>
+<tr markdown>
 <th colspan="5" align="left">🟣 SaaSIQ &nbsp;&nbsp;&nbsp;&nbsp; 🔍 Search &nbsp;&nbsp;&nbsp;&nbsp; 🔔 Alerts &nbsp;&nbsp;&nbsp;&nbsp; 👤 Profile</th>
 </tr>
-<tr>
-<td width="120" valign="top">
+<tr markdown>
+<td width="120" valign="top" markdown>
 
 📊 Dash <br />
 🔍 Intel <br />
@@ -174,7 +174,7 @@ After onboarding, you land on the **Dashboard** — your SaaS command center.
 🔧 Admin
 
 </td>
-<td valign="top" colspan="4">
+<td valign="top" colspan="4" markdown>
 
 | KPI 1 | KPI 2 | KPI 3 | KPI 4 |
 |:--:|:--:|:--:|:--:|
@@ -255,7 +255,7 @@ Use this checklist to confirm your setup is complete:
 
 ---
 
-<div align="center">
+<div align="center" markdown>
 
 **Was this page helpful?** 👍 Yes · 👎 No · [Suggest an edit](https://github.com/saasiq/saasiq-documentation/edit/main/docs/getting-started/quick-start.md)
 

@@ -1,4 +1,4 @@
-<div align="center">
+<div align="center" markdown>
 
 <img src="https://img.shields.io/badge/Section-Getting%20Started-7C3AED?style=for-the-badge&logo=rocket&logoColor=white" alt="Getting Started" />
 <img src="https://img.shields.io/badge/Step-Onboarding-blue?style=for-the-badge&logo=rocket&logoColor=white" alt="Onboarding" />
@@ -18,8 +18,8 @@
 
 The Onboarding Wizard is a **4-step guided setup** that appears on first login. It configures SaaSIQ to discover your SaaS applications, connect to your tools, and set your management preferences.
 
-> [!NOTE]
-> The wizard appears only on first login. After completion, you can modify all settings from **Administration → [Settings](../administration/settings.md)**.
+!!! note
+    The wizard appears only on first login. After completion, you can modify all settings from **Administration → [Settings](../administration/settings.md)**.
 
 ---
 
@@ -88,13 +88,13 @@ graph LR
 4. On success, the button changes to **"Connected ✓"** with a green indicator
 5. Click **"Next"** to proceed
 
-> [!TIP]
-> You can connect **both** providers if your organization uses mixed environments. SaaSIQ will deduplicate discovered applications.
+!!! tip
+    You can connect **both** providers if your organization uses mixed environments. SaaSIQ will deduplicate discovered applications.
 
-> [!WARNING]
-> This step is the **most important** — without an SSO connection, SaaSIQ cannot auto-discover your applications and will rely on manual entry or demo data.
+!!! warning
+    This step is the **most important** — without an SSO connection, SaaSIQ cannot auto-discover your applications and will rely on manual entry or demo data.
 
-<details>
+<details markdown>
 <summary><strong>🔧 What permissions does SaaSIQ request?</strong></summary>
 
 **Google Workspace:**
@@ -136,11 +136,11 @@ SaaSIQ never writes to or modifies your identity provider data.
 4. On success, the card shows **"Connected ✓"**
 5. Repeat for additional tools or click **"Next"**
 
-> [!TIP]
-> You don't need to connect everything now. Integrations can be added anytime from **Administration → [Settings → Integrations](../administration/settings.md#integrations)**.
+!!! tip
+    You don't need to connect everything now. Integrations can be added anytime from **Administration → [Settings → Integrations](../administration/settings.md#integrations)**.
 
-> [!NOTE]
-> Each connected integration increases SaaSIQ's visibility. The more integrations you connect, the more accurate your spend analysis, usage metrics, and shadow IT detection become.
+!!! note
+    Each connected integration increases SaaSIQ's visibility. The more integrations you connect, the more accurate your spend analysis, usage metrics, and shadow IT detection become.
 
 ---
 
@@ -173,10 +173,10 @@ SaaSIQ never writes to or modifies your identity provider data.
 4. Click **"Send Invites"**
 5. A toast notification confirms: *"Invitations sent successfully!"*
 
-> [!TIP]
-> Invite at least one other admin — this ensures someone else can manage SaaSIQ if you're unavailable.
+!!! tip
+    Invite at least one other admin — this ensures someone else can manage SaaSIQ if you're unavailable.
 
-<details>
+<details markdown>
 <summary><strong>📧 What does the invitation email look like?</strong></summary>
 
 Recipients receive an email containing:
@@ -222,8 +222,8 @@ Configure when SaaSIQ should notify you:
 4. SaaSIQ shows a brief loading animation: *"Setting up your workspace…"*
 5. You're redirected to the **Dashboard**
 
-> [!IMPORTANT]
-> Start with **"All Areas"** to get a holistic view. You can narrow your focus later in **Administration → Settings → Notifications**.
+!!! important
+    Start with **"All Areas"** to get a holistic view. You can narrow your focus later in **Administration → Settings → Notifications**.
 
 ---
 
@@ -269,7 +269,7 @@ graph TD
 
 ## Troubleshooting
 
-<details>
+<details markdown>
 <summary><strong>The onboarding wizard doesn't appear</strong></summary>
 
 The wizard only shows on **first login** for a new organization. If you've logged in before (even briefly), the wizard won't reappear. To re-trigger onboarding:
@@ -279,7 +279,7 @@ The wizard only shows on **first login** for a new organization. If you've logge
 
 </details>
 
-<details>
+<details markdown>
 <summary><strong>SSO connection fails</strong></summary>
 
 - Verify you're using an **admin account** for your identity provider
@@ -289,7 +289,7 @@ The wizard only shows on **first login** for a new organization. If you've logge
 
 </details>
 
-<details>
+<details markdown>
 <summary><strong>Invitations aren't received</strong></summary>
 
 - Check spam/junk folders
@@ -311,7 +311,7 @@ The wizard only shows on **first login** for a new organization. If you've logge
 
 ---
 
-<div align="center">
+<div align="center" markdown>
 
 **Was this page helpful?** 👍 Yes · 👎 No · [Suggest an edit](https://github.com/saasiq/saasiq-documentation/edit/main/docs/getting-started/onboarding.md)
 

@@ -1,4 +1,4 @@
-<div align="center">
+<div align="center" markdown>
 
 <img src="https://img.shields.io/badge/Module-Administration-D97706?style=for-the-badge&logo=wrench&logoColor=white" alt="Administration" />
 <img src="https://img.shields.io/badge/Feature-Settings-blue?style=for-the-badge&logo=gear&logoColor=white" alt="Settings" />
@@ -31,16 +31,16 @@ Settings is the comprehensive configuration hub for SaaSIQ. It's organized into 
 - [Notifications](#notifications)
 - [Security](#security)
 - [Appearance](#appearance)
-- [API & Webhooks](#api--webhooks)
+- [API & Webhooks](#api-webhooks)
 - [Billing](#billing)
 
 ---
 
 ## Settings Navigation
 
-<table>
-<tr>
-<td width="180" valign="top">
+<table markdown>
+<tr markdown>
+<td width="180" valign="top" markdown>
 
 **Navigation** <br /><br />
 🏢 Organization <br />
@@ -53,7 +53,7 @@ Settings is the comprehensive configuration hub for SaaSIQ. It's organized into 
 💳 Billing
 
 </td>
-<td valign="top">
+<td valign="top" markdown>
 
 **Content Area** <br /><br />
 The selected tab's settings load here. The active tab shows a purple `#7C3AED` indicator on the left.
@@ -108,7 +108,7 @@ Connected services that feed data into SaaSIQ.
 | ⏸ Paused | [Resume] [Disconnect] |
 | ❌ Disconnected | [Connect] |
 
-<details>
+<details markdown>
 <summary><strong>🔧 How to connect a new integration</strong></summary>
 
 1. Find the integration in the list → click **"Connect"**
@@ -120,8 +120,8 @@ Connected services that feed data into SaaSIQ.
 
 </details>
 
-> [!TIP]
-> Pausing an integration preserves historical data but stops new data collection. Use this when troubleshooting or during vendor migrations.
+!!! tip
+    Pausing an integration preserves historical data but stops new data collection. Use this when troubleshooting or during vendor migrations.
 
 ---
 
@@ -143,8 +143,8 @@ Connected services that feed data into SaaSIQ.
 | **[Remove]** | Remove from organization (confirmation required) |
 | **[Resend]** | Resend invitation email |
 
-> [!WARNING]
-> Removing the last Admin will lock you out of Settings. Always maintain at least 2 Admin accounts.
+!!! warning
+    Removing the last Admin will lock you out of Settings. Always maintain at least 2 Admin accounts.
 
 ---
 
@@ -165,8 +165,8 @@ Granular control over what notifications you receive and how.
 
 Each row has toggles for each channel. Changes save automatically.
 
-> [!TIP]
-> Connect Slack in Integrations first to enable the Slack delivery channel.
+!!! tip
+    Connect Slack in Integrations first to enable the Slack delivery channel.
 
 ---
 
@@ -183,8 +183,8 @@ Each row has toggles for each channel. Changes save automatically.
 
 **Actions:** `[Save Security Settings]` `[Download Audit Log]`
 
-> [!IMPORTANT]
-> Enable 2FA and SSO Enforcement for maximum security. Set session timeout to 30 minutes for sensitive environments.
+!!! important
+    Enable 2FA and SSO Enforcement for maximum security. Set session timeout to 30 minutes for sensitive environments.
 
 ---
 
@@ -222,7 +222,7 @@ For developers and automation teams.
 
 **Actions:** `[Add Webhook]` — configure URL, select events (new app, spend alert, compliance violation, etc.), set secret for verification.
 
-<details>
+<details markdown>
 <summary><strong>📡 API Quick Reference</strong></summary>
 
 | Endpoint | Method | Description |
@@ -296,7 +296,7 @@ All requests require `Authorization: Bearer <api_key>` header.
 
 ---
 
-<div align="center">
+<div align="center" markdown>
 
 **Was this page helpful?** 👍 Yes · 👎 No · [Suggest an edit](https://github.com/saasiq/saasiq-documentation/edit/main/docs/administration/settings.md)
 
