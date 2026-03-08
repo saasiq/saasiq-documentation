@@ -1,16 +1,6 @@
-<div align="center" markdown>
-
-<img src="https://img.shields.io/badge/Module-AI%20Features-DB2777?style=for-the-badge&logo=sparkles&logoColor=white" alt="AI Features" />
-<img src="https://img.shields.io/badge/Feature-AI%20Copilot-blue?style=for-the-badge&logo=message&logoColor=white" alt="AI Copilot" />
-<img src="https://img.shields.io/badge/Route-%23ai--copilot-orange?style=for-the-badge&logo=link&logoColor=white" alt="Route" />
-
 # 🤖 AI Copilot
 
 **Your conversational AI assistant for data-driven SaaS answers**
-
-`Home` · `AI Features` · **AI Copilot**
-
-</div>
 
 > **Home** · AI Features · **AI Copilot**
 
@@ -21,16 +11,6 @@
 The AI Copilot is a **conversational AI assistant** that understands your entire SaaS portfolio. Ask questions in natural language — about spend, usage, compliance, renewals, or any aspect of your SaaS management — and get **data-driven, contextual answers** instantly.
 
 It's like having a SaaS analyst on your team that has read every contract, analyzed every usage log, and memorized every compliance requirement.
-
----
-
-## In This Article
-
-- [Interface Layout](#interface-layout)
-- [Suggested Questions](#suggested-questions)
-- [Conversation Topics & Responses](#conversation-topics-responses)
-- [How to Use Effectively](#how-to-use-effectively)
-- [Validation Checklist](#validation-checklist)
 
 ---
 
@@ -361,17 +341,3 @@ Before a security audit: *"What compliance gaps do we need to fix before our SOC
 - 🔗 [Renewals](../operations/renewals.md) — Renewal management
 
 ---
-
----
-
-<div align="center" markdown>
-
-**Was this page helpful?** 👍 Yes · 👎 No · [Suggest an edit](https://github.com/saasiq/saasiq-documentation/edit/main/docs/ai-features/ai-copilot.md)
-
----
-
-<a href="ai-insights.md">⬅️ AI Insights</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="../operations/index.md">Operations Module ➡️</a>
-
-<sub>Last updated: March 2026 · SaaSIQ Documentation v1.0.0</sub>
-
-</div>

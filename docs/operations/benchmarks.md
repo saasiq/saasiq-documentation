@@ -1,16 +1,6 @@
-<div align="center" markdown>
-
-<img src="https://img.shields.io/badge/Module-Operations-2563EB?style=for-the-badge&logo=settings&logoColor=white" alt="Operations" />
-<img src="https://img.shields.io/badge/Feature-Benchmarks-blue?style=for-the-badge&logo=trending-up&logoColor=white" alt="Benchmarks" />
-<img src="https://img.shields.io/badge/Route-%23benchmarks-orange?style=for-the-badge&logo=link&logoColor=white" alt="Route" />
-
 # 📊 Benchmarks
 
 **Compare your SaaS spending against industry peers for smarter negotiations**
-
-`Home` · `Operations` · **Benchmarks**
-
-</div>
 
 > **Home** · Operations · **Benchmarks**
 
@@ -19,15 +9,6 @@
 ## Overview
 
 Benchmarks compares your SaaS spend and pricing against **industry peers** — companies of similar size, industry, and region. It answers the critical question: **"Are we paying more than we should?"** and provides data-backed leverage for vendor negotiations.
-
----
-
-## In This Article
-
-- [Benchmark KPI Cards](#benchmark-kpi-cards)
-- [Vendor Benchmark Table](#vendor-benchmark-table)
-- [How to Use for Negotiations](#how-to-use-for-negotiations)
-- [Validation Checklist](#validation-checklist)
 
 ---
 
@@ -151,17 +132,3 @@ graph TD
 - 🔗 [AI Copilot](../ai-features/ai-copilot.md) — Ask: "How does our Slack spend compare to benchmarks?"
 
 ---
-
----
-
-<div align="center" markdown>
-
-**Was this page helpful?** 👍 Yes · 👎 No · [Suggest an edit](https://github.com/saasiq/saasiq-documentation/edit/main/docs/operations/benchmarks.md)
-
----
-
-<a href="renewals.md">⬅️ Renewals</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="department-costs.md">Department Costs ➡️</a>
-
-<sub>Last updated: March 2026 · SaaSIQ Documentation v1.0.0</sub>
-
-</div>

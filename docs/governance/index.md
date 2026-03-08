@@ -1,31 +1,33 @@
-<div align="center" markdown>
+# :shield: Governance Module
 
-<img src="https://img.shields.io/badge/Module-Governance-059669?style=for-the-badge&logo=shield&logoColor=white" alt="Governance" />
-<img src="https://img.shields.io/badge/Features-3_Tools-blue?style=for-the-badge&logo=layers&logoColor=white" alt="3 Features" />
+**Stay compliant, manage contracts, and enforce organizational policies.**
 
-# 🛡️ Governance Module
+The Governance module ensures your SaaS portfolio is **secure, compliant, and contractually managed**. Three integrated features work together to protect your organization from risk while keeping vendor relationships under control.
 
-**Stay compliant, manage contracts, and enforce organizational policies**
+<div class="grid-cards" markdown>
 
-`Home` · **Governance**
+<a href="compliance-and-risk/" markdown>
+<span class="card-icon">:white_check_mark:</span>
+<span class="card-title">Compliance & Risk</span>
+<span class="card-desc">Are our apps secure and compliant? Monitor frameworks, score vendor risk, and remediate issues.</span>
+<span class="card-meta">B+ score (78/100) · SOC 2, GDPR, HIPAA, ISO 27001</span>
+</a>
+
+<a href="contracts/" markdown>
+<span class="card-icon">:page_facing_up:</span>
+<span class="card-title">Contracts</span>
+<span class="card-desc">When do contracts expire? Track lifecycles, costs, and get AI negotiation help.</span>
+<span class="card-meta">34 active · 8 renewing in 90 days</span>
+</a>
+
+<a href="policies/" markdown>
+<span class="card-icon">:lock:</span>
+<span class="card-title">Policies</span>
+<span class="card-desc">What rules govern SaaS usage? Define spend limits, data residency, and security standards.</span>
+<span class="card-meta">3 active policies · 2 violations this month</span>
+</a>
 
 </div>
-
----
-
-## Overview
-
-The Governance module ensures your SaaS portfolio is **secure, compliant, and contractually managed**. It provides three integrated features that work together to protect your organization from risk while maintaining control over vendor relationships.
-
----
-
-## What's Inside
-
-| Feature | Purpose | Key Question It Answers |
-|---------|---------|------------------------|
-| [Compliance & Risk](compliance-and-risk.md) | Monitor compliance frameworks and vendor risk | *"Are our apps secure and compliant?"* |
-| [Contracts](contracts.md) | Track contract lifecycles and renewals | *"When do our contracts expire and what needs renegotiating?"* |
-| [Policies](policies.md) | Define and enforce organizational policies | *"What rules govern our SaaS usage?"* |
 
 ---
 
@@ -43,6 +45,7 @@ graph TD
 ```
 
 **Governance lifecycle:**
+
 1. **Compliance & Risk** scores each vendor's security posture
 2. **Contracts** manages the commercial relationship and renewal timeline
 3. **Policies** enforces organizational rules (spend limits, data residency, security standards)
@@ -52,65 +55,43 @@ graph TD
 
 ## When to Use Each Feature
 
-<details markdown>
-<summary><strong>🛡️ Compliance & Risk — "Am I exposed to regulatory risk?"</strong></summary>
+??? tip "Compliance & Risk — *Am I exposed to regulatory risk?*"
 
-**Use when:**
-- Preparing for an audit (SOC 2, ISO 27001, etc.)
-- Evaluating a new vendor's security posture
-- A data breach is reported for a vendor you use
-- You need to identify apps without DPA agreements
+    **Use when:**
 
-**Go to:** [Compliance & Risk →](compliance-and-risk.md)
+    - Preparing for an audit (SOC 2, ISO 27001, etc.)
+    - Evaluating a new vendor's security posture
+    - A data breach is reported for a vendor you use
+    - You need to identify apps without DPA agreements
 
-</details>
+    **Go to:** [Compliance & Risk →](compliance-and-risk.md)
 
-<details markdown>
-<summary><strong>📄 Contracts — "What's coming up for renewal?"</strong></summary>
+??? tip "Contracts — *What's coming up for renewal?*"
 
-**Use when:**
-- Reviewing the upcoming 30/60/90-day renewal pipeline
-- Preparing for a vendor negotiation
-- Checking if a contract is still within terms
-- Creating a renewal calendar for finance planning
+    **Use when:**
 
-**Go to:** [Contracts →](contracts.md)
+    - Reviewing the upcoming 30/60/90-day renewal pipeline
+    - Preparing for a vendor negotiation
+    - Checking if a contract is still within terms
+    - Creating a renewal calendar for finance planning
 
-</details>
+    **Go to:** [Contracts →](contracts.md)
 
-<details markdown>
-<summary><strong>📋 Policies — "What rules does our org enforce?"</strong></summary>
+??? tip "Policies — *What rules does our org enforce?*"
 
-**Use when:**
-- Setting up SaaS governance rules for the first time
-- Defining spending thresholds that trigger approvals
-- Configuring data residency requirements
-- Creating security policies for vendor evaluation
+    **Use when:**
 
-**Go to:** [Policies →](policies.md)
+    - Setting up SaaS governance rules for the first time
+    - Defining spending thresholds that trigger approvals
+    - Configuring data residency requirements
+    - Creating security policies for vendor evaluation
 
-</details>
+    **Go to:** [Policies →](policies.md)
 
 ---
 
 ## Related Resources
 
-- 🔗 [SaaS Discovery](../intelligence/saas-discovery.md) — Risk levels feed from Compliance data
-- 🔗 [Renewals](../operations/renewals.md) — Operational renewal management
-- 🔗 [Alerts & Notifications](../administration/alerts-notifications.md) — Policy violation alerts
-
----
-
----
-
-<div align="center" markdown>
-
-**Was this page helpful?** 👍 Yes · 👎 No · [Suggest an edit](https://github.com/saasiq/saasiq-documentation/edit/main/docs/governance/index.md)
-
----
-
-<a href="../intelligence/usage-analytics.md">⬅️ Usage Analytics</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="compliance-and-risk.md">Compliance & Risk ➡️</a>
-
-<sub>Last updated: March 2026 · SaaSIQ Documentation v1.0.0</sub>
-
-</div>
+- :link: [SaaS Discovery](../intelligence/saas-discovery.md) — Risk levels feed from Compliance data
+- :link: [Renewals](../operations/renewals.md) — Operational renewal management
+- :link: [Alerts & Notifications](../administration/alerts-notifications.md) — Policy violation alerts

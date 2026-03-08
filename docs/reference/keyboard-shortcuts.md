@@ -1,16 +1,6 @@
-<div align="center" markdown>
-
-<img src="https://img.shields.io/badge/📚_Reference-Keyboard_Shortcuts-0891B2?style=for-the-badge&logo=bookstack&logoColor=white" alt="Reference — Keyboard Shortcuts" />
-<img src="https://img.shields.io/badge/Shortcuts-30+-0891B2?style=for-the-badge" alt="30+ Shortcuts" />
-<img src="https://img.shields.io/badge/Printable-Yes-0891B2?style=for-the-badge" alt="Printable" />
-
 # ⌨️ Keyboard Shortcuts
 
 **Complete keyboard shortcut reference for power-user navigation**
-
-`Home` · `Reference` · **`Keyboard Shortcuts`**
-
-</div>
 
 ---
 
@@ -20,16 +10,6 @@ SaaSIQ supports keyboard shortcuts for fast navigation and common actions. Press
 
 !!! tip
     On macOS use `⌘` (Command), on Windows/Linux use `Ctrl`.
-
----
-
-## In This Article
-
-- [Global Shortcuts](#global-shortcuts)
-- [Navigation Shortcuts](#navigation-shortcuts)
-- [Modal & Panel Shortcuts](#modal-panel-shortcuts)
-- [Table Shortcuts](#table-shortcuts)
-- [AI Copilot Shortcuts](#ai-copilot-shortcuts)
 
 ---
 
@@ -168,9 +148,4 @@ If you press `G` and don't follow up within 1 second, the chord resets. Key chor
 <div align="center" markdown>
 
 **Was this helpful?** [👍 Yes](# "Helpful") · [👎 No](# "Not Helpful") · [✏️ Suggest Edit](# "Edit")
-
-<a href="glossary.md">⬅️ Glossary</a>&nbsp;&nbsp;•&nbsp;&nbsp;<a href="faq.md">FAQ ➡️</a>
-
-<sub>Last updated: 2024 · <a href="../README.md">🏠 Documentation Home</a></sub>
-
 </div>

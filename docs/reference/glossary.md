@@ -1,16 +1,6 @@
-<div align="center" markdown>
-
-<img src="https://img.shields.io/badge/📚_Reference-Glossary-0891B2?style=for-the-badge&logo=bookstack&logoColor=white" alt="Reference — Glossary" />
-<img src="https://img.shields.io/badge/Terms-50+-0891B2?style=for-the-badge" alt="50+ Terms" />
-<img src="https://img.shields.io/badge/Updated-2024-0891B2?style=for-the-badge" alt="Updated" />
-
 # 📖 Glossary
 
 **Comprehensive A — Z terminology reference for the SaaSIQ platform**
-
-`Home` · `Reference` · **`Glossary`**
-
-</div>
 
 ---
 
@@ -180,9 +170,4 @@ A comprehensive glossary of terms, acronyms, and concepts used throughout SaaSIQ
 <div align="center" markdown>
 
 **Was this helpful?** [👍 Yes](# "Helpful") · [👎 No](# "Not Helpful") · [✏️ Suggest Edit](# "Edit")
-
-<a href="../administration/organization-management.md">⬅️ Organization Management</a>&nbsp;&nbsp;•&nbsp;&nbsp;<a href="keyboard-shortcuts.md">Keyboard Shortcuts ➡️</a>
-
-<sub>Last updated: 2024 · <a href="../README.md">🏠 Documentation Home</a></sub>
-
 </div>

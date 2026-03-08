@@ -1,16 +1,6 @@
-<div align="center" markdown>
-
-<img src="https://img.shields.io/badge/Module-Overview-7C3AED?style=for-the-badge&logo=barchart&logoColor=white" alt="Overview" />
-<img src="https://img.shields.io/badge/Route-%23dashboard-blue?style=for-the-badge&logo=link&logoColor=white" alt="#dashboard" />
-<img src="https://img.shields.io/badge/Updated-March_2026-green?style=for-the-badge&logo=calendar&logoColor=white" alt="Updated" />
-
 # 📊 Dashboard
 
 **Your SaaS command center — the real-time health of your entire portfolio**
-
-`Home` · `Overview` · **Dashboard**
-
-</div>
 
 ---
 
@@ -19,20 +9,6 @@
 The Dashboard is your **SaaS command center** — the first screen you see after login. It provides a real-time snapshot of your organization's SaaS health across four key dimensions: **application count, spend, savings potential, and license utilization**.
 
 Every metric on the Dashboard is clickable, leading you deeper into the relevant module for detailed analysis.
-
----
-
-## In This Article
-
-- [Page Layout](#page-layout)
-- [Application Shell](#application-shell)
-- [KPI Cards](#kpi-cards)
-- [Charts & Visualizations](#charts-visualizations)
-- [Urgent Actions Panel](#urgent-actions-panel)
-- [Upcoming Renewals Table](#upcoming-renewals-table)
-- [Top Apps by Spend Table](#top-apps-by-spend-table)
-- [Floating Navigator](#floating-navigator)
-- [Interactions & Workflows](#interactions-workflows)
 
 ---
 
@@ -400,17 +376,3 @@ graph TD
 - 🔗 [Keyboard Shortcuts](../reference/keyboard-shortcuts.md) — Navigate faster
 
 ---
-
----
-
-<div align="center" markdown>
-
-**Was this page helpful?** 👍 Yes · 👎 No · [Suggest an edit](https://github.com/saasiq/saasiq-documentation/edit/main/docs/overview/dashboard.md)
-
----
-
-<a href="../getting-started/onboarding.md">⬅️ Onboarding Wizard</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="../intelligence/index.md">Intelligence Module ➡️</a>
-
-<sub>Last updated: March 2026 · SaaSIQ Documentation v1.0.0</sub>
-
-</div>

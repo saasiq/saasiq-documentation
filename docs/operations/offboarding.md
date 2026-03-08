@@ -1,16 +1,6 @@
-<div align="center" markdown>
-
-<img src="https://img.shields.io/badge/Module-Operations-2563EB?style=for-the-badge&logo=settings&logoColor=white" alt="Operations" />
-<img src="https://img.shields.io/badge/Feature-Offboarding-blue?style=for-the-badge&logo=userx&logoColor=white" alt="Offboarding" />
-<img src="https://img.shields.io/badge/Route-%23offboarding-orange?style=for-the-badge&logo=link&logoColor=white" alt="Route" />
-
 # 🚪 Offboarding
 
 **Revoke SaaS access for departing employees instantly and securely**
-
-`Home` · `Operations` · **Offboarding**
-
-</div>
 
 > **Home** · Operations · **Offboarding**
 
@@ -22,17 +12,6 @@ The Offboarding module ensures that when employees leave your organization, **al
 
 !!! warning
     Delayed offboarding is a security risk. Industry average shows 43% of companies have ex-employees still accessing SaaS tools weeks after departure. SaaSIQ automates this to near-zero.
-
----
-
-## In This Article
-
-- [KPI Summary Cards](#kpi-summary-cards)
-- [Pending Offboards Table](#pending-offboards-table)
-- [Completed Offboards](#completed-offboards)
-- [Operations: Revoke, Bulk Revoke, HR Sync, Wizard](#operations)
-- [Workflows & Scenarios](#workflows-scenarios)
-- [Validation Checklist](#validation-checklist)
 
 ---
 
@@ -253,17 +232,3 @@ graph TD
 - 🔗 [Alerts & Notifications](../administration/alerts-notifications.md) — Offboarding overdue alerts
 
 ---
-
----
-
-<div align="center" markdown>
-
-**Was this page helpful?** 👍 Yes · 👎 No · [Suggest an edit](https://github.com/saasiq/saasiq-documentation/edit/main/docs/operations/offboarding.md)
-
----
-
-<a href="index.md">⬅️ Operations Overview</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="renewals.md">Renewals ➡️</a>
-
-<sub>Last updated: March 2026 · SaaSIQ Documentation v1.0.0</sub>
-
-</div>

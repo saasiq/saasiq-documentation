@@ -1,27 +1,33 @@
-<div align="center" markdown>
+# :mag: Intelligence Module
 
-<img src="https://img.shields.io/badge/Module-Intelligence-7C3AED?style=for-the-badge&logo=search&logoColor=white" alt="Intelligence" />
-<img src="https://img.shields.io/badge/Features-3_Tools-blue?style=for-the-badge&logo=layers&logoColor=white" alt="3 Features" />
-
-# 🔍 Intelligence Module
-
-**Discover what’s in your stack, what it costs, and who’s actually using it**
-
-`Home` · **Intelligence**
-
-</div>
-
----
-
-## Overview
+**Discover what's in your stack, what it costs, and who's actually using it.**
 
 The Intelligence module is the **analytical engine** of SaaSIQ. It answers three fundamental questions about your SaaS portfolio:
 
-| Question | Feature | Link |
-|----------|---------|------|
-| **What apps do we have?** | SaaS Discovery & Shadow IT | [→ Open](saas-discovery.md) |
-| **How much are we spending?** | Spend Intelligence | [→ Open](spend-intelligence.md) |
-| **Are people actually using them?** | Usage Analytics | [→ Open](usage-analytics.md) |
+<div class="grid-cards" markdown>
+
+<a href="saas-discovery/" markdown>
+<span class="card-icon">:mag_right:</span>
+<span class="card-title">SaaS Discovery</span>
+<span class="card-desc">What apps do we have? Find every tool — including shadow IT adopted without approval.</span>
+<span class="card-meta">156 apps · 8 shadow IT · 12 new this month</span>
+</a>
+
+<a href="spend-intelligence/" markdown>
+<span class="card-icon">:dollar:</span>
+<span class="card-title">Spend Intelligence</span>
+<span class="card-desc">How much are we spending? AI-powered cost analysis with optimization recommendations.</span>
+<span class="card-meta">₹42.5L/mo · ₹12.8L savings · 67% utilization</span>
+</a>
+
+<a href="usage-analytics/" markdown>
+<span class="card-icon">:bar_chart:</span>
+<span class="card-title">Usage Analytics</span>
+<span class="card-desc">Are people actually using them? Identify underused licenses and reclaim wasted spend.</span>
+<span class="card-meta">67% avg utilization · 23 underused licenses</span>
+</a>
+
+</div>
 
 ---
 
@@ -38,6 +44,7 @@ graph TD
 ```
 
 **Typical workflow:**
+
 1. **Discovery** identifies all applications (including shadow IT)
 2. **Spend Intelligence** calculates the cost of each app and finds savings
 3. **Usage Analytics** shows which licenses are actually being used
@@ -57,65 +64,43 @@ graph TD
 
 ## When to Use Each Feature
 
-<details markdown>
-<summary><strong>🔍 SaaS Discovery — "I want to know what apps we have"</strong></summary>
+??? tip "SaaS Discovery — *I want to know what apps we have*"
 
-**Use when:**
-- You suspect employees are using unapproved tools
-- A new employee joins and you need to provision apps
-- You want a complete software inventory for audit
-- A security incident requires identifying all data-holding apps
+    **Use when:**
 
-**Go to:** [SaaS Discovery & Shadow IT →](saas-discovery.md)
+    - You suspect employees are using unapproved tools
+    - A new employee joins and you need to provision apps
+    - You want a complete software inventory for audit
+    - A security incident requires identifying all data-holding apps
 
-</details>
+    **Go to:** [SaaS Discovery & Shadow IT →](saas-discovery.md)
 
-<details markdown>
-<summary><strong>💰 Spend Intelligence — "I want to reduce SaaS costs"</strong></summary>
+??? tip "Spend Intelligence — *I want to reduce SaaS costs*"
 
-**Use when:**
-- Budget review season is coming
-- You need to justify SaaS spend to leadership
-- AI has identified potential savings you want to review
-- A contract is up for renewal and you need negotiation data
+    **Use when:**
 
-**Go to:** [Spend Intelligence →](spend-intelligence.md)
+    - Budget review season is coming
+    - You need to justify SaaS spend to leadership
+    - AI has identified potential savings you want to review
+    - A contract is up for renewal and you need negotiation data
 
-</details>
+    **Go to:** [Spend Intelligence →](spend-intelligence.md)
 
-<details markdown>
-<summary><strong>📊 Usage Analytics — "I want to see if people are using what we pay for"</strong></summary>
+??? tip "Usage Analytics — *I want to see if people are using what we pay for*"
 
-**Use when:**
-- License counts seem high relative to headcount
-- You want to reclaim unused licenses
-- A department is over/under-adopting a tool
-- You need utilization data for renewal negotiations
+    **Use when:**
 
-**Go to:** [Usage Analytics →](usage-analytics.md)
+    - License counts seem high relative to headcount
+    - You want to reclaim unused licenses
+    - A department is over/under-adopting a tool
+    - You need utilization data for renewal negotiations
 
-</details>
+    **Go to:** [Usage Analytics →](usage-analytics.md)
 
 ---
 
 ## Related Resources
 
-- 🔗 [Dashboard](../overview/dashboard.md) — KPI summary of all Intelligence metrics
-- 🔗 [AI Insights](../ai-features/ai-insights.md) — AI-generated recommendations based on Intelligence data
-- 🔗 [Benchmarks](../operations/benchmarks.md) — Compare your metrics against industry peers
-
----
-
----
-
-<div align="center" markdown>
-
-**Was this page helpful?** 👍 Yes · 👎 No · [Suggest an edit](https://github.com/saasiq/saasiq-documentation/edit/main/docs/intelligence/index.md)
-
----
-
-<a href="../overview/dashboard.md">⬅️ Dashboard</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="saas-discovery.md">SaaS Discovery ➡️</a>
-
-<sub>Last updated: March 2026 · SaaSIQ Documentation v1.0.0</sub>
-
-</div>
+- :link: [Dashboard](../overview/dashboard.md) — KPI summary of all Intelligence metrics
+- :link: [AI Insights](../ai-features/ai-insights.md) — AI-generated recommendations based on Intelligence data
+- :link: [Benchmarks](../operations/benchmarks.md) — Compare your metrics against industry peers

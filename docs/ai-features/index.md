@@ -1,30 +1,26 @@
-<div align="center" markdown>
+# :robot: AI Features Module
 
-<img src="https://img.shields.io/badge/Module-AI%20Features-DB2777?style=for-the-badge&logo=sparkles&logoColor=white" alt="AI Features" />
-<img src="https://img.shields.io/badge/Features-2_Tools-blue?style=for-the-badge&logo=layers&logoColor=white" alt="2 Features" />
+**Let AI do the heavy lifting — insights, predictions, and a conversational copilot.**
 
-# 🤖 AI Features Module
+Instead of manually analyzing data, SaaSIQ's AI engine processes your usage patterns, contracts, and compliance data to deliver **proactive insights** and a **conversational assistant** you can query in natural language.
 
-**Let AI do the heavy lifting — insights, predictions, and a conversational copilot**
+<div class="grid-cards" markdown>
 
-`Home` · **AI Features**
+<a href="ai-insights/" markdown>
+<span class="card-icon">:bulb:</span>
+<span class="card-title">AI Insights</span>
+<span class="card-desc">Automated, proactive recommendations. The AI tells you what to act on — cost savings, renewals, and risks.</span>
+<span class="card-meta">96% cost confidence · 89% renewal prediction</span>
+</a>
+
+<a href="ai-copilot/" markdown>
+<span class="card-icon">:speech_balloon:</span>
+<span class="card-title">AI Copilot</span>
+<span class="card-desc">Ask questions in plain English. Get instant answers with tables, charts, and data-driven recommendations.</span>
+<span class="card-meta">5 conversation topics · Natural language</span>
+</a>
 
 </div>
-
----
-
-## Overview
-
-The AI Features module provides **intelligent automation** across your SaaS portfolio. Instead of manually analyzing data, SaaSIQ's AI engine processes your usage patterns, contracts, and compliance data to deliver **proactive insights** and a **conversational assistant** you can query in natural language.
-
----
-
-## What's Inside
-
-| Feature | Purpose | Key Question It Answers |
-|---------|---------|------------------------|
-| [AI Insights](ai-insights.md) | Automated, proactive recommendations | *"What should I act on right now?"* |
-| [AI Copilot](ai-copilot.md) | Natural-language conversational assistant | *"Let me ask a specific question about my SaaS data."* |
 
 ---
 
@@ -32,10 +28,10 @@ The AI Features module provides **intelligent automation** across your SaaS port
 
 | Aspect | AI Insights | AI Copilot |
 |--------|------------|------------|
-| **Interaction** | Push (AI tells you) | Pull (you ask) |
-| **Format** | Cards with actions | Chat conversation |
+| **Interaction** | Push — AI tells you | Pull — you ask |
+| **Format** | Cards with quick actions | Chat conversation |
 | **When to use** | Daily review of opportunities | Ad-hoc questions |
-| **Action type** | One-click Apply/Dismiss | Conversational analysis |
+| **Action type** | One-click Apply / Dismiss | Conversational analysis |
 | **Best for** | Executives & managers | Analysts & power users |
 
 ```mermaid
@@ -51,22 +47,6 @@ graph LR
 
 ## Related Resources
 
-- 🔗 [Spend Intelligence](../intelligence/spend-intelligence.md) — Data that powers AI recommendations
-- 🔗 [Usage Analytics](../intelligence/usage-analytics.md) — Utilization data the AI analyzes
-- 🔗 [Dashboard](../overview/dashboard.md) — KPIs influenced by AI insights
-
----
-
----
-
-<div align="center" markdown>
-
-**Was this page helpful?** 👍 Yes · 👎 No · [Suggest an edit](https://github.com/saasiq/saasiq-documentation/edit/main/docs/ai-features/index.md)
-
----
-
-<a href="../governance/policies.md">⬅️ Policies</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="ai-insights.md">AI Insights ➡️</a>
-
-<sub>Last updated: March 2026 · SaaSIQ Documentation v1.0.0</sub>
-
-</div>
+- :link: [Spend Intelligence](../intelligence/spend-intelligence.md) — Data that powers AI recommendations
+- :link: [Usage Analytics](../intelligence/usage-analytics.md) — Utilization data the AI analyzes
+- :link: [Dashboard](../overview/dashboard.md) — KPIs influenced by AI insights

@@ -1,16 +1,6 @@
-<div align="center" markdown>
-
-<img src="https://img.shields.io/badge/Section-Getting%20Started-7C3AED?style=for-the-badge&logo=rocket&logoColor=white" alt="Getting Started" />
-<img src="https://img.shields.io/badge/Step-Onboarding-blue?style=for-the-badge&logo=rocket&logoColor=white" alt="Onboarding" />
-<img src="https://img.shields.io/badge/Time-5_min-green?style=for-the-badge&logo=clock&logoColor=white" alt="5 min" />
-
 # 🌟 Onboarding Wizard
 
 **Your guided 4-step setup for a perfect start with SaaSIQ**
-
-`Home` · `Getting Started` · **Onboarding Wizard**
-
-</div>
 
 ---
 
@@ -20,17 +10,6 @@ The Onboarding Wizard is a **4-step guided setup** that appears on first login. 
 
 !!! note
     The wizard appears only on first login. After completion, you can modify all settings from **Administration → [Settings](../administration/settings.md)**.
-
----
-
-## In This Article
-
-- [Wizard Flow](#wizard-flow)
-- [Step 1: SSO Configuration](#step-1-sso-configuration)
-- [Step 2: Connect Integrations](#step-2-connect-integrations)
-- [Step 3: Invite Your Team](#step-3-invite-your-team)
-- [Step 4: Set Preferences](#step-4-set-preferences)
-- [After Onboarding](#after-onboarding)
 
 ---
 
@@ -308,17 +287,3 @@ The wizard only shows on **first login** for a new organization. If you've logge
 - 🔗 [FAQ](../reference/faq.md)
 
 ---
-
----
-
-<div align="center" markdown>
-
-**Was this page helpful?** 👍 Yes · 👎 No · [Suggest an edit](https://github.com/saasiq/saasiq-documentation/edit/main/docs/getting-started/onboarding.md)
-
----
-
-<a href="quick-start.md">⬅️ Quick Start Guide</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="../overview/dashboard.md">Dashboard ➡️</a>
-
-<sub>Last updated: March 2026 · SaaSIQ Documentation v1.0.0</sub>
-
-</div>

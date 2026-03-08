@@ -1,16 +1,6 @@
-<div align="center" markdown>
-
-<img src="https://img.shields.io/badge/Module-Operations-2563EB?style=for-the-badge&logo=settings&logoColor=white" alt="Operations" />
-<img src="https://img.shields.io/badge/Feature-Renewals-blue?style=for-the-badge&logo=calendar&logoColor=white" alt="Renewals" />
-<img src="https://img.shields.io/badge/Route-%23renewals-orange?style=for-the-badge&logo=link&logoColor=white" alt="Route" />
-
 # 📅 Renewals
 
 **Stay ahead of contract renewals with AI-assisted negotiation and reminders**
-
-`Home` · `Operations` · **Renewals**
-
-</div>
 
 > **Home** · Operations · **Renewals**
 
@@ -19,16 +9,6 @@
 ## Overview
 
 The Renewals page provides an **operational view** of all upcoming SaaS contract renewals with savings tracking, negotiation tools, and reminder workflows. While [Contracts](../governance/contracts.md) focuses on the full contract lifecycle, Renewals focuses on **what's coming up and what to do about it**.
-
----
-
-## In This Article
-
-- [KPI Summary Cards](#kpi-summary-cards)
-- [Renewal Table](#renewal-table)
-- [Operations: Negotiate, Review, Set Reminder](#operations)
-- [Workflows & Scenarios](#workflows-scenarios)
-- [Validation Checklist](#validation-checklist)
 
 ---
 
@@ -146,17 +126,3 @@ graph TD
 - 🔗 [AI Insights](../ai-features/ai-insights.md) — Proactive renewal risk predictions
 
 ---
-
----
-
-<div align="center" markdown>
-
-**Was this page helpful?** 👍 Yes · 👎 No · [Suggest an edit](https://github.com/saasiq/saasiq-documentation/edit/main/docs/operations/renewals.md)
-
----
-
-<a href="offboarding.md">⬅️ Offboarding</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="benchmarks.md">Benchmarks ➡️</a>
-
-<sub>Last updated: March 2026 · SaaSIQ Documentation v1.0.0</sub>
-
-</div>

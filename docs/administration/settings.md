@@ -1,16 +1,6 @@
-<div align="center" markdown>
-
-<img src="https://img.shields.io/badge/Module-Administration-D97706?style=for-the-badge&logo=wrench&logoColor=white" alt="Administration" />
-<img src="https://img.shields.io/badge/Feature-Settings-blue?style=for-the-badge&logo=gear&logoColor=white" alt="Settings" />
-<img src="https://img.shields.io/badge/Route-%23settings-orange?style=for-the-badge&logo=link&logoColor=white" alt="Route" />
-
 # ⚙️ Settings
 
 **Complete platform configuration — organization, integrations, team, security, and billing**
-
-`Home` · `Administration` · **Settings**
-
-</div>
 
 > **Home** · Administration · **Settings**
 
@@ -19,20 +9,6 @@
 ## Overview
 
 Settings is the comprehensive configuration hub for SaaSIQ. It's organized into **8 sub-tabs**, each controlling a different aspect of the platform. Only users with **Admin** role can modify settings; Managers and Viewers have read-only access.
-
----
-
-## In This Article
-
-- [Settings Navigation](#settings-navigation)
-- [Organization](#organization)
-- [Integrations](#integrations)
-- [Team Members](#team-members)
-- [Notifications](#notifications)
-- [Security](#security)
-- [Appearance](#appearance)
-- [API & Webhooks](#api-webhooks)
-- [Billing](#billing)
 
 ---
 
@@ -293,17 +269,3 @@ All requests require `Authorization: Bearer <api_key>` header.
 - 🔗 [Organization Management](organization-management.md) — Multi-org controls
 
 ---
-
----
-
-<div align="center" markdown>
-
-**Was this page helpful?** 👍 Yes · 👎 No · [Suggest an edit](https://github.com/saasiq/saasiq-documentation/edit/main/docs/administration/settings.md)
-
----
-
-<a href="alerts-notifications.md">⬅️ Alerts & Notifications</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="organization-management.md">Organization Management ➡️</a>
-
-<sub>Last updated: March 2026 · SaaSIQ Documentation v1.0.0</sub>
-
-</div>

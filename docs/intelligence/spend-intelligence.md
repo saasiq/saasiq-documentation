@@ -1,16 +1,6 @@
-<div align="center" markdown>
-
-<img src="https://img.shields.io/badge/Module-Intelligence-7C3AED?style=for-the-badge&logo=search&logoColor=white" alt="Intelligence" />
-<img src="https://img.shields.io/badge/Feature-Spend%20Intelligence-blue?style=for-the-badge&logo=dollar&logoColor=white" alt="Spend Intelligence" />
-<img src="https://img.shields.io/badge/Route-%23spend--intelligence-orange?style=for-the-badge&logo=link&logoColor=white" alt="Route" />
-
 # 💰 Spend Intelligence
 
 **AI-powered cost analysis to optimize every dollar of your SaaS budget**
-
-`Home` · `Intelligence` · **Spend Intelligence**
-
-</div>
 
 > **Home** · Intelligence · **Spend Intelligence**
 
@@ -22,17 +12,6 @@ Spend Intelligence is SaaSIQ's **AI-powered cost analysis engine**. It aggregate
 
 !!! note
     All savings projections are calculated by SaaSIQ's AI engine using your actual contract data, usage patterns, and industry benchmark pricing.
-
----
-
-## In This Article
-
-- [KPI Summary Cards](#kpi-summary-cards)
-- [Department Spend Breakdown](#department-spend-breakdown)
-- [AI Optimization Recommendations](#ai-optimization-recommendations)
-- [Operations: Apply, Review, Create Plan](#operations)
-- [Workflows & Scenarios](#workflows-scenarios)
-- [Validation Checklist](#validation-checklist)
 
 ---
 
@@ -320,17 +299,3 @@ graph TD
 - 🔗 [Department Costs](../operations/department-costs.md) — Detailed per-department analysis
 
 ---
-
----
-
-<div align="center" markdown>
-
-**Was this page helpful?** 👍 Yes · 👎 No · [Suggest an edit](https://github.com/saasiq/saasiq-documentation/edit/main/docs/intelligence/spend-intelligence.md)
-
----
-
-<a href="saas-discovery.md">⬅️ SaaS Discovery</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="usage-analytics.md">Usage Analytics ➡️</a>
-
-<sub>Last updated: March 2026 · SaaSIQ Documentation v1.0.0</sub>
-
-</div>

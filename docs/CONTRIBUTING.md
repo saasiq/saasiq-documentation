@@ -1,8 +1,5 @@
 <div align="center" markdown>
 
-<img src="https://img.shields.io/badge/🤝_SaaSIQ-Contributing_Guide-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="Contributing Guide" />
-<img src="https://img.shields.io/badge/PRs-Welcome-059669?style=for-the-badge" alt="PRs Welcome" />
-<img src="https://img.shields.io/badge/Docs-Markdown-2563EB?style=for-the-badge&logo=markdown&logoColor=white" alt="Markdown" />
 
 # 🤝 Contributing to SaaSIQ Documentation
 
@@ -70,17 +67,10 @@ This guide covers conventions, formatting standards, and the review process.
 Every documentation file **must** start with a centered header block:
 
 ```markdown
-<div align="center" markdown>
-
-<img src="https://img.shields.io/badge/MODULE-Page_Title-COLOR?style=for-the-badge&logo=ICON&logoColor=white" alt="Description" />
-
 # 🎯 Page Title
 
 **One-line description of this page's purpose**
 
-`Home` · `Module` · **`Page Title`**
-
-</div>
 ```
 
 ### Heading Hierarchy
@@ -142,13 +132,10 @@ https://img.shields.io/badge/LABEL-MESSAGE-COLOR?style=for-the-badge&logo=ICON&l
 
 ```markdown
 <!-- Reading time -->
-<img src="https://img.shields.io/badge/Reading_Time-5_min-COLOR?style=for-the-badge" />
 
 <!-- Updated marker -->
-<img src="https://img.shields.io/badge/Updated-2024-COLOR?style=for-the-badge" />
 
 <!-- Difficulty level -->
-<img src="https://img.shields.io/badge/Difficulty-Beginner-059669?style=for-the-badge" />
 ```
 
 ---
@@ -242,11 +229,6 @@ Every file **must** end with a standardized footer:
 <div align="center" markdown>
 
 **Was this helpful?** [👍 Yes](# "Helpful") · [👎 No](# "Not Helpful") · [✏️ Suggest Edit](# "Edit")
-
-<a href="PREV_FILE.md">⬅️ Previous Page</a>&nbsp;&nbsp;•&nbsp;&nbsp;<a href="NEXT_FILE.md">Next Page ➡️</a>
-
-<sub>Last updated: 2024 · <a href="../README.md">🏠 Documentation Home</a></sub>
-
 </div>
 ```
 
@@ -307,7 +289,4 @@ docs: update mermaid diagram colors
 **Was this helpful?** [👍 Yes](# "Helpful") · [👎 No](# "Not Helpful") · [✏️ Suggest Edit](# "Edit")
 
 <a href="CHANGELOG.md">📋 Changelog</a>&nbsp;&nbsp;•&nbsp;&nbsp;<a href="README.md">🏠 Documentation Home</a>
-
-<sub>Last updated: 2024</sub>
-
 </div>

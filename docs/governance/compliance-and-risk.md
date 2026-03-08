@@ -1,16 +1,6 @@
-<div align="center" markdown>
-
-<img src="https://img.shields.io/badge/Module-Governance-059669?style=for-the-badge&logo=shield&logoColor=white" alt="Governance" />
-<img src="https://img.shields.io/badge/Feature-Compliance%20%26%20Risk-blue?style=for-the-badge&logo=alert&logoColor=white" alt="Compliance & Risk" />
-<img src="https://img.shields.io/badge/Route-%23compliance-orange?style=for-the-badge&logo=link&logoColor=white" alt="Route" />
-
 # 🛡️ Compliance & Risk
 
 **Monitor frameworks, assess vendor risk, and maintain audit readiness**
-
-`Home` · `Governance` · **Compliance & Risk**
-
-</div>
 
 > **Home** · Governance · **Compliance & Risk**
 
@@ -19,17 +9,6 @@
 ## Overview
 
 The Compliance & Risk dashboard monitors your organization's adherence to **security frameworks** (SOC 2, GDPR, HIPAA, ISO 27001), calculates an overall **risk score**, and flags **high-risk applications** that need immediate attention. It's your central hub for audit readiness and vendor risk management.
-
----
-
-## In This Article
-
-- [Risk Score Summary](#risk-score-summary)
-- [Compliance Framework Progress](#compliance-framework-progress)
-- [High-Risk Applications](#high-risk-applications)
-- [Operations: Review, Remediate, Export](#operations)
-- [Workflows & Scenarios](#workflows-scenarios)
-- [Validation Checklist](#validation-checklist)
 
 ---
 
@@ -304,17 +283,3 @@ graph TD
 - 🔗 [Alerts & Notifications](../administration/alerts-notifications.md) — Compliance violation alerts
 
 ---
-
----
-
-<div align="center" markdown>
-
-**Was this page helpful?** 👍 Yes · 👎 No · [Suggest an edit](https://github.com/saasiq/saasiq-documentation/edit/main/docs/governance/compliance-and-risk.md)
-
----
-
-<a href="index.md">⬅️ Governance Overview</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="contracts.md">Contracts ➡️</a>
-
-<sub>Last updated: March 2026 · SaaSIQ Documentation v1.0.0</sub>
-
-</div>

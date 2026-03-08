@@ -1,16 +1,6 @@
-<div align="center" markdown>
-
-<img src="https://img.shields.io/badge/Module-AI%20Features-DB2777?style=for-the-badge&logo=sparkles&logoColor=white" alt="AI Features" />
-<img src="https://img.shields.io/badge/Feature-AI%20Insights-blue?style=for-the-badge&logo=lightbulb&logoColor=white" alt="AI Insights" />
-<img src="https://img.shields.io/badge/Route-%23ai--insights-orange?style=for-the-badge&logo=link&logoColor=white" alt="Route" />
-
 # 💡 AI Insights
 
 **Machine-learning recommendations for cost savings, renewals, and negotiations**
-
-`Home` · `AI Features` · **AI Insights**
-
-</div>
 
 > **Home** · AI Features · **AI Insights**
 
@@ -21,16 +11,6 @@
 AI Insights is SaaSIQ's **proactive recommendation engine**. It continuously analyzes your SaaS portfolio across spend, usage, compliance, and renewals — then surfaces the **highest-impact actions** you can take, each with a confidence score and a one-click action button.
 
 Think of it as your AI advisor that tells you: *"Here's exactly what you should do, why, and how much it will save you."*
-
----
-
-## In This Article
-
-- [Insight Cards](#insight-cards)
-- [Card Details & Actions](#card-details-actions)
-- [How Confidence Scores Work](#how-confidence-scores-work)
-- [Interactions & Workflows](#interactions-workflows)
-- [Validation Checklist](#validation-checklist)
 
 ---
 
@@ -288,17 +268,3 @@ graph TD
 - 🔗 [Renewals](../operations/renewals.md) — Renewal calendar and management
 
 ---
-
----
-
-<div align="center" markdown>
-
-**Was this page helpful?** 👍 Yes · 👎 No · [Suggest an edit](https://github.com/saasiq/saasiq-documentation/edit/main/docs/ai-features/ai-insights.md)
-
----
-
-<a href="index.md">⬅️ AI Features Overview</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="ai-copilot.md">AI Copilot ➡️</a>
-
-<sub>Last updated: March 2026 · SaaSIQ Documentation v1.0.0</sub>
-
-</div>

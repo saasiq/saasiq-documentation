@@ -1,16 +1,6 @@
-<div align="center" markdown>
-
-<img src="https://img.shields.io/badge/Module-Intelligence-7C3AED?style=for-the-badge&logo=search&logoColor=white" alt="Intelligence" />
-<img src="https://img.shields.io/badge/Feature-Usage%20Analytics-blue?style=for-the-badge&logo=activity&logoColor=white" alt="Usage Analytics" />
-<img src="https://img.shields.io/badge/Route-%23usage--analytics-orange?style=for-the-badge&logo=link&logoColor=white" alt="Route" />
-
 # 📊 Usage Analytics
 
 **Track license utilization across every app, department, and user**
-
-`Home` · `Intelligence` · **Usage Analytics**
-
-</div>
 
 > **Home** · Intelligence · **Usage Analytics**
 
@@ -19,17 +9,6 @@
 ## Overview
 
 Usage Analytics answers the critical question: **"Are we actually using what we're paying for?"** It tracks license utilization across every application, surfaces underused licenses, and provides department-level adoption metrics — powering optimization decisions throughout the platform.
-
----
-
-## In This Article
-
-- [KPI Summary Cards](#kpi-summary-cards)
-- [Application Utilization Chart](#application-utilization-chart)
-- [Department Usage Cards](#department-usage-cards)
-- [Usage Leaderboard](#usage-leaderboard)
-- [Interactions & Workflows](#interactions-workflows)
-- [Validation Checklist](#validation-checklist)
 
 ---
 
@@ -292,17 +271,3 @@ graph TD
 - 🔗 [AI Insights](../ai-features/ai-insights.md) — AI recommendations driven by usage data
 
 ---
-
----
-
-<div align="center" markdown>
-
-**Was this page helpful?** 👍 Yes · 👎 No · [Suggest an edit](https://github.com/saasiq/saasiq-documentation/edit/main/docs/intelligence/usage-analytics.md)
-
----
-
-<a href="spend-intelligence.md">⬅️ Spend Intelligence</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="../governance/index.md">Governance Module ➡️</a>
-
-<sub>Last updated: March 2026 · SaaSIQ Documentation v1.0.0</sub>
-
-</div>

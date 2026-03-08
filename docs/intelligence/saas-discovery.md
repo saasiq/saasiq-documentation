@@ -1,16 +1,6 @@
-<div align="center" markdown>
-
-<img src="https://img.shields.io/badge/Module-Intelligence-7C3AED?style=for-the-badge&logo=search&logoColor=white" alt="Intelligence" />
-<img src="https://img.shields.io/badge/Feature-SaaS%20Discovery-blue?style=for-the-badge&logo=radar&logoColor=white" alt="SaaS Discovery" />
-<img src="https://img.shields.io/badge/Route-%23saas--discovery-orange?style=for-the-badge&logo=link&logoColor=white" alt="Route" />
-
 # 🔍 SaaS Discovery & Shadow IT
 
 **Find every app in your organization — including the ones nobody told you about**
-
-`Home` · `Intelligence` · **SaaS Discovery & Shadow IT**
-
-</div>
 
 ---
 
@@ -20,17 +10,6 @@ SaaS Discovery is SaaSIQ's **application inventory engine**. It automatically di
 
 !!! note
     Discovery runs continuously. Every time a new app is detected via SSO logs, API integrations, or browser signals, it appears here with a "New" badge on the sidebar.
-
----
-
-## In This Article
-
-- [Key Metrics Bar](#key-metrics-bar)
-- [Filters & Search](#filters-search)
-- [Application Cards](#application-cards)
-- [Operations: Approve, Block, Re-Scan](#operations)
-- [Workflows & Scenarios](#workflows-scenarios)
-- [Validation Checklist](#validation-checklist)
 
 ---
 
@@ -313,17 +292,3 @@ graph LR
 - 🔗 [Settings — Integrations](../administration/settings.md) — Add more data sources for better discovery
 
 ---
-
----
-
-<div align="center" markdown>
-
-**Was this page helpful?** 👍 Yes · 👎 No · [Suggest an edit](https://github.com/saasiq/saasiq-documentation/edit/main/docs/intelligence/saas-discovery.md)
-
----
-
-<a href="index.md">⬅️ Intelligence Overview</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="spend-intelligence.md">Spend Intelligence ➡️</a>
-
-<sub>Last updated: March 2026 · SaaSIQ Documentation v1.0.0</sub>
-
-</div>

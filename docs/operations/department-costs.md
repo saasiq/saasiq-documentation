@@ -1,16 +1,6 @@
-<div align="center" markdown>
-
-<img src="https://img.shields.io/badge/Module-Operations-2563EB?style=for-the-badge&logo=settings&logoColor=white" alt="Operations" />
-<img src="https://img.shields.io/badge/Feature-Dept%20Costs-blue?style=for-the-badge&logo=building&logoColor=white" alt="Department Costs" />
-<img src="https://img.shields.io/badge/Route-%23department--costs-orange?style=for-the-badge&logo=link&logoColor=white" alt="Route" />
-
 # 🏢 Department Costs
 
 **Per-department SaaS spend breakdown with waste analysis and optimization opportunities**
-
-`Home` · `Operations` · **Department Costs**
-
-</div>
 
 > **Home** · Operations · **Department Costs**
 
@@ -19,16 +9,6 @@
 ## Overview
 
 Department Costs provides a **per-department breakdown** of SaaS spending, showing exactly where money goes, which tools each department uses, and how much is being wasted on underutilized licenses. It enables department-level accountability and targeted cost optimization.
-
----
-
-## In This Article
-
-- [Summary Bar](#summary-bar)
-- [Department Cards](#department-cards)
-- [Waste Analysis Chart](#waste-analysis-chart)
-- [Workflows & Scenarios](#workflows-scenarios)
-- [Validation Checklist](#validation-checklist)
 
 ---
 
@@ -174,17 +154,3 @@ graph TD
 - 🔗 [Benchmarks](benchmarks.md) — How your per-department spend compares to industry
 
 ---
-
----
-
-<div align="center" markdown>
-
-**Was this page helpful?** 👍 Yes · 👎 No · [Suggest an edit](https://github.com/saasiq/saasiq-documentation/edit/main/docs/operations/department-costs.md)
-
----
-
-<a href="benchmarks.md">⬅️ Benchmarks</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="../administration/index.md">Administration Module ➡️</a>
-
-<sub>Last updated: March 2026 · SaaSIQ Documentation v1.0.0</sub>
-
-</div>

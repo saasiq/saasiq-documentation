@@ -1,36 +1,12 @@
-<div align="center" markdown>
-
-<img src="https://img.shields.io/badge/📚_Reference-FAQ-0891B2?style=for-the-badge&logo=bookstack&logoColor=white" alt="Reference — FAQ" />
-<img src="https://img.shields.io/badge/Questions-20+-0891B2?style=for-the-badge" alt="20+ Questions" />
-<img src="https://img.shields.io/badge/Updated-2024-0891B2?style=for-the-badge" alt="Updated" />
-
 # ❓ Frequently Asked Questions
 
 **Quick answers to common questions about SaaSIQ features & workflows**
-
-`Home` · `Reference` · **`FAQ`**
-
-</div>
 
 ---
 
 ## Overview
 
 Answers to the most commonly asked questions about SaaSIQ. Questions are organized by category — click any section to expand.
-
----
-
-## In This Article
-
-- [General](#general)
-- [Getting Started](#getting-started)
-- [SaaS Discovery](#saas-discovery)
-- [Spend & Cost Management](#spend-cost-management)
-- [Compliance & Governance](#compliance-governance)
-- [AI Features](#ai-features)
-- [Security & Privacy](#security-privacy)
-- [Billing & Plans](#billing-plans)
-- [Troubleshooting](#troubleshooting)
 
 ---
 
@@ -438,9 +414,4 @@ The demo uses the **Business Plan**.
 <div align="center" markdown>
 
 **Was this helpful?** [👍 Yes](# "Helpful") · [👎 No](# "Not Helpful") · [✏️ Suggest Edit](# "Edit")
-
-<a href="keyboard-shortcuts.md">⬅️ Keyboard Shortcuts</a>&nbsp;&nbsp;•&nbsp;&nbsp;<a href="../README.md">🏠 Documentation Home</a>
-
-<sub>Last updated: 2024 · <a href="../README.md">🏠 Documentation Home</a></sub>
-
 </div>

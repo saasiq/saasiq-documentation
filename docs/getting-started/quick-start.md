@@ -1,16 +1,6 @@
-<div align="center" markdown>
-
-<img src="https://img.shields.io/badge/Section-Getting%20Started-7C3AED?style=for-the-badge&logo=rocket&logoColor=white" alt="Getting Started" />
-<img src="https://img.shields.io/badge/Time-10%20Minutes-green?style=for-the-badge&logo=clock&logoColor=white" alt="10 Minutes" />
-<img src="https://img.shields.io/badge/Difficulty-Beginner-blue?style=for-the-badge&logo=target&logoColor=white" alt="Beginner" />
-
 # ⚡ Quick Start Guide
 
 **Go from zero to a fully operational SaaS dashboard in under 10 minutes**
-
-`Home` · `Getting Started` · **Quick Start Guide**
-
-</div>
 
 ---
 
@@ -252,17 +242,3 @@ Use this checklist to confirm your setup is complete:
 - [ ] Profile menu accessible via avatar dropdown
 
 ---
-
----
-
-<div align="center" markdown>
-
-**Was this page helpful?** 👍 Yes · 👎 No · [Suggest an edit](https://github.com/saasiq/saasiq-documentation/edit/main/docs/getting-started/quick-start.md)
-
----
-
-<a href="introduction.md">⬅️ Introduction</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="onboarding.md">Onboarding Wizard ➡️</a>
-
-<sub>Last updated: March 2026 · SaaSIQ Documentation v1.0.0</sub>
-
-</div>

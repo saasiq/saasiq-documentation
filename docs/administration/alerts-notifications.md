@@ -1,32 +1,12 @@
-<div align="center" markdown>
-
-<img src="https://img.shields.io/badge/Module-Administration-D97706?style=for-the-badge&logo=wrench&logoColor=white" alt="Administration" />
-<img src="https://img.shields.io/badge/Feature-Alerts-blue?style=for-the-badge&logo=bell&logoColor=white" alt="Alerts" />
-<img src="https://img.shields.io/badge/Updated-March_2026-green?style=for-the-badge&logo=calendar&logoColor=white" alt="Updated" />
-
 # 🔔 Alerts & Notifications
 
 **Real-time alert feed with severity levels, snooze controls, and notification preferences**
-
-`Home` · `Administration` · **Alerts & Notifications**
-
-</div>
 
 ---
 
 ## Overview
 
 The Alerts system is SaaSIQ's **real-time notification engine**. It surfaces critical events — shadow IT detections, spending spikes, compliance violations, renewal reminders, and AI recommendations — through an in-app alert panel, with optional email and Slack integrations.
-
----
-
-## In This Article
-
-- [Alert Panel](#alert-panel)
-- [Alert Types & Severity](#alert-types-severity)
-- [Operations: Snooze, Dismiss, Configure](#operations)
-- [Alert Settings](#alert-settings)
-- [Validation Checklist](#validation-checklist)
 
 ---
 
@@ -183,17 +163,3 @@ Monthly compliance report available — Risk score improved: B → B+
 - 🔗 [Renewals](../operations/renewals.md) — Renewal reminder source
 
 ---
-
----
-
-<div align="center" markdown>
-
-**Was this page helpful?** 👍 Yes · 👎 No · [Suggest an edit](https://github.com/saasiq/saasiq-documentation/edit/main/docs/administration/alerts-notifications.md)
-
----
-
-<a href="index.md">⬅️ Administration Overview</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="settings.md">Settings ➡️</a>
-
-<sub>Last updated: March 2026 · SaaSIQ Documentation v1.0.0</sub>
-
-</div>

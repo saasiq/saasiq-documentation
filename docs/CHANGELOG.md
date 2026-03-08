@@ -1,8 +1,5 @@
 <div align="center" markdown>
 
-<img src="https://img.shields.io/badge/📋_SaaSIQ-Changelog-7C3AED?style=for-the-badge&logo=git&logoColor=white" alt="Changelog" />
-<img src="https://img.shields.io/badge/Format-Keep_a_Changelog-E05735?style=for-the-badge" alt="Keep a Changelog" />
-<img src="https://img.shields.io/badge/Versioning-SemVer-3F4551?style=for-the-badge" alt="Semantic Versioning" />
 
 # 📋 Changelog
 
@@ -106,7 +103,4 @@ docs/
 <div align="center" markdown>
 
 <a href="README.md">🏠 Documentation Home</a>&nbsp;&nbsp;•&nbsp;&nbsp;<a href="CONTRIBUTING.md">Contributing Guide</a>
-
-<sub>Last updated: 2024</sub>
-
 </div>

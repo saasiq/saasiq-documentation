@@ -1,16 +1,6 @@
-<div align="center" markdown>
-
-<img src="https://img.shields.io/badge/Module-Governance-059669?style=for-the-badge&logo=shield&logoColor=white" alt="Governance" />
-<img src="https://img.shields.io/badge/Feature-Contracts-blue?style=for-the-badge&logo=file&logoColor=white" alt="Contracts" />
-<img src="https://img.shields.io/badge/Route-%23contracts-orange?style=for-the-badge&logo=link&logoColor=white" alt="Route" />
-
 # 📝 Contracts
 
 **Track contract lifecycles, renewal timelines, and AI-powered negotiation briefs**
-
-`Home` · `Governance` · **Contracts**
-
-</div>
 
 > **Home** · Governance · **Contracts**
 
@@ -19,17 +9,6 @@
 ## Overview
 
 The Contracts page provides a **visual timeline** of all SaaS contracts, their renewal dates, costs, and statuses. It helps you plan ahead — knowing exactly when each contract comes up for renewal and what action to take (negotiate, auto-renew, or cancel).
-
----
-
-## In This Article
-
-- [KPI Summary Cards](#kpi-summary-cards)
-- [Renewal Timeline](#renewal-timeline)
-- [Contract Table](#contract-table)
-- [Operations: Negotiate, Review, Export](#operations)
-- [Workflows & Scenarios](#workflows-scenarios)
-- [Validation Checklist](#validation-checklist)
 
 ---
 
@@ -321,17 +300,3 @@ graph TD
 - 🔗 [Spend Intelligence](../intelligence/spend-intelligence.md) — Cost context for contract decisions
 
 ---
-
----
-
-<div align="center" markdown>
-
-**Was this page helpful?** 👍 Yes · 👎 No · [Suggest an edit](https://github.com/saasiq/saasiq-documentation/edit/main/docs/governance/contracts.md)
-
----
-
-<a href="compliance-and-risk.md">⬅️ Compliance & Risk</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="policies.md">Policies ➡️</a>
-
-<sub>Last updated: March 2026 · SaaSIQ Documentation v1.0.0</sub>
-
-</div>

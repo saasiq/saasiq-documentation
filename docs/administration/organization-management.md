@@ -1,31 +1,12 @@
-<div align="center" markdown>
-
-<img src="https://img.shields.io/badge/Module-Administration-D97706?style=for-the-badge&logo=wrench&logoColor=white" alt="Administration" />
-<img src="https://img.shields.io/badge/Feature-Org%20Management-blue?style=for-the-badge&logo=building&logoColor=white" alt="Organization Management" />
-
 # 🏢 Organization Management
 
 **Multi-org switching, user profiles, help center, and keyboard shortcuts**
-
-`Home` · `Administration` · **Organization Management**
-
-</div>
 
 ---
 
 ## Overview
 
 Organization Management handles **multi-org support** (for companies managing multiple entities), the **user profile** menu, the **help center**, and **keyboard shortcuts**. These are global features accessible from the top bar on every page.
-
----
-
-## In This Article
-
-- [Organization Switcher](#organization-switcher)
-- [User Profile Menu](#user-profile-menu)
-- [Help Center](#help-center)
-- [Keyboard Shortcuts](#keyboard-shortcuts)
-- [Validation Checklist](#validation-checklist)
 
 ---
 
@@ -195,17 +176,3 @@ Shows a chronological log of your recent actions:
 - 🔗 [FAQ](../reference/faq.md) — Frequently asked questions
 
 ---
-
----
-
-<div align="center" markdown>
-
-**Was this page helpful?** 👍 Yes · 👎 No · [Suggest an edit](https://github.com/saasiq/saasiq-documentation/edit/main/docs/administration/organization-management.md)
-
----
-
-<a href="settings.md">⬅️ Settings</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="../reference/glossary.md">Glossary ➡️</a>
-
-<sub>Last updated: March 2026 · SaaSIQ Documentation v1.0.0</sub>
-
-</div>

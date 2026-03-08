@@ -1,32 +1,40 @@
-<div align="center" markdown>
+# :gear: Operations Module
 
-<img src="https://img.shields.io/badge/Module-Operations-2563EB?style=for-the-badge&logo=settings&logoColor=white" alt="Operations" />
-<img src="https://img.shields.io/badge/Features-4_Tools-blue?style=for-the-badge&logo=layers&logoColor=white" alt="4 Features" />
+**Day-to-day SaaS lifecycle management — offboarding, renewals, benchmarks, and costs.**
 
-# ⚙️ Operations Module
+The Operations module is where **action gets taken**. From offboarding employees to managing renewals, benchmarking your spend, and analyzing department costs.
 
-**Day-to-day SaaS lifecycle management — offboarding, renewals, benchmarks, and costs**
+<div class="grid-cards" markdown>
 
-`Home` · **Operations**
+<a href="offboarding/" markdown>
+<span class="card-icon">:door:</span>
+<span class="card-title">Offboarding</span>
+<span class="card-desc">How do we ensure ex-employees lose all access? Automated license revocation synced with HR.</span>
+<span class="card-meta">8 pending · 45 completed · 3 overdue</span>
+</a>
+
+<a href="renewals/" markdown>
+<span class="card-icon">:calendar:</span>
+<span class="card-title">Renewals</span>
+<span class="card-desc">What's renewing soon? 30/60/90-day pipeline with AI-powered negotiation assistance.</span>
+<span class="card-meta">₹12.8L savings YTD · 8 renewals in 90 days</span>
+</a>
+
+<a href="benchmarks/" markdown>
+<span class="card-icon">:scales:</span>
+<span class="card-title">Benchmarks</span>
+<span class="card-desc">Are we paying more than we should? Compare pricing against industry peers for negotiation leverage.</span>
+<span class="card-meta">6 vendors benchmarked · 3 overpriced</span>
+</a>
+
+<a href="department-costs/" markdown>
+<span class="card-icon">:office:</span>
+<span class="card-title">Department Costs</span>
+<span class="card-desc">Which department is spending the most? Per-department breakdown with waste identification.</span>
+<span class="card-meta">6 departments · ₹7L waste identified</span>
+</a>
 
 </div>
-
----
-
-## Overview
-
-The Operations module handles the **day-to-day lifecycle management** of your SaaS portfolio. From offboarding employees to managing renewals, benchmarking your spend, and analyzing department costs — this is where action gets taken.
-
----
-
-## What's Inside
-
-| Feature | Purpose | Key Question It Answers |
-|---------|---------|------------------------|
-| [Offboarding](offboarding.md) | Revoke SaaS access for departing employees | *"How do we ensure ex-employees lose all access?"* |
-| [Renewals](renewals.md) | Track and manage contract renewals | *"What's renewing soon and what should we renegotiate?"* |
-| [Benchmarks](benchmarks.md) | Compare spend against industry peers | *"Are we paying more than we should?"* |
-| [Department Costs](department-costs.md) | Per-department SaaS spend analysis | *"Which department is spending the most and where's the waste?"* |
 
 ---
 
@@ -42,6 +50,7 @@ graph TD
 ```
 
 **Typical operational cycle:**
+
 1. **Offboarding** recovers licenses when employees leave
 2. **Renewals** surface upcoming contracts to review before auto-renewal
 3. **Benchmarks** provide industry data to negotiate better pricing
@@ -51,22 +60,6 @@ graph TD
 
 ## Related Resources
 
-- 🔗 [Spend Intelligence](../intelligence/spend-intelligence.md) — Cost optimization recommendations
-- 🔗 [Usage Analytics](../intelligence/usage-analytics.md) — License utilization data
-- 🔗 [Contracts](../governance/contracts.md) — Contract detail view
-
----
-
----
-
-<div align="center" markdown>
-
-**Was this page helpful?** 👍 Yes · 👎 No · [Suggest an edit](https://github.com/saasiq/saasiq-documentation/edit/main/docs/operations/index.md)
-
----
-
-<a href="../ai-features/ai-copilot.md">⬅️ AI Copilot</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="offboarding.md">Offboarding ➡️</a>
-
-<sub>Last updated: March 2026 · SaaSIQ Documentation v1.0.0</sub>
-
-</div>
+- :link: [Spend Intelligence](../intelligence/spend-intelligence.md) — Cost optimization recommendations
+- :link: [Usage Analytics](../intelligence/usage-analytics.md) — License utilization data
+- :link: [Contracts](../governance/contracts.md) — Contract detail view

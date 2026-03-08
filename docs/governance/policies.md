@@ -1,16 +1,6 @@
-<div align="center" markdown>
-
-<img src="https://img.shields.io/badge/Module-Governance-059669?style=for-the-badge&logo=shield&logoColor=white" alt="Governance" />
-<img src="https://img.shields.io/badge/Feature-Policies-blue?style=for-the-badge&logo=lock&logoColor=white" alt="Policies" />
-<img src="https://img.shields.io/badge/Route-%23policies-orange?style=for-the-badge&logo=link&logoColor=white" alt="Route" />
-
 # 📜 Policies
 
 **Define and enforce organizational rules for security, spend, and data residency**
-
-`Home` · `Governance` · **Policies**
-
-</div>
 
 > **Home** · Governance · **Policies**
 
@@ -22,17 +12,6 @@ Policies are **organizational rules** that SaaSIQ enforces across your SaaS port
 
 !!! note
     Policies are evaluated continuously. When a violation is detected, SaaSIQ triggers an alert and can optionally block the offending action.
-
----
-
-## In This Article
-
-- [Active Policies](#active-policies)
-- [Policy Cards](#policy-cards)
-- [Create New Policy](#create-policy)
-- [Operations: Edit, Disable, Delete](#operations)
-- [Workflows & Scenarios](#workflows-scenarios)
-- [Validation Checklist](#validation-checklist)
 
 ---
 
@@ -326,17 +305,3 @@ Opens the same multi-step modal as "Create Policy" but pre-filled with the curre
 - 🔗 [Settings — Security](../administration/settings.md) — Organization security settings
 
 ---
-
----
-
-<div align="center" markdown>
-
-**Was this page helpful?** 👍 Yes · 👎 No · [Suggest an edit](https://github.com/saasiq/saasiq-documentation/edit/main/docs/governance/policies.md)
-
----
-
-<a href="contracts.md">⬅️ Contracts</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="../ai-features/index.md">AI Features ➡️</a>
-
-<sub>Last updated: March 2026 · SaaSIQ Documentation v1.0.0</sub>
-
-</div>

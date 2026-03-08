@@ -1,16 +1,6 @@
-<div align="center" markdown>
-
-<img src="https://img.shields.io/badge/Section-Getting%20Started-7C3AED?style=for-the-badge&logo=rocket&logoColor=white" alt="Getting Started" />
-<img src="https://img.shields.io/badge/Audience-All%20Users-blue?style=for-the-badge&logo=people&logoColor=white" alt="All Users" />
-<img src="https://img.shields.io/badge/Reading_Time-5_min-green?style=for-the-badge&logo=clock&logoColor=white" alt="5 min read" />
-
 # 🚀 Introduction to SaaSIQ
 
 **Everything you need to know about the platform before diving in**
-
-`Home` · `Getting Started` · **Introduction**
-
-</div>
 
 ---
 
@@ -234,17 +224,3 @@ Ready to get started? Follow the path that fits your role:
 | **Security/Compliance** | → [Compliance & Risk](../governance/compliance-and-risk.md) |
 
 ---
-
----
-
-<div align="center" markdown>
-
-**Was this page helpful?** 👍 Yes · 👎 No · [Suggest an edit](https://github.com/saasiq/saasiq-documentation/edit/main/docs/getting-started/introduction.md)
-
----
-
-<a href="../README.md">⬅️ Documentation Home</a>&nbsp;&nbsp;·&nbsp;&nbsp;<a href="quick-start.md">Quick Start Guide ➡️</a>
-
-<sub>Last updated: March 2026 · SaaSIQ Documentation v1.0.0</sub>
-
-</div>
