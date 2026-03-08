@@ -1,0 +1,256 @@
+/* ============================================================================
+   SaaSIQ Documentation — Custom Theme Overrides
+   ============================================================================
+   Extends Material for MkDocs with SaaSIQ brand colors and refinements.
+   Works seamlessly with both Light and Dark modes.
+   ============================================================================ */
+
+/* ---- Root CSS Variables ---- */
+:root {
+  /* SaaSIQ Brand Colors */
+  --saasiq-primary: #7C3AED;
+  --saasiq-primary-light: #8B5CF6;
+  --saasiq-primary-dark: #6D28D9;
+  --saasiq-primary-bg: #F5F3FF;
+
+  /* Module Colors */
+  --saasiq-intelligence: #7C3AED;
+  --saasiq-governance: #059669;
+  --saasiq-ai: #DB2777;
+  --saasiq-operations: #2563EB;
+  --saasiq-admin: #D97706;
+  --saasiq-reference: #0891B2;
+
+  /* Material Theme Overrides */
+  --md-primary-fg-color: #7C3AED;
+  --md-primary-fg-color--light: #8B5CF6;
+  --md-primary-fg-color--dark: #6D28D9;
+  --md-accent-fg-color: #7C3AED;
+  --md-typeset-a-color: #7C3AED;
+}
+
+/* Dark mode overrides */
+[data-md-color-scheme="slate"] {
+  --md-primary-fg-color: #8B5CF6;
+  --md-primary-fg-color--light: #A78BFA;
+  --md-primary-fg-color--dark: #7C3AED;
+  --md-accent-fg-color: #A78BFA;
+  --md-typeset-a-color: #A78BFA;
+  --md-default-bg-color: #0F0F1A;
+  --md-default-bg-color--light: #1A1A2E;
+  --md-default-bg-color--lighter: #16213E;
+  --md-default-fg-color: #E2E8F0;
+  --md-default-fg-color--light: #CBD5E1;
+  --md-default-fg-color--lighter: #94A3B8;
+  --md-default-fg-color--lightest: #64748B;
+  --md-code-bg-color: #1E1E2E;
+  --md-code-fg-color: #CDD6F4;
+}
+
+/* ---- Typography ---- */
+.md-typeset {
+  font-size: 0.82rem;
+  line-height: 1.7;
+}
+
+.md-typeset h1 {
+  font-weight: 700;
+  letter-spacing: -0.02em;
+  margin-bottom: 0.8em;
+}
+
+.md-typeset h2 {
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  border-bottom: 1px solid var(--md-default-fg-color--lightest);
+  padding-bottom: 0.4em;
+  margin-top: 1.8em;
+}
+
+.md-typeset h3 {
+  font-weight: 600;
+}
+
+/* ---- Header / Top Bar ---- */
+.md-header {
+  background: linear-gradient(135deg, var(--saasiq-primary-dark) 0%, var(--saasiq-primary) 100%);
+  box-shadow: 0 2px 8px rgba(124, 58, 237, 0.15);
+}
+
+[data-md-color-scheme="slate"] .md-header {
+  background: linear-gradient(135deg, #1a1a2e 0%, #16213e 50%, #1a1a2e 100%);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.3);
+  border-bottom: 1px solid rgba(139, 92, 246, 0.2);
+}
+
+.md-header__title {
+  font-weight: 600;
+  letter-spacing: 0.02em;
+}
+
+/* ---- Navigation Tabs ---- */
+.md-tabs {
+  background: var(--saasiq-primary-dark);
+}
+
+[data-md-color-scheme="slate"] .md-tabs {
+  background: #16213e;
+  border-bottom: 1px solid rgba(139, 92, 246, 0.1);
+}
+
+.md-tabs__link--active {
+  font-weight: 600;
+}
+
+/* ---- Sidebar ---- */
+.md-sidebar__scrollwrap {
+  scrollbar-width: thin;
+}
+
+.md-nav__link--active {
+  font-weight: 600;
+  color: var(--saasiq-primary) !important;
+}
+
+[data-md-color-scheme="slate"] .md-nav__link--active {
+  color: var(--saasiq-primary-light) !important;
+}
+
+/* ---- Content Area ---- */
+.md-content {
+  max-width: 52rem;
+}
+
+/* ---- Tables ---- */
+.md-typeset table:not([class]) {
+  border-radius: 8px;
+  overflow: hidden;
+  border: 1px solid var(--md-default-fg-color--lightest);
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+}
+
+.md-typeset table:not([class]) thead {
+  background: var(--saasiq-primary-bg);
+}
+
+[data-md-color-scheme="slate"] .md-typeset table:not([class]) thead {
+  background: rgba(139, 92, 246, 0.1);
+}
+
+.md-typeset table:not([class]) th {
+  font-weight: 600;
+  text-transform: none;
+  letter-spacing: 0;
+  padding: 0.8em 1em;
+}
+
+.md-typeset table:not([class]) td {
+  padding: 0.7em 1em;
+}
+
+.md-typeset table:not([class]) tbody tr:hover {
+  background: rgba(124, 58, 237, 0.04);
+}
+
+[data-md-color-scheme="slate"] .md-typeset table:not([class]) tbody tr:hover {
+  background: rgba(139, 92, 246, 0.06);
+}
+
+/* ---- Admonitions ---- */
+.md-typeset .admonition,
+.md-typeset details {
+  border-radius: 8px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.06);
+  border-width: 0 0 0 4px;
+}
+
+/* ---- Code Blocks ---- */
+.md-typeset pre > code {
+  border-radius: 8px;
+}
+
+.md-typeset code {
+  border-radius: 4px;
+  padding: 0.1em 0.4em;
+}
+
+/* ---- Footer ---- */
+.md-footer {
+  border-top: 1px solid var(--md-default-fg-color--lightest);
+}
+
+[data-md-color-scheme="slate"] .md-footer {
+  background: #0a0a14;
+  border-top: 1px solid rgba(139, 92, 246, 0.15);
+}
+
+/* ---- Search ---- */
+.md-search__form {
+  border-radius: 8px;
+}
+
+/* ---- Theme Toggle Button ---- */
+.md-header__button[for="__palette"] {
+  transition: transform 0.3s ease;
+}
+
+.md-header__button[for="__palette"]:hover {
+  transform: rotate(20deg);
+}
+
+/* ---- Smooth Transitions ---- */
+body,
+.md-header,
+.md-tabs,
+.md-sidebar,
+.md-footer,
+.md-content,
+.md-typeset table:not([class]) {
+  transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+}
+
+/* ---- Scrollbar (Dark Mode) ---- */
+[data-md-color-scheme="slate"] ::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+[data-md-color-scheme="slate"] ::-webkit-scrollbar-track {
+  background: #1a1a2e;
+}
+
+[data-md-color-scheme="slate"] ::-webkit-scrollbar-thumb {
+  background: #333366;
+  border-radius: 4px;
+}
+
+[data-md-color-scheme="slate"] ::-webkit-scrollbar-thumb:hover {
+  background: #7C3AED;
+}
+
+/* ---- Badges (Shields.io images) ---- */
+.md-typeset img[src*="shields.io"] {
+  vertical-align: middle;
+  margin: 2px 4px;
+}
+
+/* ---- Mermaid Diagrams ---- */
+.md-typeset .mermaid {
+  text-align: center;
+  margin: 1.5em 0;
+}
+
+/* ---- Print Styles ---- */
+@media print {
+  .md-header,
+  .md-tabs,
+  .md-sidebar,
+  .md-footer {
+    display: none !important;
+  }
+
+  .md-content {
+    max-width: 100% !important;
+    margin: 0 !important;
+  }
+}
