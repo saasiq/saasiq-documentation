@@ -1,0 +1,247 @@
+# ============================================================================
+# SaaSIQ Documentation — MkDocs Material Configuration
+# ============================================================================
+# Docs: https://squidfunk.github.io/mkdocs-material/
+# ============================================================================
+
+site_name: SaaSIQ Documentation
+site_description: AI-Powered SaaS Management Platform — Discover, Optimize, Govern, Automate
+site_author: SaaSIQ Team
+site_url: https://saasiq.github.io/saasiq-documentation/
+repo_name: saasiq/saasiq-documentation
+repo_url: https://github.com/saasiq/saasiq-documentation
+edit_uri: edit/main/docs/
+
+# ============================================================================
+# Theme Configuration
+# ============================================================================
+
+theme:
+  name: material
+  language: en
+  logo: assets/logo.svg
+  favicon: assets/favicon.svg
+
+  # ---- Fonts ----
+  font:
+    text: Inter
+    code: JetBrains Mono
+
+  # ---- Icon ----
+  icon:
+    repo: fontawesome/brands/github
+    edit: material/pencil
+    view: material/eye
+    admonition:
+      note: fontawesome/solid/note-sticky
+      tip: fontawesome/solid/lightbulb
+      warning: fontawesome/solid/triangle-exclamation
+      danger: fontawesome/solid/skull-crossbones
+      info: fontawesome/solid/circle-info
+
+  # ---- Color Palette & Theme Switcher ----
+  palette:
+    # Light Mode
+    - scheme: default
+      primary: deep purple
+      accent: deep purple
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to Dark Mode
+
+    # Dark Mode
+    - scheme: slate
+      primary: deep purple
+      accent: purple
+      toggle:
+        icon: material/weather-night
+        name: Switch to Light Mode
+
+  # ---- Features ----
+  features:
+    # Navigation
+    - navigation.instant
+    - navigation.instant.progress
+    - navigation.tracking
+    - navigation.tabs
+    - navigation.tabs.sticky
+    - navigation.sections
+    - navigation.expand
+    - navigation.path
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+
+    # Table of Contents
+    - toc.follow
+
+    # Search
+    - search.suggest
+    - search.highlight
+    - search.share
+
+    # Header
+    - header.autohide
+
+    # Content
+    - content.action.edit
+    - content.action.view
+    - content.code.copy
+    - content.code.annotate
+    - content.tabs.link
+    - content.tooltips
+
+# ============================================================================
+# Plugins
+# ============================================================================
+
+plugins:
+  - search:
+      separator: '[\s\-\.]+'
+  - minify:
+      minify_html: true
+
+# ============================================================================
+# Markdown Extensions
+# ============================================================================
+
+markdown_extensions:
+  # Python Markdown
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - tables
+  - toc:
+      permalink: true
+      permalink_title: Link to this section
+
+  # PyMdown Extensions
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem:
+      smart_enable: all
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.smartsymbols
+  - pymdownx.snippets
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+# ============================================================================
+# Extra Configuration
+# ============================================================================
+
+extra:
+  # Social links in footer
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/saasiq
+      name: SaaSIQ on GitHub
+    - icon: fontawesome/solid/globe
+      link: https://saasiq.github.io/saasiq-ux-prototype/
+      name: SaaSIQ Live Demo
+
+  # Version provider
+  version:
+    provider: mike
+
+  # Analytics (optional — uncomment when ready)
+  # analytics:
+  #   provider: google
+  #   property: G-XXXXXXXXXX
+
+  # Consent banner (optional)
+  # consent:
+  #   title: Cookie consent
+  #   description: >-
+  #     We use cookies to recognize your repeated visits and preferences.
+
+  # Generator notice
+  generator: false
+
+# ============================================================================
+# Extra CSS & JS
+# ============================================================================
+
+extra_css:
+  - assets/stylesheets/custom.css
+
+extra_javascript:
+  - assets/javascripts/mathjax.js
+  - https://unpkg.com/mathjax@3/es5/tex-mml-chtml.js
+
+# ============================================================================
+# Navigation
+# ============================================================================
+
+nav:
+  - Home: README.md
+
+  - Getting Started:
+    - Introduction: getting-started/introduction.md
+    - Quick Start Guide: getting-started/quick-start.md
+    - Onboarding Wizard: getting-started/onboarding.md
+
+  - Dashboard:
+    - Overview: overview/dashboard.md
+
+  - Intelligence:
+    - intelligence/index.md
+    - SaaS Discovery: intelligence/saas-discovery.md
+    - Spend Intelligence: intelligence/spend-intelligence.md
+    - Usage Analytics: intelligence/usage-analytics.md
+
+  - Governance:
+    - governance/index.md
+    - Compliance & Risk: governance/compliance-and-risk.md
+    - Contracts: governance/contracts.md
+    - Policies: governance/policies.md
+
+  - AI Features:
+    - ai-features/index.md
+    - AI Insights: ai-features/ai-insights.md
+    - AI Copilot: ai-features/ai-copilot.md
+
+  - Operations:
+    - operations/index.md
+    - Offboarding: operations/offboarding.md
+    - Renewals: operations/renewals.md
+    - Benchmarks: operations/benchmarks.md
+    - Department Costs: operations/department-costs.md
+
+  - Administration:
+    - administration/index.md
+    - Alerts & Notifications: administration/alerts-notifications.md
+    - Settings: administration/settings.md
+    - Organization Management: administration/organization-management.md
+
+  - Reference:
+    - Glossary: reference/glossary.md
+    - Keyboard Shortcuts: reference/keyboard-shortcuts.md
+    - FAQ: reference/faq.md
+
+  - Meta:
+    - Changelog: CHANGELOG.md
+    - Contributing: CONTRIBUTING.md
